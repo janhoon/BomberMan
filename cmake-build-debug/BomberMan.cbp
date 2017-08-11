@@ -5,7 +5,7 @@
 		<Option title="BomberMan"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\.brew\;CMake Files\..\..\.brew\lib\;CMake Files\..\..\.brew\lib\cmake\;CMake Files\..\..\.brew\lib\cmake\SDL2\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug"/>
@@ -44,6 +44,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include/SDL2"/>
+					<Add directory="/goinfre/janhoon/.brew/Cellar/glew/2.1.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -65,6 +67,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include/SDL2"/>
+					<Add directory="/goinfre/janhoon/.brew/Cellar/glew/2.1.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -80,11 +84,23 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/gfx.cpp">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/gfx.h">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/header.h">
+			<Option target="BomberMan"/>
+		</Unit>
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/main.cpp">
 			<Option target="BomberMan"/>
 		</Unit>
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/../../.brew/lib/cmake/SDL2/sdl2-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\lib\cmake\SDL2\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

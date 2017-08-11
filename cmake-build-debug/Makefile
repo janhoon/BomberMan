@@ -123,6 +123,33 @@ BomberMan/fast:
 	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/build
 .PHONY : BomberMan/fast
 
+gfx.o: gfx.cpp.o
+
+.PHONY : gfx.o
+
+# target to build an object file
+gfx.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/gfx.cpp.o
+.PHONY : gfx.cpp.o
+
+gfx.i: gfx.cpp.i
+
+.PHONY : gfx.i
+
+# target to preprocess a source file
+gfx.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/gfx.cpp.i
+.PHONY : gfx.cpp.i
+
+gfx.s: gfx.cpp.s
+
+.PHONY : gfx.s
+
+# target to generate assembly for a file
+gfx.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/gfx.cpp.s
+.PHONY : gfx.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... BomberMan"
+	@echo "... gfx.o"
+	@echo "... gfx.i"
+	@echo "... gfx.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
