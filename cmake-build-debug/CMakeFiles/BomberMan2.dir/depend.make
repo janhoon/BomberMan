@@ -48,6 +48,10 @@ CMakeFiles/BomberMan2.dir/Graphics.cpp.o: /goinfre/janhoon/.brew/Cellar/sdl2/2.0
 CMakeFiles/BomberMan2.dir/Graphics.cpp.o: ../Graphics.cpp
 CMakeFiles/BomberMan2.dir/Graphics.cpp.o: ../Graphics.h
 
+CMakeFiles/BomberMan2.dir/Shader.cpp.o: /goinfre/janhoon/.brew/Cellar/glew/2.1.0/include/GL/glew.h
+CMakeFiles/BomberMan2.dir/Shader.cpp.o: ../Shader.cpp
+CMakeFiles/BomberMan2.dir/Shader.cpp.o: ../Shader.h
+
 CMakeFiles/BomberMan2.dir/main.cpp.o: /goinfre/janhoon/.brew/Cellar/glew/2.1.0/include/GL/glew.h
 CMakeFiles/BomberMan2.dir/main.cpp.o: /goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include/SDL2/SDL.h
 CMakeFiles/BomberMan2.dir/main.cpp.o: /goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include/SDL2/SDL_assert.h

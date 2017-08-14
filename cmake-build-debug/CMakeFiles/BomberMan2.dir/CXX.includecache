@@ -574,11 +574,11 @@ close_code.h
 
 /goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include/SDL2/close_code.h
 
-/goinfre/janhoon/Desktop/BomberMan2/Graphics.cpp
+/goinfre/janhoon/Desktop/BomberMan/Graphics.cpp
 Graphics.h
-/goinfre/janhoon/Desktop/BomberMan2/Graphics.h
+/goinfre/janhoon/Desktop/BomberMan/Graphics.h
 
-/goinfre/janhoon/Desktop/BomberMan2/Graphics.h
+/goinfre/janhoon/Desktop/BomberMan/Graphics.h
 iostream
 -
 SDL2/SDL.h
@@ -586,11 +586,19 @@ SDL2/SDL.h
 GL/glew.h
 -
 
-/goinfre/janhoon/Desktop/BomberMan2/main.cpp
+/goinfre/janhoon/Desktop/BomberMan/Shader.cpp
+Shader.h
+/goinfre/janhoon/Desktop/BomberMan/Shader.h
+
+/goinfre/janhoon/Desktop/BomberMan/Shader.h
 iostream
 -
 GL/glew.h
 -
+
+/goinfre/janhoon/Desktop/BomberMan/main.cpp
+iostream
+-
 Graphics.h
-/goinfre/janhoon/Desktop/BomberMan2/Graphics.h
+/goinfre/janhoon/Desktop/BomberMan/Graphics.h
 

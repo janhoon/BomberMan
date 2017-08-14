@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /goinfre/janhoon/Desktop/BomberMan2
+CMAKE_SOURCE_DIR = /goinfre/janhoon/Desktop/BomberMan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /goinfre/janhoon/Desktop/BomberMan2/cmake-build-debug
+CMAKE_BINARY_DIR = /goinfre/janhoon/Desktop/BomberMan/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /goinfre/janhoon/Desktop/BomberMan2/cmake-build-debug/CMakeFiles /goinfre/janhoon/Desktop/BomberMan2/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles /goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /goinfre/janhoon/Desktop/BomberMan2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,33 @@ Graphics.cpp.s:
 	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Graphics.cpp.s
 .PHONY : Graphics.cpp.s
 
+Shader.o: Shader.cpp.o
+
+.PHONY : Shader.o
+
+# target to build an object file
+Shader.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Shader.cpp.o
+.PHONY : Shader.cpp.o
+
+Shader.i: Shader.cpp.i
+
+.PHONY : Shader.i
+
+# target to preprocess a source file
+Shader.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Shader.cpp.i
+.PHONY : Shader.cpp.i
+
+Shader.s: Shader.cpp.s
+
+.PHONY : Shader.s
+
+# target to generate assembly for a file
+Shader.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Shader.cpp.s
+.PHONY : Shader.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... Graphics.o"
 	@echo "... Graphics.i"
 	@echo "... Graphics.s"
+	@echo "... Shader.o"
+	@echo "... Shader.i"
+	@echo "... Shader.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

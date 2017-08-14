@@ -1,4 +1,4 @@
-# Install script for directory: /goinfre/janhoon/Desktop/BomberMan2
+# Install script for directory: /goinfre/janhoon/Desktop/BomberMan
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/goinfre/janhoon/Desktop/BomberMan2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

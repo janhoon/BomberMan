@@ -46,8 +46,12 @@ CMakeFiles/BomberMan2.dir/Graphics.cpp.o
  /goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include/SDL2/SDL_video.h
  /goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include/SDL2/begin_code.h
  /goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include/SDL2/close_code.h
- /goinfre/janhoon/Desktop/BomberMan2/Graphics.cpp
- /goinfre/janhoon/Desktop/BomberMan2/Graphics.h
+ /goinfre/janhoon/Desktop/BomberMan/Graphics.cpp
+ /goinfre/janhoon/Desktop/BomberMan/Graphics.h
+CMakeFiles/BomberMan2.dir/Shader.cpp.o
+ /goinfre/janhoon/.brew/Cellar/glew/2.1.0/include/GL/glew.h
+ /goinfre/janhoon/Desktop/BomberMan/Shader.cpp
+ /goinfre/janhoon/Desktop/BomberMan/Shader.h
 CMakeFiles/BomberMan2.dir/main.cpp.o
  /goinfre/janhoon/.brew/Cellar/glew/2.1.0/include/GL/glew.h
  /goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include/SDL2/SDL.h
@@ -93,5 +97,5 @@ CMakeFiles/BomberMan2.dir/main.cpp.o
  /goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include/SDL2/SDL_video.h
  /goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include/SDL2/begin_code.h
  /goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include/SDL2/close_code.h
- /goinfre/janhoon/Desktop/BomberMan2/Graphics.h
- /goinfre/janhoon/Desktop/BomberMan2/main.cpp
+ /goinfre/janhoon/Desktop/BomberMan/Graphics.h
+ /goinfre/janhoon/Desktop/BomberMan/main.cpp

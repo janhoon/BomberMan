@@ -1,5 +1,4 @@
 #include <iostream>
-#include <GL/glew.h>
 #include "Graphics.h"
 
 int main() {
