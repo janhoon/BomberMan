@@ -32,7 +32,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/Platform/Darwin.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/Platform/UnixPaths.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/ProcessorCount.cmake"
-  "/goinfre/janhoon/.brew/lib/cmake/SDL2/sdl2-config.cmake"
   "../CMakeLists.txt"
   "CMakeFiles/3.8.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.8.2/CMakeCXXCompiler.cmake"
@@ -52,5 +51,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/BomberMan.dir/DependInfo.cmake"
+  "CMakeFiles/BomberMan2.dir/DependInfo.cmake"
   )

@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /goinfre/janhoon/Desktop/BomberMan
+CMAKE_SOURCE_DIR = /goinfre/janhoon/Desktop/BomberMan2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /goinfre/janhoon/Desktop/BomberMan/cmake-build-debug
+CMAKE_BINARY_DIR = /goinfre/janhoon/Desktop/BomberMan2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles /goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /goinfre/janhoon/Desktop/BomberMan2/cmake-build-debug/CMakeFiles /goinfre/janhoon/Desktop/BomberMan2/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /goinfre/janhoon/Desktop/BomberMan2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named BomberMan
+# Target rules for targets named BomberMan2
 
 # Build rule for target.
-BomberMan: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 BomberMan
-.PHONY : BomberMan
+BomberMan2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BomberMan2
+.PHONY : BomberMan2
 
 # fast build rule for target.
-BomberMan/fast:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/build
-.PHONY : BomberMan/fast
+BomberMan2/fast:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/build
+.PHONY : BomberMan2/fast
 
-gfx.o: gfx.cpp.o
+Graphics.o: Graphics.cpp.o
 
-.PHONY : gfx.o
+.PHONY : Graphics.o
 
 # target to build an object file
-gfx.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/gfx.cpp.o
-.PHONY : gfx.cpp.o
+Graphics.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Graphics.cpp.o
+.PHONY : Graphics.cpp.o
 
-gfx.i: gfx.cpp.i
+Graphics.i: Graphics.cpp.i
 
-.PHONY : gfx.i
+.PHONY : Graphics.i
 
 # target to preprocess a source file
-gfx.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/gfx.cpp.i
-.PHONY : gfx.cpp.i
+Graphics.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Graphics.cpp.i
+.PHONY : Graphics.cpp.i
 
-gfx.s: gfx.cpp.s
+Graphics.s: Graphics.cpp.s
 
-.PHONY : gfx.s
+.PHONY : Graphics.s
 
 # target to generate assembly for a file
-gfx.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/gfx.cpp.s
-.PHONY : gfx.cpp.s
+Graphics.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Graphics.cpp.s
+.PHONY : Graphics.cpp.s
 
 main.o: main.cpp.o
 
@@ -156,7 +156,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -165,7 +165,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -174,7 +174,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -185,10 +185,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... BomberMan"
-	@echo "... gfx.o"
-	@echo "... gfx.i"
-	@echo "... gfx.s"
+	@echo "... BomberMan2"
+	@echo "... Graphics.o"
+	@echo "... Graphics.i"
+	@echo "... Graphics.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

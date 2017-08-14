@@ -1,12 +1,15 @@
-#include "header.h"
-#include "gfx.h"
+#include <iostream>
+#include <GL/glew.h>
+#include "Graphics.h"
 
 int main() {
-    gfx graphics;
-    long long i = 0;
-    while (i++ != 1000000 ) {
-        graphics.renderGL();
+    Graphics gfx(1280, 720, "BomberMan");
+    while (gfx.getActive()) {
+        gfx.clearGL( 0.0f, 0.15f, 0.3f, 1.0f);
+
+        gfx.renderGL();
     }
-    std::cout << "Hello, World!" << std::endl;
+
+    std::cout << "Done!" << std::endl;
     return 0;
 }

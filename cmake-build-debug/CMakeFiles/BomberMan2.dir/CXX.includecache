@@ -350,34 +350,6 @@ begin_code.h
 close_code.h
 /goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include/SDL2/close_code.h
 
-/goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include/SDL2/SDL_opengl.h
-SDL_config.h
-/goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include/SDL2/SDL_config.h
-gl_mangle.h
-/goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include/SDL2/gl_mangle.h
-windows.h
--
-SDL_opengl_glext.h
-/goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include/SDL2/SDL_opengl_glext.h
-
-/goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include/SDL2/SDL_opengl_glext.h
-windows.h
--
-stddef.h
--
-inttypes.h
--
-inttypes.h
--
-inttypes.h
--
-stdint.h
--
-stdint.h
--
-inttypes.h
--
-
 /goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include/SDL2/SDL_pixels.h
 SDL_stdinc.h
 /goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include/SDL2/SDL_stdinc.h
@@ -602,29 +574,23 @@ close_code.h
 
 /goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include/SDL2/close_code.h
 
-/goinfre/janhoon/Desktop/BomberMan/gfx.cpp
-gfx.h
-/goinfre/janhoon/Desktop/BomberMan/gfx.h
+/goinfre/janhoon/Desktop/BomberMan2/Graphics.cpp
+Graphics.h
+/goinfre/janhoon/Desktop/BomberMan2/Graphics.h
 
-/goinfre/janhoon/Desktop/BomberMan/gfx.h
-header.h
-/goinfre/janhoon/Desktop/BomberMan/header.h
-SDL.h
+/goinfre/janhoon/Desktop/BomberMan2/Graphics.h
+iostream
+-
+SDL2/SDL.h
 -
 GL/glew.h
 -
-SDL_opengl.h
--
-OpenGL/glu.h
--
 
-/goinfre/janhoon/Desktop/BomberMan/header.h
+/goinfre/janhoon/Desktop/BomberMan2/main.cpp
 iostream
 -
-
-/goinfre/janhoon/Desktop/BomberMan/main.cpp
-header.h
-/goinfre/janhoon/Desktop/BomberMan/header.h
-gfx.h
-/goinfre/janhoon/Desktop/BomberMan/gfx.h
+GL/glew.h
+-
+Graphics.h
+/goinfre/janhoon/Desktop/BomberMan2/Graphics.h
 
