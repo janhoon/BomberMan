@@ -150,6 +150,33 @@ Graphics.cpp.s:
 	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Graphics.cpp.s
 .PHONY : Graphics.cpp.s
 
+Mesh.o: Mesh.cpp.o
+
+.PHONY : Mesh.o
+
+# target to build an object file
+Mesh.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Mesh.cpp.o
+.PHONY : Mesh.cpp.o
+
+Mesh.i: Mesh.cpp.i
+
+.PHONY : Mesh.i
+
+# target to preprocess a source file
+Mesh.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Mesh.cpp.i
+.PHONY : Mesh.cpp.i
+
+Mesh.s: Mesh.cpp.s
+
+.PHONY : Mesh.s
+
+# target to generate assembly for a file
+Mesh.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Mesh.cpp.s
+.PHONY : Mesh.cpp.s
+
 Shader.o: Shader.cpp.o
 
 .PHONY : Shader.o
@@ -216,6 +243,9 @@ help:
 	@echo "... Graphics.o"
 	@echo "... Graphics.i"
 	@echo "... Graphics.s"
+	@echo "... Mesh.o"
+	@echo "... Mesh.i"
+	@echo "... Mesh.s"
 	@echo "... Shader.o"
 	@echo "... Shader.i"
 	@echo "... Shader.s"

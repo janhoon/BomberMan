@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include -I/goinfre/janhoon/.brew/Cellar/glew/2.1.0/include 
+CXX_INCLUDES = -I/goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include -I/goinfre/janhoon/.brew/Cellar/glew/2.1.0/include -I/goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include 
 

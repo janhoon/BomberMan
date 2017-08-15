@@ -46,6 +46,12 @@ void Graphics::renderGL() {
     while (SDL_PollEvent(&e)) {
         if (e.type == SDL_QUIT) {
             _isActive = false;
+        } else if (e.type == SDL_KEYDOWN) {
+            switch (e.key.keysym.sym) {
+                case SDLK_ESCAPE:
+                    _isActive = false;
+                default:;
+            }
         }
     }
 }
@@ -55,6 +61,6 @@ bool Graphics::getActive() {
 }
 
 void Graphics::clearGL(float r, float g, float b, float a) {
-    glClearColor( r, g, b, a);
+    glClearColor(r, g, b, a);
     glClear(GL_COLOR_BUFFER_BIT);
 }

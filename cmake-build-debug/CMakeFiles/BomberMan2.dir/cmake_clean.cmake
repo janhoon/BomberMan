@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/BomberMan2.dir/main.cpp.o"
   "CMakeFiles/BomberMan2.dir/Graphics.cpp.o"
   "CMakeFiles/BomberMan2.dir/Shader.cpp.o"
+  "CMakeFiles/BomberMan2.dir/Mesh.cpp.o"
   "BomberMan2.pdb"
   "BomberMan2"
 )

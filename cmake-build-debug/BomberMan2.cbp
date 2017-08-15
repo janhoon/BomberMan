@@ -46,6 +46,7 @@
 				<Compiler>
 					<Add directory="/goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include"/>
 					<Add directory="/goinfre/janhoon/.brew/Cellar/glew/2.1.0/include"/>
+					<Add directory="/goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -69,6 +70,7 @@
 				<Compiler>
 					<Add directory="/goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include"/>
 					<Add directory="/goinfre/janhoon/.brew/Cellar/glew/2.1.0/include"/>
+					<Add directory="/goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -90,10 +92,19 @@
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/Graphics.h">
 			<Option target="BomberMan2"/>
 		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/Mesh.cpp">
+			<Option target="BomberMan2"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/Mesh.h">
+			<Option target="BomberMan2"/>
+		</Unit>
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/Shader.cpp">
 			<Option target="BomberMan2"/>
 		</Unit>
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/Shader.h">
+			<Option target="BomberMan2"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/Vertex.h">
 			<Option target="BomberMan2"/>
 		</Unit>
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/main.cpp">

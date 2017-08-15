@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include <GL/glew.h>
+#include <fstream>
 
 class Shader {
 public:
@@ -16,7 +17,7 @@ public:
 
     virtual ~Shader();
 private:
-    static const unsigned int NUM_SHADERS;
+    static const unsigned int NUM_SHADERS = 2;
 
     Shader() {}
     Shader(const Shader& graph) {}
