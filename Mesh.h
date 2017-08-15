@@ -10,7 +10,8 @@
 
 class Vertex {
 public:
-    Vertex(const glm::vec3& posi);
+    Vertex(const glm::vec3 &posi);
+
 private:
     glm::vec3 pos;
 };
@@ -27,7 +28,6 @@ private:
     Mesh() {}
 
     Mesh(const Mesh &graph) {}
-
     void operator=(const Mesh &rhs) {}
 
     enum {

@@ -153,12 +153,62 @@ CMakeFiles/BomberMan2.dir/Mesh.cpp.o.provides: CMakeFiles/BomberMan2.dir/Mesh.cp
 CMakeFiles/BomberMan2.dir/Mesh.cpp.o.provides.build: CMakeFiles/BomberMan2.dir/Mesh.cpp.o
 
 
+CMakeFiles/BomberMan2.dir/Texture.cpp.o: CMakeFiles/BomberMan2.dir/flags.make
+CMakeFiles/BomberMan2.dir/Texture.cpp.o: ../Texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BomberMan2.dir/Texture.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/Texture.cpp.o -c /goinfre/janhoon/Desktop/BomberMan/Texture.cpp
+
+CMakeFiles/BomberMan2.dir/Texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BomberMan2.dir/Texture.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /goinfre/janhoon/Desktop/BomberMan/Texture.cpp > CMakeFiles/BomberMan2.dir/Texture.cpp.i
+
+CMakeFiles/BomberMan2.dir/Texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BomberMan2.dir/Texture.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /goinfre/janhoon/Desktop/BomberMan/Texture.cpp -o CMakeFiles/BomberMan2.dir/Texture.cpp.s
+
+CMakeFiles/BomberMan2.dir/Texture.cpp.o.requires:
+
+.PHONY : CMakeFiles/BomberMan2.dir/Texture.cpp.o.requires
+
+CMakeFiles/BomberMan2.dir/Texture.cpp.o.provides: CMakeFiles/BomberMan2.dir/Texture.cpp.o.requires
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Texture.cpp.o.provides.build
+.PHONY : CMakeFiles/BomberMan2.dir/Texture.cpp.o.provides
+
+CMakeFiles/BomberMan2.dir/Texture.cpp.o.provides.build: CMakeFiles/BomberMan2.dir/Texture.cpp.o
+
+
+CMakeFiles/BomberMan2.dir/stb_image.c.o: CMakeFiles/BomberMan2.dir/flags.make
+CMakeFiles/BomberMan2.dir/stb_image.c.o: ../stb_image.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/BomberMan2.dir/stb_image.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BomberMan2.dir/stb_image.c.o   -c /goinfre/janhoon/Desktop/BomberMan/stb_image.c
+
+CMakeFiles/BomberMan2.dir/stb_image.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BomberMan2.dir/stb_image.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /goinfre/janhoon/Desktop/BomberMan/stb_image.c > CMakeFiles/BomberMan2.dir/stb_image.c.i
+
+CMakeFiles/BomberMan2.dir/stb_image.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BomberMan2.dir/stb_image.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /goinfre/janhoon/Desktop/BomberMan/stb_image.c -o CMakeFiles/BomberMan2.dir/stb_image.c.s
+
+CMakeFiles/BomberMan2.dir/stb_image.c.o.requires:
+
+.PHONY : CMakeFiles/BomberMan2.dir/stb_image.c.o.requires
+
+CMakeFiles/BomberMan2.dir/stb_image.c.o.provides: CMakeFiles/BomberMan2.dir/stb_image.c.o.requires
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/stb_image.c.o.provides.build
+.PHONY : CMakeFiles/BomberMan2.dir/stb_image.c.o.provides
+
+CMakeFiles/BomberMan2.dir/stb_image.c.o.provides.build: CMakeFiles/BomberMan2.dir/stb_image.c.o
+
+
 # Object files for target BomberMan2
 BomberMan2_OBJECTS = \
 "CMakeFiles/BomberMan2.dir/main.cpp.o" \
 "CMakeFiles/BomberMan2.dir/Graphics.cpp.o" \
 "CMakeFiles/BomberMan2.dir/Shader.cpp.o" \
-"CMakeFiles/BomberMan2.dir/Mesh.cpp.o"
+"CMakeFiles/BomberMan2.dir/Mesh.cpp.o" \
+"CMakeFiles/BomberMan2.dir/Texture.cpp.o" \
+"CMakeFiles/BomberMan2.dir/stb_image.c.o"
 
 # External object files for target BomberMan2
 BomberMan2_EXTERNAL_OBJECTS =
@@ -167,9 +217,11 @@ BomberMan2: CMakeFiles/BomberMan2.dir/main.cpp.o
 BomberMan2: CMakeFiles/BomberMan2.dir/Graphics.cpp.o
 BomberMan2: CMakeFiles/BomberMan2.dir/Shader.cpp.o
 BomberMan2: CMakeFiles/BomberMan2.dir/Mesh.cpp.o
+BomberMan2: CMakeFiles/BomberMan2.dir/Texture.cpp.o
+BomberMan2: CMakeFiles/BomberMan2.dir/stb_image.c.o
 BomberMan2: CMakeFiles/BomberMan2.dir/build.make
 BomberMan2: CMakeFiles/BomberMan2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable BomberMan2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable BomberMan2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BomberMan2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -181,6 +233,8 @@ CMakeFiles/BomberMan2.dir/requires: CMakeFiles/BomberMan2.dir/main.cpp.o.require
 CMakeFiles/BomberMan2.dir/requires: CMakeFiles/BomberMan2.dir/Graphics.cpp.o.requires
 CMakeFiles/BomberMan2.dir/requires: CMakeFiles/BomberMan2.dir/Shader.cpp.o.requires
 CMakeFiles/BomberMan2.dir/requires: CMakeFiles/BomberMan2.dir/Mesh.cpp.o.requires
+CMakeFiles/BomberMan2.dir/requires: CMakeFiles/BomberMan2.dir/Texture.cpp.o.requires
+CMakeFiles/BomberMan2.dir/requires: CMakeFiles/BomberMan2.dir/stb_image.c.o.requires
 
 .PHONY : CMakeFiles/BomberMan2.dir/requires
 

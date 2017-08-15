@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/goinfre/janhoon/Desktop/BomberMan/stb_image.c
+stb_image.h
+/goinfre/janhoon/Desktop/BomberMan/stb_image.h
+math.h
+-
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+memory.h
+-
+assert.h
+-
+stdarg.h
+-
+
+/goinfre/janhoon/Desktop/BomberMan/stb_image.h
+stdio.h
+-
+

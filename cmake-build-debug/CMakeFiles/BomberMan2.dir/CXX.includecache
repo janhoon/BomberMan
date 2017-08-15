@@ -1312,6 +1312,20 @@ GL/glew.h
 fstream
 -
 
+/goinfre/janhoon/Desktop/BomberMan/Texture.cpp
+Texture.h
+/goinfre/janhoon/Desktop/BomberMan/Texture.h
+
+/goinfre/janhoon/Desktop/BomberMan/Texture.h
+iostream
+-
+GL/glew.h
+-
+cassert
+-
+stb_image.h
+/goinfre/janhoon/Desktop/BomberMan/stb_image.h
+
 /goinfre/janhoon/Desktop/BomberMan/main.cpp
 iostream
 -
@@ -1321,4 +1335,10 @@ Shader.h
 /goinfre/janhoon/Desktop/BomberMan/Shader.h
 Mesh.h
 /goinfre/janhoon/Desktop/BomberMan/Mesh.h
+Texture.h
+/goinfre/janhoon/Desktop/BomberMan/Texture.h
+
+/goinfre/janhoon/Desktop/BomberMan/stb_image.h
+stdio.h
+-
 

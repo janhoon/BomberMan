@@ -104,10 +104,19 @@
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/Shader.h">
 			<Option target="BomberMan2"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/Vertex.h">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/Texture.cpp">
+			<Option target="BomberMan2"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/Texture.h">
 			<Option target="BomberMan2"/>
 		</Unit>
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/main.cpp">
+			<Option target="BomberMan2"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/stb_image.c">
+			<Option target="BomberMan2"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/stb_image.h">
 			<Option target="BomberMan2"/>
 		</Unit>
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/CMakeLists.txt">
