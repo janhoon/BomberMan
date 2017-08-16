@@ -1,0 +1,2 @@
+clang++ -Wall -Werror -Wextra -std=c++11 -o bomberman back/*.cpp back/abstracts/*.cpp back/factories/*.cpp back/objects/*.cpp back/observers/*.cpp
+./bomberman maps/map1.map
