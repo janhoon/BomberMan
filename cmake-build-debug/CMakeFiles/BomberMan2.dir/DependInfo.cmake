@@ -23,6 +23,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/janhoon/Desktop/C++/BomberMan/Texture.cpp" "/Users/janhoon/Desktop/C++/BomberMan/cmake-build-debug/CMakeFiles/BomberMan2.dir/Texture.cpp.o"
   "/Users/janhoon/Desktop/C++/BomberMan/Transform.cpp" "/Users/janhoon/Desktop/C++/BomberMan/cmake-build-debug/CMakeFiles/BomberMan2.dir/Transform.cpp.o"
   "/Users/janhoon/Desktop/C++/BomberMan/main.cpp" "/Users/janhoon/Desktop/C++/BomberMan/cmake-build-debug/CMakeFiles/BomberMan2.dir/main.cpp.o"
+  "/Users/janhoon/Desktop/C++/BomberMan/obj_loader.cpp" "/Users/janhoon/Desktop/C++/BomberMan/cmake-build-debug/CMakeFiles/BomberMan2.dir/obj_loader.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

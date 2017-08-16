@@ -18,6 +18,9 @@ public:
 
     bool getActive();
 
+    int getWidth();
+    int getHeight();
+
     virtual ~Graphics();
 private:
     Graphics() {}
@@ -26,6 +29,9 @@ private:
 
     SDL_Window *_window;
     SDL_GLContext  _glContext;
+
+    int _width;
+    int _height;
 
     bool _isActive;
 };

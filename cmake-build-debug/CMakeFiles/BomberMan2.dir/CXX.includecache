@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/Users/janhoon/Desktop/C++/BomberMan/Camera.cpp
+Camera.h
+/Users/janhoon/Desktop/C++/BomberMan/Camera.h
+
+/Users/janhoon/Desktop/C++/BomberMan/Camera.h
+glm/glm.hpp
+-
+glm/gtx/transform.hpp
+-
+
 /Users/janhoon/Desktop/C++/BomberMan/Graphics.cpp
 Graphics.h
 /Users/janhoon/Desktop/C++/BomberMan/Graphics.h
@@ -29,6 +39,8 @@ glm/glm.hpp
 -
 vector
 -
+obj_loader.h
+/Users/janhoon/Desktop/C++/BomberMan/obj_loader.h
 
 /Users/janhoon/Desktop/C++/BomberMan/Shader.cpp
 Shader.h
@@ -43,6 +55,8 @@ fstream
 -
 Transform.h
 /Users/janhoon/Desktop/C++/BomberMan/Transform.h
+Camera.h
+/Users/janhoon/Desktop/C++/BomberMan/Camera.h
 
 /Users/janhoon/Desktop/C++/BomberMan/Texture.cpp
 Texture.h
@@ -81,6 +95,28 @@ Texture.h
 /Users/janhoon/Desktop/C++/BomberMan/Texture.h
 Transform.h
 /Users/janhoon/Desktop/C++/BomberMan/Transform.h
+Camera.h
+/Users/janhoon/Desktop/C++/BomberMan/Camera.h
+
+/Users/janhoon/Desktop/C++/BomberMan/obj_loader.cpp
+obj_loader.h
+/Users/janhoon/Desktop/C++/BomberMan/obj_loader.h
+fstream
+-
+iostream
+-
+algorithm
+-
+map
+-
+
+/Users/janhoon/Desktop/C++/BomberMan/obj_loader.h
+glm/glm.hpp
+-
+vector
+-
+string
+-
 
 /Users/janhoon/Desktop/C++/BomberMan/stb_image.h
 stdio.h

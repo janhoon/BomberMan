@@ -312,6 +312,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+obj_loader.o: obj_loader.cpp.o
+
+.PHONY : obj_loader.o
+
+# target to build an object file
+obj_loader.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/obj_loader.cpp.o
+.PHONY : obj_loader.cpp.o
+
+obj_loader.i: obj_loader.cpp.i
+
+.PHONY : obj_loader.i
+
+# target to preprocess a source file
+obj_loader.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/obj_loader.cpp.i
+.PHONY : obj_loader.cpp.i
+
+obj_loader.s: obj_loader.cpp.s
+
+.PHONY : obj_loader.s
+
+# target to generate assembly for a file
+obj_loader.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/obj_loader.cpp.s
+.PHONY : obj_loader.cpp.s
+
 stb_image.o: stb_image.c.o
 
 .PHONY : stb_image.o
@@ -369,6 +396,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... obj_loader.o"
+	@echo "... obj_loader.i"
+	@echo "... obj_loader.s"
 	@echo "... stb_image.o"
 	@echo "... stb_image.i"
 	@echo "... stb_image.s"

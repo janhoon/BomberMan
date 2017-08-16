@@ -127,6 +127,12 @@
 		<Unit filename="/Users/janhoon/Desktop/C++/BomberMan/main.cpp">
 			<Option target="BomberMan2"/>
 		</Unit>
+		<Unit filename="/Users/janhoon/Desktop/C++/BomberMan/obj_loader.cpp">
+			<Option target="BomberMan2"/>
+		</Unit>
+		<Unit filename="/Users/janhoon/Desktop/C++/BomberMan/obj_loader.h">
+			<Option target="BomberMan2"/>
+		</Unit>
 		<Unit filename="/Users/janhoon/Desktop/C++/BomberMan/stb_image.c">
 			<Option target="BomberMan2"/>
 		</Unit>

@@ -3,7 +3,7 @@ project(BomberMan2)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp Graphics.cpp Graphics.h Shader.cpp Shader.h Mesh.cpp Mesh.h Texture.cpp Texture.h stb_image.c stb_image.h Transform.cpp Transform.h Camera.cpp Camera.h)
+set(SOURCE_FILES main.cpp Graphics.cpp Graphics.h Shader.cpp Shader.h Mesh.cpp Mesh.h Texture.cpp Texture.h stb_image.c stb_image.h Transform.cpp Transform.h Camera.cpp Camera.h obj_loader.cpp obj_loader.h)
 add_executable(BomberMan2 ${SOURCE_FILES})
 
 find_package(OpenGL REQUIRED)

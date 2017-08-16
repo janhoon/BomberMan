@@ -4,12 +4,17 @@
 CMakeFiles/BomberMan2.dir/stb_image.c.o: ../stb_image.c
 CMakeFiles/BomberMan2.dir/stb_image.c.o: ../stb_image.h
 
+CMakeFiles/BomberMan2.dir/Camera.cpp.o: ../Camera.cpp
+CMakeFiles/BomberMan2.dir/Camera.cpp.o: ../Camera.h
+
 CMakeFiles/BomberMan2.dir/Graphics.cpp.o: ../Graphics.cpp
 CMakeFiles/BomberMan2.dir/Graphics.cpp.o: ../Graphics.h
 
 CMakeFiles/BomberMan2.dir/Mesh.cpp.o: ../Mesh.cpp
 CMakeFiles/BomberMan2.dir/Mesh.cpp.o: ../Mesh.h
+CMakeFiles/BomberMan2.dir/Mesh.cpp.o: ../obj_loader.h
 
+CMakeFiles/BomberMan2.dir/Shader.cpp.o: ../Camera.h
 CMakeFiles/BomberMan2.dir/Shader.cpp.o: ../Shader.cpp
 CMakeFiles/BomberMan2.dir/Shader.cpp.o: ../Shader.h
 CMakeFiles/BomberMan2.dir/Shader.cpp.o: ../Transform.h
@@ -21,11 +26,16 @@ CMakeFiles/BomberMan2.dir/Texture.cpp.o: ../stb_image.h
 CMakeFiles/BomberMan2.dir/Transform.cpp.o: ../Transform.cpp
 CMakeFiles/BomberMan2.dir/Transform.cpp.o: ../Transform.h
 
+CMakeFiles/BomberMan2.dir/main.cpp.o: ../Camera.h
 CMakeFiles/BomberMan2.dir/main.cpp.o: ../Graphics.h
 CMakeFiles/BomberMan2.dir/main.cpp.o: ../Mesh.h
 CMakeFiles/BomberMan2.dir/main.cpp.o: ../Shader.h
 CMakeFiles/BomberMan2.dir/main.cpp.o: ../Texture.h
 CMakeFiles/BomberMan2.dir/main.cpp.o: ../Transform.h
 CMakeFiles/BomberMan2.dir/main.cpp.o: ../main.cpp
+CMakeFiles/BomberMan2.dir/main.cpp.o: ../obj_loader.h
 CMakeFiles/BomberMan2.dir/main.cpp.o: ../stb_image.h
+
+CMakeFiles/BomberMan2.dir/obj_loader.cpp.o: ../obj_loader.cpp
+CMakeFiles/BomberMan2.dir/obj_loader.cpp.o: ../obj_loader.h
 
