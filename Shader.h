@@ -8,12 +8,14 @@
 #include <iostream>
 #include <GL/glew.h>
 #include <fstream>
+#include "Transform.h"
 
 class Shader {
 public:
     Shader(const std::string& filename);
 
     void Bind();
+    void Update(const Transform &transform);
 
     virtual ~Shader();
 private:
@@ -23,8 +25,15 @@ private:
     Shader(const Shader& graph) {}
     void operator=(const Shader& rhs) {}
 
+    enum {
+        TRANSFORM_U,
+
+        NUM_UNIFORMS
+    };
+
     GLuint _programID;
     GLuint _shaders[NUM_SHADERS];
+    GLint _uniforms[NUM_UNIFORMS];
 };
 
 

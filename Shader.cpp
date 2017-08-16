@@ -15,17 +15,20 @@ Shader::Shader(const std::string &filename) {
     _shaders[0] = createShader(loadShader(filename + ".vs"), GL_VERTEX_SHADER);
     _shaders[1] = createShader(loadShader(filename + ".fs"), GL_FRAGMENT_SHADER);
 
-     for (unsigned int i = 0; i <= NUM_SHADERS; i++) {
-         glAttachShader(_programID, _shaders[i]);
-     }
+    for (unsigned int i = 0; i <= NUM_SHADERS; i++) {
+        glAttachShader(_programID, _shaders[i]);
+    }
 
     glBindAttribLocation(_programID, 0, "position");
+    glBindAttribLocation(_programID, 1, "texCoord");
 
     glLinkProgram(_programID);
     checkShaderErrors(_programID, GL_LINK_STATUS, true, "Error Program linking failed: ");
 
     glValidateProgram(_programID);
     checkShaderErrors(_programID, GL_VALIDATE_STATUS, true, "Error Program validation failed: ");
+
+    _uniforms[TRANSFORM_U] = glGetUniformLocation(_programID, "transform");
 }
 
 Shader::~Shader() {
@@ -39,6 +42,12 @@ Shader::~Shader() {
 
 void Shader::Bind() {
     glUseProgram(_programID);
+}
+
+void Shader::Update(const Transform &transform) {
+    glm::mat4 model = transform.getModel();
+
+    glUniformMatrix4fv(_uniforms[TRANSFORM_U], 1, GL_FALSE, &model[0][0]);
 }
 
 static std::string loadShader(const std::string filename) {
@@ -84,10 +93,10 @@ static GLuint createShader(const std::string &text, GLenum shaderType) {
     GLuint shader = glCreateShader(shaderType);
 
     if (shader == 0) {
-         std::cerr << "Error: Shader creation failed" << std::endl;
+        std::cerr << "Error: Shader creation failed" << std::endl;
     }
 
-    const GLchar* shaderSourceStr[1];
+    const GLchar *shaderSourceStr[1];
     GLint shaderSourceStrLengths[1];
 
     shaderSourceStr[0] = text.c_str();

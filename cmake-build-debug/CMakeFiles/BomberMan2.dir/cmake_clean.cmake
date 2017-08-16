@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/BomberMan2.dir/Mesh.cpp.o"
   "CMakeFiles/BomberMan2.dir/Texture.cpp.o"
   "CMakeFiles/BomberMan2.dir/stb_image.c.o"
+  "CMakeFiles/BomberMan2.dir/Transform.cpp.o"
+  "CMakeFiles/BomberMan2.dir/Camera.cpp.o"
   "BomberMan2.pdb"
   "BomberMan2"
 )

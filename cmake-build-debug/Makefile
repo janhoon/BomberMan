@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /goinfre/janhoon/Desktop/BomberMan
+CMAKE_SOURCE_DIR = /Users/janhoon/Desktop/C++/BomberMan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /goinfre/janhoon/Desktop/BomberMan/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/janhoon/Desktop/C++/BomberMan/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles /goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janhoon/Desktop/C++/BomberMan/cmake-build-debug/CMakeFiles /Users/janhoon/Desktop/C++/BomberMan/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/janhoon/Desktop/C++/BomberMan/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,33 @@ BomberMan2: cmake_check_build_system
 BomberMan2/fast:
 	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/build
 .PHONY : BomberMan2/fast
+
+Camera.o: Camera.cpp.o
+
+.PHONY : Camera.o
+
+# target to build an object file
+Camera.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Camera.cpp.o
+.PHONY : Camera.cpp.o
+
+Camera.i: Camera.cpp.i
+
+.PHONY : Camera.i
+
+# target to preprocess a source file
+Camera.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Camera.cpp.i
+.PHONY : Camera.cpp.i
+
+Camera.s: Camera.cpp.s
+
+.PHONY : Camera.s
+
+# target to generate assembly for a file
+Camera.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Camera.cpp.s
+.PHONY : Camera.cpp.s
 
 Graphics.o: Graphics.cpp.o
 
@@ -231,6 +258,33 @@ Texture.cpp.s:
 	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Texture.cpp.s
 .PHONY : Texture.cpp.s
 
+Transform.o: Transform.cpp.o
+
+.PHONY : Transform.o
+
+# target to build an object file
+Transform.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Transform.cpp.o
+.PHONY : Transform.cpp.o
+
+Transform.i: Transform.cpp.i
+
+.PHONY : Transform.i
+
+# target to preprocess a source file
+Transform.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Transform.cpp.i
+.PHONY : Transform.cpp.i
+
+Transform.s: Transform.cpp.s
+
+.PHONY : Transform.s
+
+# target to generate assembly for a file
+Transform.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Transform.cpp.s
+.PHONY : Transform.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -294,6 +348,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... BomberMan2"
+	@echo "... Camera.o"
+	@echo "... Camera.i"
+	@echo "... Camera.s"
 	@echo "... Graphics.o"
 	@echo "... Graphics.i"
 	@echo "... Graphics.s"
@@ -306,6 +363,9 @@ help:
 	@echo "... Texture.o"
 	@echo "... Texture.i"
 	@echo "... Texture.s"
+	@echo "... Transform.o"
+	@echo "... Transform.i"
+	@echo "... Transform.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

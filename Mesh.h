@@ -7,13 +7,18 @@
 
 #include <GL/glew.h>
 #include <glm/glm.hpp>
+#include <vector>
 
 class Vertex {
 public:
-    Vertex(const glm::vec3 &posi);
+    Vertex(const glm::vec3 &posi, const glm::vec2 coord);
+
+    glm::vec3* getPos();
+    glm::vec2* getTexCoord();
 
 private:
     glm::vec3 pos;
+    glm::vec2 texCoord;
 };
 
 class Mesh {
@@ -32,6 +37,8 @@ private:
 
     enum {
         POSITION_VB,
+        TEXCOORD_VB,
+
         NUM_BUFFERS
     };
 

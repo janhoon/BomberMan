@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/goinfre/janhoon/Desktop/BomberMan/stb_image.c
+/Users/janhoon/Desktop/C++/BomberMan/stb_image.c
 stb_image.h
-/goinfre/janhoon/Desktop/BomberMan/stb_image.h
+/Users/janhoon/Desktop/C++/BomberMan/stb_image.h
 math.h
 -
 string.h
@@ -24,7 +24,7 @@ assert.h
 stdarg.h
 -
 
-/goinfre/janhoon/Desktop/BomberMan/stb_image.h
+/Users/janhoon/Desktop/C++/BomberMan/stb_image.h
 stdio.h
 -
 
