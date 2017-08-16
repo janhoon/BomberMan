@@ -13,7 +13,7 @@ class Graphics {
 public:
     Graphics(int width, int height, std::string title);
 
-    void renderGL();
+    char renderGL();
     void clearGL(float r, float g, float b, float a);
 
     bool getActive();

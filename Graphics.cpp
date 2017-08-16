@@ -47,7 +47,7 @@ Graphics::~Graphics() {
     SDL_Quit();
 }
 
-void Graphics::renderGL() {
+char Graphics::renderGL() {
     SDL_GL_SwapWindow(_window);
 
     SDL_Event e;
@@ -58,10 +58,19 @@ void Graphics::renderGL() {
             switch (e.key.keysym.sym) {
                 case SDLK_ESCAPE:
                     _isActive = false;
+                case SDLK_UP:
+                    return 'u';
+                case SDLK_RIGHT:
+                    return 'r';
+                case SDLK_LEFT:
+                    return 'l';
+                case SDLK_DOWN:
+                    return 'd';
                 default:;
             }
         }
     }
+    return 0;
 }
 
 bool Graphics::getActive() {
