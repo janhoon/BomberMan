@@ -2,7 +2,7 @@
 // Created by JanHoon on 2017/08/16.
 //
 
-#include "Transform.h"
+#include "../includes/Transform.h"
 
 Transform::Transform() :
 _pos(glm::vec3()), _rot(glm::vec3()), _scale(glm::vec3(1.0f, 1.0f, 1.0f )) {}

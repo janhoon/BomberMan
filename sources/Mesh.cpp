@@ -2,7 +2,7 @@
 // Created by Jan-Hendrik Hoon on 2017/08/15.
 //
 
-#include "Mesh.h"
+#include "../includes/Mesh.h"
 
 Mesh::Mesh(Vertex *vertices, unsigned int numVertices, unsigned int *indices, unsigned int numIndices) {
     IndexedModel model;

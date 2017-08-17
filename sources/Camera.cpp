@@ -2,7 +2,7 @@
 // Created by JanHoon on 2017/08/16.
 //
 
-#include "Camera.h"
+#include "../includes/Camera.h"
 
 Camera::Camera(const glm::vec3 &pos, float fov, float aspect, float zNear, float zFar) {
     _perspective = glm::perspective(fov, aspect, zNear, zFar);

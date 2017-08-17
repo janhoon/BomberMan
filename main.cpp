@@ -1,10 +1,10 @@
 #include <iostream>
-#include "Graphics.h"
-#include "Shader.h"
-#include "Mesh.h"
-#include "Texture.h"
-#include "Transform.h"
-#include "Camera.h"
+#include "includes/Graphics.h"
+#include "includes/Shader.h"
+#include "includes/Mesh.h"
+#include "includes/Texture.h"
+#include "includes/Transform.h"
+#include "includes/Camera.h"
 
 int main() {
     Graphics gfx(720, 720, "BomberMan");

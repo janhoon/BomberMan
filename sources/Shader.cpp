@@ -2,7 +2,7 @@
 // Created by Jan-Hendrik Hoon on 2017/08/14.
 //
 
-#include "Shader.h"
+#include "../includes/Shader.h"
 
 static std::string loadShader(const std::string filename);
 

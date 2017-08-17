@@ -2,7 +2,7 @@
 // Created by Jan-Hendrik Hoon on 2017/08/15.
 //
 
-#include "Texture.h"
+#include "../includes/Texture.h"
 
 Texture::Texture(const std::string& filename) {
     int width, height, numComponents;

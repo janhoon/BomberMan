@@ -2,7 +2,7 @@
 // Created by Jan-Hendrik Hoon on 2017/08/14.
 //
 
-#include "Graphics.h"
+#include "../includes/Graphics.h"
 
 Graphics::Graphics(int width, int height, std::string title) {
     _height = height;
