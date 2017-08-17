@@ -148,13 +148,17 @@ CMakeFiles/BomberMan2.dir/main.cpp.o
  /goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include/SDL2/begin_code.h
  /goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include/SDL2/close_code.h
  /goinfre/janhoon/Desktop/BomberMan/includes/Camera.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/Engine.h
  /goinfre/janhoon/Desktop/BomberMan/includes/Graphics.h
  /goinfre/janhoon/Desktop/BomberMan/includes/Mesh.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/Object.h
  /goinfre/janhoon/Desktop/BomberMan/includes/Shader.h
  /goinfre/janhoon/Desktop/BomberMan/includes/Texture.h
  /goinfre/janhoon/Desktop/BomberMan/includes/Transform.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/graphicsMain.h
  /goinfre/janhoon/Desktop/BomberMan/includes/obj_loader.h
  /goinfre/janhoon/Desktop/BomberMan/includes/stb_image.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/stdMain.h
  /goinfre/janhoon/Desktop/BomberMan/main.cpp
 CMakeFiles/BomberMan2.dir/sources/Camera.cpp.o
  /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/common.hpp
@@ -257,6 +261,118 @@ CMakeFiles/BomberMan2.dir/sources/Camera.cpp.o
  /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/vector_relational.hpp
  /goinfre/janhoon/Desktop/BomberMan/includes/Camera.h
  /goinfre/janhoon/Desktop/BomberMan/sources/Camera.cpp
+CMakeFiles/BomberMan2.dir/sources/Engine.cpp.o
+ /goinfre/janhoon/.brew/Cellar/glew/2.1.0/include/GL/glew.h
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/common.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/_fixes.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/_swizzle.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/_swizzle_func.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/_vectorize.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_common.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_common.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_common_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_exponential.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_exponential.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_exponential_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_geometric.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_geometric.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_geometric_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_integer.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_integer.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_integer_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_matrix.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_matrix.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_matrix_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_packing.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_packing.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_packing_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_trigonometric.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_trigonometric.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_trigonometric_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_vector_relational.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_vector_relational.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_vector_relational_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/precision.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/setup.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_float.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_half.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_half.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_int.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat2x2.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat2x2.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat2x3.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat2x3.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat2x4.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat2x4.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat3x2.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat3x2.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat3x3.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat3x3.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat3x4.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat3x4.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x2.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x2.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x3.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x3.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x4.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x4.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x4_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec1.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec1.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec2.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec2.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec3.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec3.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec4.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec4.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec4_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/exponential.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/fwd.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/geometric.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/glm.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtc/constants.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtc/constants.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtc/matrix_transform.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtc/matrix_transform.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtx/transform.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtx/transform.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/integer.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat2x2.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat2x3.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat2x4.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat3x2.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat3x3.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat3x4.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat4x2.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat4x3.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat4x4.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/matrix.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/packing.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/simd/common.h
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/simd/exponential.h
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/simd/geometric.h
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/simd/integer.h
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/simd/matrix.h
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/simd/platform.h
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/trigonometric.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/vec2.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/vec3.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/vec4.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/vector_relational.hpp
+ /goinfre/janhoon/Desktop/BomberMan/includes/Camera.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/Engine.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/Mesh.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/Object.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/Shader.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/Texture.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/Transform.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/graphicsMain.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/obj_loader.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/stb_image.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/stdMain.h
+ /goinfre/janhoon/Desktop/BomberMan/sources/Engine.cpp
 CMakeFiles/BomberMan2.dir/sources/Graphics.cpp.o
  /goinfre/janhoon/.brew/Cellar/glew/2.1.0/include/GL/glew.h
  /goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include/SDL2/SDL.h
@@ -375,6 +491,12 @@ CMakeFiles/BomberMan2.dir/sources/Mesh.cpp.o
  /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/fwd.hpp
  /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/geometric.hpp
  /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/glm.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtc/constants.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtc/constants.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtc/matrix_transform.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtc/matrix_transform.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtx/transform.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtx/transform.inl
  /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/integer.hpp
  /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat2x2.hpp
  /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat2x3.hpp
@@ -399,8 +521,121 @@ CMakeFiles/BomberMan2.dir/sources/Mesh.cpp.o
  /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/vec4.hpp
  /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/vector_relational.hpp
  /goinfre/janhoon/Desktop/BomberMan/includes/Mesh.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/graphicsMain.h
  /goinfre/janhoon/Desktop/BomberMan/includes/obj_loader.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/stdMain.h
  /goinfre/janhoon/Desktop/BomberMan/sources/Mesh.cpp
+CMakeFiles/BomberMan2.dir/sources/Object.cpp.o
+ /goinfre/janhoon/.brew/Cellar/glew/2.1.0/include/GL/glew.h
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/common.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/_fixes.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/_swizzle.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/_swizzle_func.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/_vectorize.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_common.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_common.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_common_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_exponential.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_exponential.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_exponential_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_geometric.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_geometric.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_geometric_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_integer.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_integer.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_integer_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_matrix.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_matrix.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_matrix_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_packing.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_packing.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_packing_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_trigonometric.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_trigonometric.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_trigonometric_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_vector_relational.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_vector_relational.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_vector_relational_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/precision.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/setup.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_float.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_half.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_half.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_int.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat2x2.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat2x2.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat2x3.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat2x3.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat2x4.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat2x4.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat3x2.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat3x2.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat3x3.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat3x3.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat3x4.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat3x4.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x2.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x2.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x3.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x3.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x4.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x4.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x4_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec1.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec1.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec2.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec2.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec3.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec3.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec4.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec4.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec4_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/exponential.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/fwd.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/geometric.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/glm.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtc/constants.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtc/constants.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtc/matrix_transform.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtc/matrix_transform.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtx/transform.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtx/transform.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/integer.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat2x2.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat2x3.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat2x4.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat3x2.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat3x3.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat3x4.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat4x2.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat4x3.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat4x4.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/matrix.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/packing.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/simd/common.h
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/simd/exponential.h
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/simd/geometric.h
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/simd/integer.h
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/simd/matrix.h
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/simd/platform.h
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/trigonometric.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/vec2.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/vec3.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/vec4.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/vector_relational.hpp
+ /goinfre/janhoon/Desktop/BomberMan/includes/Camera.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/Mesh.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/Object.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/Shader.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/Texture.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/Transform.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/graphicsMain.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/obj_loader.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/stb_image.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/stdMain.h
+ /goinfre/janhoon/Desktop/BomberMan/sources/Object.cpp
 CMakeFiles/BomberMan2.dir/sources/Shader.cpp.o
  /goinfre/janhoon/.brew/Cellar/glew/2.1.0/include/GL/glew.h
  /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/common.hpp
@@ -504,11 +739,113 @@ CMakeFiles/BomberMan2.dir/sources/Shader.cpp.o
  /goinfre/janhoon/Desktop/BomberMan/includes/Camera.h
  /goinfre/janhoon/Desktop/BomberMan/includes/Shader.h
  /goinfre/janhoon/Desktop/BomberMan/includes/Transform.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/graphicsMain.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/stdMain.h
  /goinfre/janhoon/Desktop/BomberMan/sources/Shader.cpp
 CMakeFiles/BomberMan2.dir/sources/Texture.cpp.o
  /goinfre/janhoon/.brew/Cellar/glew/2.1.0/include/GL/glew.h
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/common.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/_fixes.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/_swizzle.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/_swizzle_func.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/_vectorize.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_common.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_common.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_common_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_exponential.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_exponential.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_exponential_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_geometric.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_geometric.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_geometric_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_integer.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_integer.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_integer_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_matrix.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_matrix.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_matrix_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_packing.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_packing.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_packing_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_trigonometric.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_trigonometric.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_trigonometric_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_vector_relational.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_vector_relational.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_vector_relational_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/precision.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/setup.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_float.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_half.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_half.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_int.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat2x2.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat2x2.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat2x3.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat2x3.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat2x4.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat2x4.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat3x2.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat3x2.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat3x3.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat3x3.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat3x4.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat3x4.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x2.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x2.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x3.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x3.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x4.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x4.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x4_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec1.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec1.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec2.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec2.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec3.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec3.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec4.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec4.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec4_simd.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/exponential.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/fwd.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/geometric.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/glm.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtc/constants.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtc/constants.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtc/matrix_transform.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtc/matrix_transform.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtx/transform.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtx/transform.inl
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/integer.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat2x2.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat2x3.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat2x4.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat3x2.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat3x3.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat3x4.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat4x2.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat4x3.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat4x4.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/matrix.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/packing.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/simd/common.h
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/simd/exponential.h
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/simd/geometric.h
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/simd/integer.h
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/simd/matrix.h
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/simd/platform.h
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/trigonometric.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/vec2.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/vec3.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/vec4.hpp
+ /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/vector_relational.hpp
  /goinfre/janhoon/Desktop/BomberMan/includes/Texture.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/graphicsMain.h
  /goinfre/janhoon/Desktop/BomberMan/includes/stb_image.h
+ /goinfre/janhoon/Desktop/BomberMan/includes/stdMain.h
  /goinfre/janhoon/Desktop/BomberMan/sources/Texture.cpp
 CMakeFiles/BomberMan2.dir/sources/Transform.cpp.o
  /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/common.hpp

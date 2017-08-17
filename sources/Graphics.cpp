@@ -65,7 +65,19 @@ char Graphics::renderGL() {
                 case SDLK_LEFT:
                     return 'l';
                 case SDLK_DOWN:
+                    return 'o';
+                case SDLK_w:
+                    return 'w';
+                case SDLK_a:
+                    return 'a';
+                case SDLK_s:
+                    return 's';
+                case SDLK_d:
                     return 'd';
+                case SDLK_q:
+                    return 'q';
+                case SDLK_e:
+                    return 'e';
                 default:;
             }
         }

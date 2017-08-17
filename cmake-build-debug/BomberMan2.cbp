@@ -95,6 +95,9 @@
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Mesh.h">
 			<Option target="BomberMan2"/>
 		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Object.h">
+			<Option target="BomberMan2"/>
+		</Unit>
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Shader.h">
 			<Option target="BomberMan2"/>
 		</Unit>
@@ -104,10 +107,16 @@
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Transform.h">
 			<Option target="BomberMan2"/>
 		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/graphicsMain.h">
+			<Option target="BomberMan2"/>
+		</Unit>
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/obj_loader.h">
 			<Option target="BomberMan2"/>
 		</Unit>
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/stb_image.h">
+			<Option target="BomberMan2"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/stdMain.h">
 			<Option target="BomberMan2"/>
 		</Unit>
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/main.cpp">
@@ -116,10 +125,19 @@
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Camera.cpp">
 			<Option target="BomberMan2"/>
 		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Engine.cpp">
+			<Option target="BomberMan2"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Engine.h">
+			<Option target="BomberMan2"/>
+		</Unit>
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Graphics.cpp">
 			<Option target="BomberMan2"/>
 		</Unit>
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Mesh.cpp">
+			<Option target="BomberMan2"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Object.cpp">
 			<Option target="BomberMan2"/>
 		</Unit>
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Shader.cpp">

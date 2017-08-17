@@ -5,9 +5,8 @@
 #ifndef BOMBERMAN2_SHADER_H
 #define BOMBERMAN2_SHADER_H
 
-#include <iostream>
-#include <GL/glew.h>
-#include <fstream>
+#include "stdMain.h"
+#include "graphicsMain.h"
 #include "Transform.h"
 #include "Camera.h"
 

@@ -177,6 +177,33 @@ sources/Camera.cpp.s:
 	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Camera.cpp.s
 .PHONY : sources/Camera.cpp.s
 
+sources/Engine.o: sources/Engine.cpp.o
+
+.PHONY : sources/Engine.o
+
+# target to build an object file
+sources/Engine.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Engine.cpp.o
+.PHONY : sources/Engine.cpp.o
+
+sources/Engine.i: sources/Engine.cpp.i
+
+.PHONY : sources/Engine.i
+
+# target to preprocess a source file
+sources/Engine.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Engine.cpp.i
+.PHONY : sources/Engine.cpp.i
+
+sources/Engine.s: sources/Engine.cpp.s
+
+.PHONY : sources/Engine.s
+
+# target to generate assembly for a file
+sources/Engine.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Engine.cpp.s
+.PHONY : sources/Engine.cpp.s
+
 sources/Graphics.o: sources/Graphics.cpp.o
 
 .PHONY : sources/Graphics.o
@@ -230,6 +257,33 @@ sources/Mesh.s: sources/Mesh.cpp.s
 sources/Mesh.cpp.s:
 	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Mesh.cpp.s
 .PHONY : sources/Mesh.cpp.s
+
+sources/Object.o: sources/Object.cpp.o
+
+.PHONY : sources/Object.o
+
+# target to build an object file
+sources/Object.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Object.cpp.o
+.PHONY : sources/Object.cpp.o
+
+sources/Object.i: sources/Object.cpp.i
+
+.PHONY : sources/Object.i
+
+# target to preprocess a source file
+sources/Object.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Object.cpp.i
+.PHONY : sources/Object.cpp.i
+
+sources/Object.s: sources/Object.cpp.s
+
+.PHONY : sources/Object.s
+
+# target to generate assembly for a file
+sources/Object.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Object.cpp.s
+.PHONY : sources/Object.cpp.s
 
 sources/Shader.o: sources/Shader.cpp.o
 
@@ -381,12 +435,18 @@ help:
 	@echo "... sources/Camera.o"
 	@echo "... sources/Camera.i"
 	@echo "... sources/Camera.s"
+	@echo "... sources/Engine.o"
+	@echo "... sources/Engine.i"
+	@echo "... sources/Engine.s"
 	@echo "... sources/Graphics.o"
 	@echo "... sources/Graphics.i"
 	@echo "... sources/Graphics.s"
 	@echo "... sources/Mesh.o"
 	@echo "... sources/Mesh.i"
 	@echo "... sources/Mesh.s"
+	@echo "... sources/Object.o"
+	@echo "... sources/Object.i"
+	@echo "... sources/Object.s"
 	@echo "... sources/Shader.o"
 	@echo "... sources/Shader.i"
 	@echo "... sources/Shader.s"

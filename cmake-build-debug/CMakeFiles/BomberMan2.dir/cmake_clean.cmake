@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/BomberMan2.dir/sources/Transform.cpp.o"
   "CMakeFiles/BomberMan2.dir/sources/Camera.cpp.o"
   "CMakeFiles/BomberMan2.dir/sources/obj_loader.cpp.o"
+  "CMakeFiles/BomberMan2.dir/sources/Object.cpp.o"
+  "CMakeFiles/BomberMan2.dir/sources/Engine.cpp.o"
   "BomberMan2.pdb"
   "BomberMan2"
 )

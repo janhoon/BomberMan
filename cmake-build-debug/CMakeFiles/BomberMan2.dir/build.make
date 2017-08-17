@@ -273,6 +273,54 @@ CMakeFiles/BomberMan2.dir/sources/obj_loader.cpp.o.provides: CMakeFiles/BomberMa
 CMakeFiles/BomberMan2.dir/sources/obj_loader.cpp.o.provides.build: CMakeFiles/BomberMan2.dir/sources/obj_loader.cpp.o
 
 
+CMakeFiles/BomberMan2.dir/sources/Object.cpp.o: CMakeFiles/BomberMan2.dir/flags.make
+CMakeFiles/BomberMan2.dir/sources/Object.cpp.o: ../sources/Object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/BomberMan2.dir/sources/Object.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/sources/Object.cpp.o -c /goinfre/janhoon/Desktop/BomberMan/sources/Object.cpp
+
+CMakeFiles/BomberMan2.dir/sources/Object.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BomberMan2.dir/sources/Object.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /goinfre/janhoon/Desktop/BomberMan/sources/Object.cpp > CMakeFiles/BomberMan2.dir/sources/Object.cpp.i
+
+CMakeFiles/BomberMan2.dir/sources/Object.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BomberMan2.dir/sources/Object.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /goinfre/janhoon/Desktop/BomberMan/sources/Object.cpp -o CMakeFiles/BomberMan2.dir/sources/Object.cpp.s
+
+CMakeFiles/BomberMan2.dir/sources/Object.cpp.o.requires:
+
+.PHONY : CMakeFiles/BomberMan2.dir/sources/Object.cpp.o.requires
+
+CMakeFiles/BomberMan2.dir/sources/Object.cpp.o.provides: CMakeFiles/BomberMan2.dir/sources/Object.cpp.o.requires
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Object.cpp.o.provides.build
+.PHONY : CMakeFiles/BomberMan2.dir/sources/Object.cpp.o.provides
+
+CMakeFiles/BomberMan2.dir/sources/Object.cpp.o.provides.build: CMakeFiles/BomberMan2.dir/sources/Object.cpp.o
+
+
+CMakeFiles/BomberMan2.dir/sources/Engine.cpp.o: CMakeFiles/BomberMan2.dir/flags.make
+CMakeFiles/BomberMan2.dir/sources/Engine.cpp.o: ../sources/Engine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/BomberMan2.dir/sources/Engine.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/sources/Engine.cpp.o -c /goinfre/janhoon/Desktop/BomberMan/sources/Engine.cpp
+
+CMakeFiles/BomberMan2.dir/sources/Engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BomberMan2.dir/sources/Engine.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /goinfre/janhoon/Desktop/BomberMan/sources/Engine.cpp > CMakeFiles/BomberMan2.dir/sources/Engine.cpp.i
+
+CMakeFiles/BomberMan2.dir/sources/Engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BomberMan2.dir/sources/Engine.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /goinfre/janhoon/Desktop/BomberMan/sources/Engine.cpp -o CMakeFiles/BomberMan2.dir/sources/Engine.cpp.s
+
+CMakeFiles/BomberMan2.dir/sources/Engine.cpp.o.requires:
+
+.PHONY : CMakeFiles/BomberMan2.dir/sources/Engine.cpp.o.requires
+
+CMakeFiles/BomberMan2.dir/sources/Engine.cpp.o.provides: CMakeFiles/BomberMan2.dir/sources/Engine.cpp.o.requires
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Engine.cpp.o.provides.build
+.PHONY : CMakeFiles/BomberMan2.dir/sources/Engine.cpp.o.provides
+
+CMakeFiles/BomberMan2.dir/sources/Engine.cpp.o.provides.build: CMakeFiles/BomberMan2.dir/sources/Engine.cpp.o
+
+
 # Object files for target BomberMan2
 BomberMan2_OBJECTS = \
 "CMakeFiles/BomberMan2.dir/main.cpp.o" \
@@ -283,7 +331,9 @@ BomberMan2_OBJECTS = \
 "CMakeFiles/BomberMan2.dir/sources/stb_image.c.o" \
 "CMakeFiles/BomberMan2.dir/sources/Transform.cpp.o" \
 "CMakeFiles/BomberMan2.dir/sources/Camera.cpp.o" \
-"CMakeFiles/BomberMan2.dir/sources/obj_loader.cpp.o"
+"CMakeFiles/BomberMan2.dir/sources/obj_loader.cpp.o" \
+"CMakeFiles/BomberMan2.dir/sources/Object.cpp.o" \
+"CMakeFiles/BomberMan2.dir/sources/Engine.cpp.o"
 
 # External object files for target BomberMan2
 BomberMan2_EXTERNAL_OBJECTS =
@@ -297,9 +347,11 @@ BomberMan2: CMakeFiles/BomberMan2.dir/sources/stb_image.c.o
 BomberMan2: CMakeFiles/BomberMan2.dir/sources/Transform.cpp.o
 BomberMan2: CMakeFiles/BomberMan2.dir/sources/Camera.cpp.o
 BomberMan2: CMakeFiles/BomberMan2.dir/sources/obj_loader.cpp.o
+BomberMan2: CMakeFiles/BomberMan2.dir/sources/Object.cpp.o
+BomberMan2: CMakeFiles/BomberMan2.dir/sources/Engine.cpp.o
 BomberMan2: CMakeFiles/BomberMan2.dir/build.make
 BomberMan2: CMakeFiles/BomberMan2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable BomberMan2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable BomberMan2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BomberMan2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -316,6 +368,8 @@ CMakeFiles/BomberMan2.dir/requires: CMakeFiles/BomberMan2.dir/sources/stb_image.
 CMakeFiles/BomberMan2.dir/requires: CMakeFiles/BomberMan2.dir/sources/Transform.cpp.o.requires
 CMakeFiles/BomberMan2.dir/requires: CMakeFiles/BomberMan2.dir/sources/Camera.cpp.o.requires
 CMakeFiles/BomberMan2.dir/requires: CMakeFiles/BomberMan2.dir/sources/obj_loader.cpp.o.requires
+CMakeFiles/BomberMan2.dir/requires: CMakeFiles/BomberMan2.dir/sources/Object.cpp.o.requires
+CMakeFiles/BomberMan2.dir/requires: CMakeFiles/BomberMan2.dir/sources/Engine.cpp.o.requires
 
 .PHONY : CMakeFiles/BomberMan2.dir/requires
 

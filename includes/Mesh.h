@@ -5,9 +5,8 @@
 #ifndef BOMBERMAN2_MESH_H
 #define BOMBERMAN2_MESH_H
 
-#include <GL/glew.h>
-#include <glm/glm.hpp>
-#include <vector>
+#include "graphicsMain.h"
+#include "stdMain.h"
 #include "obj_loader.h"
 
 class Vertex {

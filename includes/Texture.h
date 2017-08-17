@@ -6,9 +6,8 @@
 #define BOMBERMAN2_TEXTURE_H
 
 
-#include <iostream>
-#include <GL/glew.h>
-#include <cassert>
+#include "stdMain.h"
+#include "graphicsMain.h"
 #include "stb_image.h"
 
 class Texture {

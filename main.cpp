@@ -1,45 +1,42 @@
 #include <iostream>
 #include "includes/Graphics.h"
-#include "includes/Shader.h"
-#include "includes/Mesh.h"
-#include "includes/Texture.h"
-#include "includes/Transform.h"
-#include "includes/Camera.h"
+#include "includes/Object.h"
+#include "includes/Engine.h"
+
+//map is 13rows x 27columns
 
 int main() {
-    Graphics gfx(720, 720, "BomberMan");
-    Shader shader("../resources/basicShader");
+    Graphics gfx(1280, 720, "BomberMan");
+    std::vector<Object> walls;
 
-    Mesh mesh2("../resources/Crate1.obj");
-    Texture texture("../resources/crate_1.jpg");
-    Transform transform;
-    Camera camera(glm::vec3(0,0,-10), 70.0f, (float)gfx.getWidth()/(float)gfx.getHeight(), 0.01f, 1000.0f);
+    Engine engine((float)gfx.getWidth(), (float)gfx.getHeight());
 
-    float counter = 0.0f;
     while (gfx.getActive()) {
         gfx.clearGL(1.0f, 1.0f, 1.0f, 1.0f);
-        shader.Bind();
-        texture.Bind(0);
-        shader.Update(transform, camera);
-        mesh2.Draw();
+
+        engine.DrawMap();
 
         switch (gfx.renderGL()) {
-            case 'u':
-                transform.getPos().z += 1.0f;
+            case 'w':
+                engine.getPos().y += 1.0f;
                 break;
-            case 'r':
-                transform.getPos().x -= 1.0f;
+            case 'a':
+                engine.getPos().x += 1.0f;
                 break;
-            case 'l':
-                transform.getPos().x += 1.0f;
+            case 's':
+                engine.getPos().y -= 1.0f;
                 break;
             case 'd':
-                transform.getPos().z -= 1.0f;
+                engine.getPos().x -= 1.0f;
+                break;
+            case 'q':
+                engine.getPos().z -= 1.0f;
+                break;
+            case 'e':
+                engine.getPos().z += 1.0f;
                 break;
             default:;
         }
-
-        counter += 0.01f;
     }
 
     std::cout << "Done!" << std::endl;
