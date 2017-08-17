@@ -1,3 +1,6 @@
+#ifndef BOMBERMAN2_BOMBERMAN_HPP
+#define BOMBERMAN2_BOMBERMAN_HPP
+
 #include "../../abstracts/includes/Object.hpp"
 #include "../../abstracts/includes/Object_movable.hpp"
 #include "../../observers/includes/Object_subject.hpp"
@@ -10,3 +13,5 @@ public:
 private:
 	Bomberman();
 };
+
+#endif //BOMBERMAN2_BOMBERMAN_HPP

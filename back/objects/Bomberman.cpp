@@ -20,10 +20,3 @@ char Bomberman::get_direction() {
 	//user input
 	return 'd';
 }
-
-//char	Bomberman::update() {
-//	//get move from user or ai
-//	//check if valid direction for the object and act accordingly
-//	//if status is plant bomb create bomb id(add to observer) and set as leaving block
-//	//check if move is possible and then move/_stay
-//}

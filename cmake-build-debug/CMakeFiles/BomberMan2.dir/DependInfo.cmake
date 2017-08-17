@@ -4,16 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/goinfre/janhoon/Desktop/BomberMan/Graphics.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan2.dir/Graphics.cpp.o"
-  "/goinfre/janhoon/Desktop/BomberMan/Shader.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan2.dir/Shader.cpp.o"
-  "/goinfre/janhoon/Desktop/BomberMan/main.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan2.dir/main.cpp.o"
+  "/goinfre/vivan-de/Documents/BomberMan/Graphics.cpp" "/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/CMakeFiles/BomberMan2.dir/Graphics.cpp.o"
+  "/goinfre/vivan-de/Documents/BomberMan/Shader.cpp" "/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/CMakeFiles/BomberMan2.dir/Shader.cpp.o"
+  "/goinfre/vivan-de/Documents/BomberMan/main.cpp" "/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/CMakeFiles/BomberMan2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include"
-  "/goinfre/janhoon/.brew/Cellar/glew/2.1.0/include"
+  "/goinfre/vivan-de/.brew/Cellar/sdl2/2.0.5/include"
+  "/goinfre/vivan-de/.brew/Cellar/glew/2.1.0/include"
   )
 
 # Targets to which this target links.
