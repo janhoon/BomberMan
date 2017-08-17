@@ -17,6 +17,10 @@ Squid::~Squid() {
 }
 
 char Squid::get_direction() {
-	//user input
-	return 'd';
+	char 	direction;
+
+	//See possible move
+	//70% chance of staying on same x or y movement
+
+	return direction;
 }
