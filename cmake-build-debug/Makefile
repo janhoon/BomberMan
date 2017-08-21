@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /goinfre/vivan-de/Documents/BomberMan
+CMAKE_SOURCE_DIR = /goinfre/janhoon/Desktop/BomberMan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /goinfre/vivan-de/Documents/BomberMan/cmake-build-debug
+CMAKE_BINARY_DIR = /goinfre/janhoon/Desktop/BomberMan/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/CMakeFiles /goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles /goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,60 +123,6 @@ BomberMan2/fast:
 	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/build
 .PHONY : BomberMan2/fast
 
-Graphics.o: Graphics.cpp.o
-
-.PHONY : Graphics.o
-
-# target to build an object file
-Graphics.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Graphics.cpp.o
-.PHONY : Graphics.cpp.o
-
-Graphics.i: Graphics.cpp.i
-
-.PHONY : Graphics.i
-
-# target to preprocess a source file
-Graphics.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Graphics.cpp.i
-.PHONY : Graphics.cpp.i
-
-Graphics.s: Graphics.cpp.s
-
-.PHONY : Graphics.s
-
-# target to generate assembly for a file
-Graphics.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Graphics.cpp.s
-.PHONY : Graphics.cpp.s
-
-Shader.o: Shader.cpp.o
-
-.PHONY : Shader.o
-
-# target to build an object file
-Shader.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Shader.cpp.o
-.PHONY : Shader.cpp.o
-
-Shader.i: Shader.cpp.i
-
-.PHONY : Shader.i
-
-# target to preprocess a source file
-Shader.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Shader.cpp.i
-.PHONY : Shader.cpp.i
-
-Shader.s: Shader.cpp.s
-
-.PHONY : Shader.s
-
-# target to generate assembly for a file
-Shader.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Shader.cpp.s
-.PHONY : Shader.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -204,6 +150,276 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sources/Camera.o: sources/Camera.cpp.o
+
+.PHONY : sources/Camera.o
+
+# target to build an object file
+sources/Camera.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Camera.cpp.o
+.PHONY : sources/Camera.cpp.o
+
+sources/Camera.i: sources/Camera.cpp.i
+
+.PHONY : sources/Camera.i
+
+# target to preprocess a source file
+sources/Camera.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Camera.cpp.i
+.PHONY : sources/Camera.cpp.i
+
+sources/Camera.s: sources/Camera.cpp.s
+
+.PHONY : sources/Camera.s
+
+# target to generate assembly for a file
+sources/Camera.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Camera.cpp.s
+.PHONY : sources/Camera.cpp.s
+
+sources/Engine.o: sources/Engine.cpp.o
+
+.PHONY : sources/Engine.o
+
+# target to build an object file
+sources/Engine.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Engine.cpp.o
+.PHONY : sources/Engine.cpp.o
+
+sources/Engine.i: sources/Engine.cpp.i
+
+.PHONY : sources/Engine.i
+
+# target to preprocess a source file
+sources/Engine.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Engine.cpp.i
+.PHONY : sources/Engine.cpp.i
+
+sources/Engine.s: sources/Engine.cpp.s
+
+.PHONY : sources/Engine.s
+
+# target to generate assembly for a file
+sources/Engine.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Engine.cpp.s
+.PHONY : sources/Engine.cpp.s
+
+sources/Graphics.o: sources/Graphics.cpp.o
+
+.PHONY : sources/Graphics.o
+
+# target to build an object file
+sources/Graphics.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Graphics.cpp.o
+.PHONY : sources/Graphics.cpp.o
+
+sources/Graphics.i: sources/Graphics.cpp.i
+
+.PHONY : sources/Graphics.i
+
+# target to preprocess a source file
+sources/Graphics.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Graphics.cpp.i
+.PHONY : sources/Graphics.cpp.i
+
+sources/Graphics.s: sources/Graphics.cpp.s
+
+.PHONY : sources/Graphics.s
+
+# target to generate assembly for a file
+sources/Graphics.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Graphics.cpp.s
+.PHONY : sources/Graphics.cpp.s
+
+sources/Mesh.o: sources/Mesh.cpp.o
+
+.PHONY : sources/Mesh.o
+
+# target to build an object file
+sources/Mesh.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Mesh.cpp.o
+.PHONY : sources/Mesh.cpp.o
+
+sources/Mesh.i: sources/Mesh.cpp.i
+
+.PHONY : sources/Mesh.i
+
+# target to preprocess a source file
+sources/Mesh.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Mesh.cpp.i
+.PHONY : sources/Mesh.cpp.i
+
+sources/Mesh.s: sources/Mesh.cpp.s
+
+.PHONY : sources/Mesh.s
+
+# target to generate assembly for a file
+sources/Mesh.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Mesh.cpp.s
+.PHONY : sources/Mesh.cpp.s
+
+sources/Object.o: sources/Object.cpp.o
+
+.PHONY : sources/Object.o
+
+# target to build an object file
+sources/Object.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Object.cpp.o
+.PHONY : sources/Object.cpp.o
+
+sources/Object.i: sources/Object.cpp.i
+
+.PHONY : sources/Object.i
+
+# target to preprocess a source file
+sources/Object.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Object.cpp.i
+.PHONY : sources/Object.cpp.i
+
+sources/Object.s: sources/Object.cpp.s
+
+.PHONY : sources/Object.s
+
+# target to generate assembly for a file
+sources/Object.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Object.cpp.s
+.PHONY : sources/Object.cpp.s
+
+sources/Shader.o: sources/Shader.cpp.o
+
+.PHONY : sources/Shader.o
+
+# target to build an object file
+sources/Shader.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Shader.cpp.o
+.PHONY : sources/Shader.cpp.o
+
+sources/Shader.i: sources/Shader.cpp.i
+
+.PHONY : sources/Shader.i
+
+# target to preprocess a source file
+sources/Shader.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Shader.cpp.i
+.PHONY : sources/Shader.cpp.i
+
+sources/Shader.s: sources/Shader.cpp.s
+
+.PHONY : sources/Shader.s
+
+# target to generate assembly for a file
+sources/Shader.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Shader.cpp.s
+.PHONY : sources/Shader.cpp.s
+
+sources/Texture.o: sources/Texture.cpp.o
+
+.PHONY : sources/Texture.o
+
+# target to build an object file
+sources/Texture.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Texture.cpp.o
+.PHONY : sources/Texture.cpp.o
+
+sources/Texture.i: sources/Texture.cpp.i
+
+.PHONY : sources/Texture.i
+
+# target to preprocess a source file
+sources/Texture.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Texture.cpp.i
+.PHONY : sources/Texture.cpp.i
+
+sources/Texture.s: sources/Texture.cpp.s
+
+.PHONY : sources/Texture.s
+
+# target to generate assembly for a file
+sources/Texture.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Texture.cpp.s
+.PHONY : sources/Texture.cpp.s
+
+sources/Transform.o: sources/Transform.cpp.o
+
+.PHONY : sources/Transform.o
+
+# target to build an object file
+sources/Transform.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Transform.cpp.o
+.PHONY : sources/Transform.cpp.o
+
+sources/Transform.i: sources/Transform.cpp.i
+
+.PHONY : sources/Transform.i
+
+# target to preprocess a source file
+sources/Transform.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Transform.cpp.i
+.PHONY : sources/Transform.cpp.i
+
+sources/Transform.s: sources/Transform.cpp.s
+
+.PHONY : sources/Transform.s
+
+# target to generate assembly for a file
+sources/Transform.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Transform.cpp.s
+.PHONY : sources/Transform.cpp.s
+
+sources/obj_loader.o: sources/obj_loader.cpp.o
+
+.PHONY : sources/obj_loader.o
+
+# target to build an object file
+sources/obj_loader.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/obj_loader.cpp.o
+.PHONY : sources/obj_loader.cpp.o
+
+sources/obj_loader.i: sources/obj_loader.cpp.i
+
+.PHONY : sources/obj_loader.i
+
+# target to preprocess a source file
+sources/obj_loader.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/obj_loader.cpp.i
+.PHONY : sources/obj_loader.cpp.i
+
+sources/obj_loader.s: sources/obj_loader.cpp.s
+
+.PHONY : sources/obj_loader.s
+
+# target to generate assembly for a file
+sources/obj_loader.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/obj_loader.cpp.s
+.PHONY : sources/obj_loader.cpp.s
+
+sources/stb_image.o: sources/stb_image.c.o
+
+.PHONY : sources/stb_image.o
+
+# target to build an object file
+sources/stb_image.c.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/stb_image.c.o
+.PHONY : sources/stb_image.c.o
+
+sources/stb_image.i: sources/stb_image.c.i
+
+.PHONY : sources/stb_image.i
+
+# target to preprocess a source file
+sources/stb_image.c.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/stb_image.c.i
+.PHONY : sources/stb_image.c.i
+
+sources/stb_image.s: sources/stb_image.c.s
+
+.PHONY : sources/stb_image.s
+
+# target to generate assembly for a file
+sources/stb_image.c.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/stb_image.c.s
+.PHONY : sources/stb_image.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,15 +429,39 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... BomberMan2"
-	@echo "... Graphics.o"
-	@echo "... Graphics.i"
-	@echo "... Graphics.s"
-	@echo "... Shader.o"
-	@echo "... Shader.i"
-	@echo "... Shader.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sources/Camera.o"
+	@echo "... sources/Camera.i"
+	@echo "... sources/Camera.s"
+	@echo "... sources/Engine.o"
+	@echo "... sources/Engine.i"
+	@echo "... sources/Engine.s"
+	@echo "... sources/Graphics.o"
+	@echo "... sources/Graphics.i"
+	@echo "... sources/Graphics.s"
+	@echo "... sources/Mesh.o"
+	@echo "... sources/Mesh.i"
+	@echo "... sources/Mesh.s"
+	@echo "... sources/Object.o"
+	@echo "... sources/Object.i"
+	@echo "... sources/Object.s"
+	@echo "... sources/Shader.o"
+	@echo "... sources/Shader.i"
+	@echo "... sources/Shader.s"
+	@echo "... sources/Texture.o"
+	@echo "... sources/Texture.i"
+	@echo "... sources/Texture.s"
+	@echo "... sources/Transform.o"
+	@echo "... sources/Transform.i"
+	@echo "... sources/Transform.s"
+	@echo "... sources/obj_loader.o"
+	@echo "... sources/obj_loader.i"
+	@echo "... sources/obj_loader.s"
+	@echo "... sources/stb_image.o"
+	@echo "... sources/stb_image.i"
+	@echo "... sources/stb_image.s"
 .PHONY : help
 
 

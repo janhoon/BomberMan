@@ -13,10 +13,13 @@ class Graphics {
 public:
     Graphics(int width, int height, std::string title);
 
-    void renderGL();
+    char renderGL();
     void clearGL(float r, float g, float b, float a);
 
     bool getActive();
+
+    int getWidth();
+    int getHeight();
 
     virtual ~Graphics();
 private:
@@ -26,6 +29,9 @@ private:
 
     SDL_Window *_window;
     SDL_GLContext  _glContext;
+
+    int _width;
+    int _height;
 
     bool _isActive;
 };
