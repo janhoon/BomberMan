@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="BomberMan2"/>
+		<Option title="BomberMan"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="BomberMan2">
-				<Option output="/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/BomberMan2" prefix_auto="0" extension_auto="0"/>
+			<Target title="BomberMan">
+				<Option output="/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/BomberMan" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -52,14 +52,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 BomberMan2"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 BomberMan"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="BomberMan2/fast">
-				<Option output="/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/BomberMan2" prefix_auto="0" extension_auto="0"/>
+			<Target title="BomberMan/fast">
+				<Option output="/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/BomberMan" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -73,72 +73,18 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 BomberMan2/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 BomberMan/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/Map.cpp">
-			<Option target="BomberMan2"/>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/Shader.cpp">
+			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/abstracts/Bot.cpp">
-			<Option target="BomberMan2"/>
-		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/abstracts/Object.cpp">
-			<Option target="BomberMan2"/>
-		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/abstracts/Object_movable.cpp">
-			<Option target="BomberMan2"/>
-		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/abstracts/includes/Bot.hpp">
-			<Option target="BomberMan2"/>
-		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/abstracts/includes/Object.hpp">
-			<Option target="BomberMan2"/>
-		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/abstracts/includes/Object_movable.hpp">
-			<Option target="BomberMan2"/>
-		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/factories/Factory.cpp">
-			<Option target="BomberMan2"/>
-		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/factories/includes/Factory.hpp">
-			<Option target="BomberMan2"/>
-		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/factories/includes/Object_factory.hpp">
-			<Option target="BomberMan2"/>
-		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Map.hpp">
-			<Option target="BomberMan2"/>
-		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/main.cpp">
-			<Option target="BomberMan2"/>
-		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/objects/Bomberman.cpp">
-			<Option target="BomberMan2"/>
-		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/objects/Empty.cpp">
-			<Option target="BomberMan2"/>
-		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/objects/Squid.cpp">
-			<Option target="BomberMan2"/>
-		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/objects/includes/Bomberman.hpp">
-			<Option target="BomberMan2"/>
-		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/objects/includes/Empty.hpp">
-			<Option target="BomberMan2"/>
-		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/objects/includes/Squid.hpp">
-			<Option target="BomberMan2"/>
-		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/observers/Object_subject.cpp">
-			<Option target="BomberMan2"/>
-		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/observers/includes/Object_subject.hpp">
-			<Option target="BomberMan2"/>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/Shader.h">
+			<Option target="BomberMan"/>
 		</Unit>
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /goinfre/vivan-de/Documents/BomberMan
+CMAKE_SOURCE_DIR = /goinfre/janhoon/Desktop/BomberMan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /goinfre/vivan-de/Documents/BomberMan/cmake-build-debug
+CMAKE_BINARY_DIR = /goinfre/janhoon/Desktop/BomberMan/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/CMakeFiles /goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles /goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,59 +123,140 @@ BomberMan2/fast:
 	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/build
 .PHONY : BomberMan2/fast
 
-Graphics.o: Graphics.cpp.o
+Map.o: Map.cpp.o
 
-.PHONY : Graphics.o
-
-# target to build an object file
-Graphics.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Graphics.cpp.o
-.PHONY : Graphics.cpp.o
-
-Graphics.i: Graphics.cpp.i
-
-.PHONY : Graphics.i
-
-# target to preprocess a source file
-Graphics.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Graphics.cpp.i
-.PHONY : Graphics.cpp.i
-
-Graphics.s: Graphics.cpp.s
-
-.PHONY : Graphics.s
-
-# target to generate assembly for a file
-Graphics.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Graphics.cpp.s
-.PHONY : Graphics.cpp.s
-
-Shader.o: Shader.cpp.o
-
-.PHONY : Shader.o
+.PHONY : Map.o
 
 # target to build an object file
-Shader.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Shader.cpp.o
-.PHONY : Shader.cpp.o
+Map.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Map.cpp.o
+.PHONY : Map.cpp.o
 
-Shader.i: Shader.cpp.i
+Map.i: Map.cpp.i
 
-.PHONY : Shader.i
+.PHONY : Map.i
 
 # target to preprocess a source file
-Shader.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Shader.cpp.i
-.PHONY : Shader.cpp.i
+Map.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Map.cpp.i
+.PHONY : Map.cpp.i
 
-Shader.s: Shader.cpp.s
+Map.s: Map.cpp.s
 
-.PHONY : Shader.s
+.PHONY : Map.s
 
 # target to generate assembly for a file
-Shader.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Shader.cpp.s
-.PHONY : Shader.cpp.s
+Map.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/Map.cpp.s
+.PHONY : Map.cpp.s
+
+abstracts/Bot.o: abstracts/Bot.cpp.o
+
+.PHONY : abstracts/Bot.o
+
+# target to build an object file
+abstracts/Bot.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/abstracts/Bot.cpp.o
+.PHONY : abstracts/Bot.cpp.o
+
+abstracts/Bot.i: abstracts/Bot.cpp.i
+
+.PHONY : abstracts/Bot.i
+
+# target to preprocess a source file
+abstracts/Bot.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/abstracts/Bot.cpp.i
+.PHONY : abstracts/Bot.cpp.i
+
+abstracts/Bot.s: abstracts/Bot.cpp.s
+
+.PHONY : abstracts/Bot.s
+
+# target to generate assembly for a file
+abstracts/Bot.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/abstracts/Bot.cpp.s
+.PHONY : abstracts/Bot.cpp.s
+
+abstracts/Object.o: abstracts/Object.cpp.o
+
+.PHONY : abstracts/Object.o
+
+# target to build an object file
+abstracts/Object.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/abstracts/Object.cpp.o
+.PHONY : abstracts/Object.cpp.o
+
+abstracts/Object.i: abstracts/Object.cpp.i
+
+.PHONY : abstracts/Object.i
+
+# target to preprocess a source file
+abstracts/Object.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/abstracts/Object.cpp.i
+.PHONY : abstracts/Object.cpp.i
+
+abstracts/Object.s: abstracts/Object.cpp.s
+
+.PHONY : abstracts/Object.s
+
+# target to generate assembly for a file
+abstracts/Object.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/abstracts/Object.cpp.s
+.PHONY : abstracts/Object.cpp.s
+
+abstracts/Object_movable.o: abstracts/Object_movable.cpp.o
+
+.PHONY : abstracts/Object_movable.o
+
+# target to build an object file
+abstracts/Object_movable.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/abstracts/Object_movable.cpp.o
+.PHONY : abstracts/Object_movable.cpp.o
+
+abstracts/Object_movable.i: abstracts/Object_movable.cpp.i
+
+.PHONY : abstracts/Object_movable.i
+
+# target to preprocess a source file
+abstracts/Object_movable.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/abstracts/Object_movable.cpp.i
+.PHONY : abstracts/Object_movable.cpp.i
+
+abstracts/Object_movable.s: abstracts/Object_movable.cpp.s
+
+.PHONY : abstracts/Object_movable.s
+
+# target to generate assembly for a file
+abstracts/Object_movable.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/abstracts/Object_movable.cpp.s
+.PHONY : abstracts/Object_movable.cpp.s
+
+factories/Factory.o: factories/Factory.cpp.o
+
+.PHONY : factories/Factory.o
+
+# target to build an object file
+factories/Factory.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/factories/Factory.cpp.o
+.PHONY : factories/Factory.cpp.o
+
+factories/Factory.i: factories/Factory.cpp.i
+
+.PHONY : factories/Factory.i
+
+# target to preprocess a source file
+factories/Factory.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/factories/Factory.cpp.i
+.PHONY : factories/Factory.cpp.i
+
+factories/Factory.s: factories/Factory.cpp.s
+
+.PHONY : factories/Factory.s
+
+# target to generate assembly for a file
+factories/Factory.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/factories/Factory.cpp.s
+.PHONY : factories/Factory.cpp.s
 
 main.o: main.cpp.o
 
@@ -204,6 +285,114 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+objects/Bomberman.o: objects/Bomberman.cpp.o
+
+.PHONY : objects/Bomberman.o
+
+# target to build an object file
+objects/Bomberman.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/objects/Bomberman.cpp.o
+.PHONY : objects/Bomberman.cpp.o
+
+objects/Bomberman.i: objects/Bomberman.cpp.i
+
+.PHONY : objects/Bomberman.i
+
+# target to preprocess a source file
+objects/Bomberman.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/objects/Bomberman.cpp.i
+.PHONY : objects/Bomberman.cpp.i
+
+objects/Bomberman.s: objects/Bomberman.cpp.s
+
+.PHONY : objects/Bomberman.s
+
+# target to generate assembly for a file
+objects/Bomberman.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/objects/Bomberman.cpp.s
+.PHONY : objects/Bomberman.cpp.s
+
+objects/Empty.o: objects/Empty.cpp.o
+
+.PHONY : objects/Empty.o
+
+# target to build an object file
+objects/Empty.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/objects/Empty.cpp.o
+.PHONY : objects/Empty.cpp.o
+
+objects/Empty.i: objects/Empty.cpp.i
+
+.PHONY : objects/Empty.i
+
+# target to preprocess a source file
+objects/Empty.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/objects/Empty.cpp.i
+.PHONY : objects/Empty.cpp.i
+
+objects/Empty.s: objects/Empty.cpp.s
+
+.PHONY : objects/Empty.s
+
+# target to generate assembly for a file
+objects/Empty.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/objects/Empty.cpp.s
+.PHONY : objects/Empty.cpp.s
+
+objects/Squid.o: objects/Squid.cpp.o
+
+.PHONY : objects/Squid.o
+
+# target to build an object file
+objects/Squid.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/objects/Squid.cpp.o
+.PHONY : objects/Squid.cpp.o
+
+objects/Squid.i: objects/Squid.cpp.i
+
+.PHONY : objects/Squid.i
+
+# target to preprocess a source file
+objects/Squid.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/objects/Squid.cpp.i
+.PHONY : objects/Squid.cpp.i
+
+objects/Squid.s: objects/Squid.cpp.s
+
+.PHONY : objects/Squid.s
+
+# target to generate assembly for a file
+objects/Squid.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/objects/Squid.cpp.s
+.PHONY : objects/Squid.cpp.s
+
+observers/Object_subject.o: observers/Object_subject.cpp.o
+
+.PHONY : observers/Object_subject.o
+
+# target to build an object file
+observers/Object_subject.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o
+.PHONY : observers/Object_subject.cpp.o
+
+observers/Object_subject.i: observers/Object_subject.cpp.i
+
+.PHONY : observers/Object_subject.i
+
+# target to preprocess a source file
+observers/Object_subject.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.i
+.PHONY : observers/Object_subject.cpp.i
+
+observers/Object_subject.s: observers/Object_subject.cpp.s
+
+.PHONY : observers/Object_subject.s
+
+# target to generate assembly for a file
+observers/Object_subject.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.s
+.PHONY : observers/Object_subject.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,15 +402,36 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... BomberMan2"
-	@echo "... Graphics.o"
-	@echo "... Graphics.i"
-	@echo "... Graphics.s"
-	@echo "... Shader.o"
-	@echo "... Shader.i"
-	@echo "... Shader.s"
+	@echo "... Map.o"
+	@echo "... Map.i"
+	@echo "... Map.s"
+	@echo "... abstracts/Bot.o"
+	@echo "... abstracts/Bot.i"
+	@echo "... abstracts/Bot.s"
+	@echo "... abstracts/Object.o"
+	@echo "... abstracts/Object.i"
+	@echo "... abstracts/Object.s"
+	@echo "... abstracts/Object_movable.o"
+	@echo "... abstracts/Object_movable.i"
+	@echo "... abstracts/Object_movable.s"
+	@echo "... factories/Factory.o"
+	@echo "... factories/Factory.i"
+	@echo "... factories/Factory.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... objects/Bomberman.o"
+	@echo "... objects/Bomberman.i"
+	@echo "... objects/Bomberman.s"
+	@echo "... objects/Empty.o"
+	@echo "... objects/Empty.i"
+	@echo "... objects/Empty.s"
+	@echo "... objects/Squid.o"
+	@echo "... objects/Squid.i"
+	@echo "... objects/Squid.s"
+	@echo "... observers/Object_subject.o"
+	@echo "... observers/Object_subject.i"
+	@echo "... observers/Object_subject.s"
 .PHONY : help
 
 
