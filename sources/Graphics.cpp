@@ -8,6 +8,11 @@ Graphics::Graphics(int width, int height, std::string title) {
     _height = height;
     _width = width;
 
+    _left = false;
+    _up = false;
+    _right = false;
+    _down = false;
+
     SDL_Init(SDL_INIT_EVERYTHING);
 
     SDL_GL_SetAttribute(SDL_GL_RED_SIZE, 8);
@@ -17,6 +22,7 @@ Graphics::Graphics(int width, int height, std::string title) {
     SDL_GL_SetAttribute(SDL_GL_BUFFER_SIZE, 32);
     SDL_GL_SetAttribute(SDL_GL_DEPTH_SIZE, 16);
     SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
+    SDL_GL_SetSwapInterval(1);
 
     _window = SDL_CreateWindow(title.c_str(),
                                SDL_WINDOWPOS_CENTERED,
@@ -54,35 +60,66 @@ char Graphics::renderGL() {
     while (SDL_PollEvent(&e)) {
         if (e.type == SDL_QUIT) {
             _isActive = false;
-        } else if (e.type == SDL_KEYDOWN) {
-            switch (e.key.keysym.sym) {
-                case SDLK_ESCAPE:
-                    _isActive = false;
-                case SDLK_UP:
-                    return 'u';
-                case SDLK_RIGHT:
-                    return 'r';
-                case SDLK_LEFT:
-                    return 'l';
-                case SDLK_DOWN:
-                    return 'o';
-                case SDLK_w:
-                    return 'w';
-                case SDLK_a:
-                    return 'a';
-                case SDLK_s:
-                    return 's';
-                case SDLK_d:
-                    return 'd';
-                case SDLK_q:
-                    return 'q';
-                case SDLK_e:
-                    return 'e';
-                default:;
-            }
+        }
+        if (e.type == SDL_KEYDOWN) {
+            if (e.key.keysym.sym == SDLK_ESCAPE)
+                _isActive = false;
+            if (e.key.keysym.sym == SDLK_UP)
+                _up = true;
+            if (e.key.keysym.sym == SDLK_LEFT)
+                _left = true;
+            if (e.key.keysym.sym == SDLK_RIGHT)
+                _right = true;
+            if (e.key.keysym.sym == SDLK_DOWN)
+                _down = true;
+            if (e.key.keysym.sym == SDLK_q)
+                _zout = true;
+            if (e.key.keysym.sym == SDLK_e)
+                _zin = true;
+        }
+        if (e.type == SDL_KEYUP) {
+            if (e.key.keysym.sym == SDLK_ESCAPE)
+                _isActive = false;
+            if (e.key.keysym.sym == SDLK_UP)
+                _up = false;
+            if (e.key.keysym.sym == SDLK_LEFT)
+                _left = false;
+            if (e.key.keysym.sym == SDLK_RIGHT)
+                _right = false;
+            if (e.key.keysym.sym == SDLK_DOWN)
+                _down = false;
+            if (e.key.keysym.sym == SDLK_q)
+                _zout = false;
+            if (e.key.keysym.sym == SDLK_e)
+                _zin = false;
         }
     }
-    return 0;
+
+    char ret = 0;
+
+    if (_up && _left) {
+        ret = 'y';
+    } else if (_up && _right) {
+        ret = 'u';
+    } else if (_up) {
+        ret = 'w';
+    } else if (_down && _left) {
+        ret = 'i';
+    } else if (_down && _right) {
+        ret = 'o';
+    } else if (_down) {
+        ret = 's';
+    } else if (_left) {
+        ret = 'a';
+    } else if (_right) {
+        ret = 'd';
+    } else if (_zin) {
+        ret = 'e';
+    } else if (_zout) {
+        ret = 'q';
+    }
+    return
+            ret;
 }
 
 bool Graphics::getActive() {

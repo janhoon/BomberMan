@@ -33,6 +33,13 @@ private:
     int _width;
     int _height;
 
+    bool _left;
+    bool _up;
+    bool _down;
+    bool _right;
+    bool _zin;
+    bool _zout;
+
     bool _isActive;
 };
 
