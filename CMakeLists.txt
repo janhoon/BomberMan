@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.5)
 project(BomberMan2)
 
 set(CMAKE_CXX_STANDARD 11)
@@ -22,7 +22,11 @@ set(SOURCE_FILES
         sources/obj_loader.cpp
         includes/obj_loader.h
         includes/graphicsMain.h
-        includes/stdMain.h sources/Object.cpp includes/Object.h sources/Engine.cpp sources/Engine.h)
+        includes/stdMain.h
+        sources/Object.cpp
+        includes/Object.h
+        sources/Engine.cpp
+        includes/Engine.h)
 
 add_executable(BomberMan2 ${SOURCE_FILES})
 

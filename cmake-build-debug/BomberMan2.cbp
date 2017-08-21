@@ -89,6 +89,9 @@
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Camera.h">
 			<Option target="BomberMan2"/>
 		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Engine.h">
+			<Option target="BomberMan2"/>
+		</Unit>
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Graphics.h">
 			<Option target="BomberMan2"/>
 		</Unit>
@@ -126,9 +129,6 @@
 			<Option target="BomberMan2"/>
 		</Unit>
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Engine.cpp">
-			<Option target="BomberMan2"/>
-		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Engine.h">
 			<Option target="BomberMan2"/>
 		</Unit>
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Graphics.cpp">

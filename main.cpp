@@ -7,8 +7,6 @@
 
 int main() {
     Graphics gfx(1280, 720, "BomberMan");
-    std::vector<Object> walls;
-
     Engine engine((float)gfx.getWidth(), (float)gfx.getHeight());
 
     while (gfx.getActive()) {

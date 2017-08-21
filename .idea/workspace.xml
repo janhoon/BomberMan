@@ -12,58 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b053b8c-49d9-4710-b9f6-13abfc1136c5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/Engine.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/Object.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/graphicsMain.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/stdMain.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shaders/walls/bman.fs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shaders/walls/bot.fs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shaders/walls/bot.vs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shaders/walls/bwall.vs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shaders/walls/wall.fs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shaders/walls/wall.vs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/Engine.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/Object.cpp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/Angus.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/Texture1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/black-handbomb_DIFF.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/bomb.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/plasma_grenade.obj" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/Crate1.obj" afterPath="$PROJECT_DIR$/resources/objects/Crate1.obj" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/basicShader.fs" afterPath="$PROJECT_DIR$/resources/shaders/walls/bwall.fs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/basicShader.vs" afterPath="$PROJECT_DIR$/resources/shaders/walls/bman.vs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/crate_1.jpg" afterPath="$PROJECT_DIR$/resources/textures/crate_1.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/main.cpp.o" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/BomberMan2" afterPath="$PROJECT_DIR$/cmake-build-debug/BomberMan2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/main.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/sources/Camera.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/sources/Camera.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/sources/Graphics.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/sources/Graphics.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/sources/Mesh.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/sources/Mesh.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/sources/Shader.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/sources/Shader.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/sources/Texture.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/sources/Texture.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/sources/stb_image.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/sources/stb_image.c.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/BomberMan2.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/BomberMan2.cbp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/cmake_clean.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/depend.internal" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BomberMan2.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/Camera.h" afterPath="$PROJECT_DIR$/includes/Camera.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/Mesh.h" afterPath="$PROJECT_DIR$/includes/Mesh.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/Shader.h" afterPath="$PROJECT_DIR$/includes/Shader.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/Texture.h" afterPath="$PROJECT_DIR$/includes/Texture.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/stb_image.h" afterPath="$PROJECT_DIR$/includes/stb_image.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/maps/level_1.map" afterPath="$PROJECT_DIR$/resources/maps/level_1.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/Camera.cpp" afterPath="$PROJECT_DIR$/sources/Camera.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/Graphics.cpp" afterPath="$PROJECT_DIR$/sources/Graphics.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,14 +38,14 @@
           <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+                <state relative-caret-position="270">
+                  <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Object.h" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Object.h" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/includes/Object.h">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="465">
@@ -155,11 +113,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Engine.h" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Engine.h" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/includes/Engine.h">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="330">
-                  <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="16" />
+                  <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -169,17 +127,7 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Shader.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/sources/Shader.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="222">
-                  <caret line="62" column="39" lean-forward="false" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Engine.cpp" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Engine.cpp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sources/Engine.cpp">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="690">
@@ -199,6 +147,16 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/main.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="315">
+                  <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="bman.fs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/shaders/walls/bman.fs">
               <provider selected="true" editor-type-id="text-editor">
@@ -213,7 +171,7 @@
             <entry file="file://$PROJECT_DIR$/resources/shaders/walls/bot.fs">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="165">
-                  <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+                  <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -234,10 +192,7 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="165">
                   <caret line="11" column="59" lean-forward="false" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-                  <folding>
-                    <marker date="1502979397000" expanded="false" signature="13:37" ph="..." />
-                    <marker date="1502979397000" expanded="true" signature="134:241" ph="{...}" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -265,8 +220,8 @@
           <file leaf-file-name="level_1.map" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/maps/level_1.map">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+                <state relative-caret-position="60">
+                  <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -336,19 +291,19 @@
         <option value="$PROJECT_DIR$/sources/walls/WallShader.cpp" />
         <option value="$PROJECT_DIR$/sources/Mesh.cpp" />
         <option value="$PROJECT_DIR$/includes/Object.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/includes/Wall.h" />
         <option value="$PROJECT_DIR$/sources/Wall.cpp" />
         <option value="$PROJECT_DIR$/sources/Object.cpp" />
         <option value="$PROJECT_DIR$/sources/Graphics.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/resources/shaders/walls/wall.fs" />
         <option value="$PROJECT_DIR$/resources/shaders/walls/bwall.fs" />
-        <option value="$PROJECT_DIR$/resources/maps/level_1.map" />
         <option value="$PROJECT_DIR$/resources/shaders/walls/bman.fs" />
         <option value="$PROJECT_DIR$/includes/Engine.h" />
         <option value="$PROJECT_DIR$/resources/shaders/walls/bot.fs" />
         <option value="$PROJECT_DIR$/sources/Engine.cpp" />
+        <option value="$PROJECT_DIR$/resources/maps/level_1.map" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -386,40 +341,6 @@
             <path>
               <item name="BomberMan2" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="BomberMan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BomberMan2" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="BomberMan" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BomberMan2" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="BomberMan" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BomberMan2" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="BomberMan" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="maps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BomberMan2" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="BomberMan" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="shaders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BomberMan2" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="BomberMan" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="shaders" type="462c0819:PsiDirectoryNode" />
-              <item name="walls" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BomberMan2" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="BomberMan" type="462c0819:PsiDirectoryNode" />
-              <item name="sources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -491,11 +412,12 @@
       <workItem from="1502888157519" duration="5616000" />
       <workItem from="1502964909207" duration="866000" />
       <workItem from="1502965887756" duration="13916000" />
+      <workItem from="1503306098921" duration="852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62368000" />
+    <option name="totallyTimeSpent" value="63220000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -506,12 +428,12 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291262" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291262" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23398058" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23398058" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -566,13 +488,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Shader.cpp" />
     <entry file="file://$PROJECT_DIR$/Mesh.cpp" />
     <entry file="file://$PROJECT_DIR$/Transform.cpp" />
@@ -601,7 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -617,7 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -625,25 +538,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="622">
           <caret line="70" column="22" lean-forward="false" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/allGL.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/allGL.h" />
     <entry file="file://$PROJECT_DIR$/includes/stdMain.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#112#129#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -651,44 +553,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          <folding>
-            <element signature="e#101#123#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/walls/WallTransform.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/walls/WallMesh.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/walls/WallShader.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/walls/WallTexture.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/walls/WallTransform.cpp" />
+    <entry file="file://$PROJECT_DIR$/sources/walls/WallMesh.cpp" />
+    <entry file="file://$PROJECT_DIR$/sources/walls/WallShader.cpp" />
+    <entry file="file://$PROJECT_DIR$/sources/walls/WallTexture.cpp" />
     <entry file="file://$PROJECT_DIR$/includes/Mesh.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -709,22 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/Object.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="e#106#125#0" expanded="true" />
           </folding>
@@ -761,17 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="653">
           <caret line="79" column="29" lean-forward="false" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -779,7 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -819,7 +662,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sources/Shader.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
+        <state relative-caret-position="930">
           <caret line="62" column="39" lean-forward="false" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
           <folding />
         </state>
@@ -829,10 +672,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="59" lean-forward="false" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-          <folding>
-            <marker date="1502979397000" expanded="false" signature="13:37" ph="..." />
-            <marker date="1502979397000" expanded="true" signature="134:241" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -840,7 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -862,14 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/maps/level_1.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/shaders/walls/wall.vs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -886,18 +717,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/shaders/walls/bman.vs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/Engine.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="16" />
+          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -913,7 +736,7 @@
     <entry file="file://$PROJECT_DIR$/resources/shaders/walls/bot.fs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -922,6 +745,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="48" column="47" lean-forward="false" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/maps/level_1.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5886">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/Object.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#106#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/shaders/walls/bman.vs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
           <folding />
         </state>
       </provider>
