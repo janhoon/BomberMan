@@ -13,8 +13,8 @@ Object	*Factory::create_object(std::string key, int x, int y, std::vector<std::v
 			return nullptr;
 		case 'A':
 			return new Bomberman(x, y, map, sub);
-		case 'B':
-			return new Squid(x, y, map, sub);
+//		case 'B':
+//			return new Squid(x, y, map, sub);
 		default:
 			return nullptr;
 	}
