@@ -13,6 +13,11 @@
 class Texture {
 public:
     Texture(const std::string &filename);
+    Texture(const Texture &graph);
+
+    bool operator==(const Texture &rhs) const;
+
+    bool operator!=(const Texture &rhs) const;
 
     void Bind(unsigned int unit);
 
@@ -20,10 +25,6 @@ public:
 
 private:
     Texture() {}
-
-    Texture(const Texture &graph) {}
-
-    void operator=(const Texture &rhs) {}
 
     GLuint _texture;
 };

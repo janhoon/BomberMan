@@ -20,6 +20,12 @@ BomberMan2_BINARY_DIR:STATIC=/goinfre/janhoon/Desktop/BomberMan/cmake-build-debu
 //Value Computed by CMake
 BomberMan2_SOURCE_DIR:STATIC=/goinfre/janhoon/Desktop/BomberMan
 
+//Value Computed by CMake
+BomberMan_BINARY_DIR:STATIC=/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug
+
+//Value Computed by CMake
+BomberMan_SOURCE_DIR:STATIC=/goinfre/janhoon/Desktop/BomberMan
+
 //Path to a program.
 CMAKE_AR:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar
 
@@ -141,7 +147,7 @@ CMAKE_OSX_DEPLOYMENT_TARGET:STRING=
 CMAKE_OSX_SYSROOT:STRING=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=BomberMan2
+CMAKE_PROJECT_NAME:STATIC=BomberMan
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib

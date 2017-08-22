@@ -37,3 +37,16 @@ void Texture::Bind(unsigned int unit) {
     glActiveTexture(GL_TEXTURE0 + unit);
     glBindTexture(GL_TEXTURE_2D, _texture);
 }
+
+
+Texture::Texture(const Texture &graph) {
+    *this = graph;
+}
+
+bool Texture::operator==(const Texture &rhs) const {
+    return _texture == rhs._texture;
+}
+
+bool Texture::operator!=(const Texture &rhs) const {
+    return !(rhs == *this);
+}

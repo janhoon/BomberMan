@@ -28,6 +28,11 @@ private:
 class Mesh {
 public:
     Mesh(Vertex *vertices, unsigned int numVertices, unsigned int *indices, unsigned int numIndices);
+    Mesh(const Mesh &mesh);
+
+    bool operator==(const Mesh &rhs) const;
+
+    bool operator!=(const Mesh &rhs) const;
 
     Mesh(const std::string &filename);
 
@@ -36,11 +41,6 @@ public:
     virtual ~Mesh();
 
 private:
-    Mesh() {}
-
-    Mesh(const Mesh &graph) {}
-
-    void operator=(const Mesh &rhs) {}
 
     void initMesh(const IndexedModel &model);
 

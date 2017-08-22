@@ -69,6 +69,20 @@ void Mesh::Draw() {
     glBindVertexArrayAPPLE(0);
 }
 
+Mesh::Mesh(const Mesh &mesh) {
+    *this = mesh;
+}
+
+bool Mesh::operator==(const Mesh &rhs) const {
+    return _vertexArrayObject == rhs._vertexArrayObject &&
+           _vertexArrayBuffers == rhs._vertexArrayBuffers &&
+           _drawCount == rhs._drawCount;
+}
+
+bool Mesh::operator!=(const Mesh &rhs) const {
+    return !(rhs == *this);
+}
+
 Vertex::Vertex(const glm::vec3 &posi, const glm::vec2 coord, const glm::vec3 &normal) {
     pos = posi;
     texCoord = coord;

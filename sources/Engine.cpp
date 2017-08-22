@@ -8,7 +8,7 @@ Engine::Engine(float Width, float Height) :
         _wall("../resources/shaders/walls/wall", "../resources/objects/Crate1.obj",
               "../resources/textures/crate_1.jpg"),
         _bwall("../resources/shaders/walls/bwall", "../resources/objects/Crate1.obj",
-              "../resources/textures/crate_1.jpg"),
+              "../resources/textures/breakable_crate_1.jpg"),
         _bot("../resources/shaders/walls/bot", "../resources/objects/Crate1.obj",
                "../resources/textures/crate_1.jpg"),
         _bman("../resources/shaders/walls/bman", "../resources/objects/Crate1.obj",

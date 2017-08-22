@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(BomberMan2)
+project(BomberMan)
 
 set(CMAKE_CXX_STANDARD 11)
 
@@ -26,9 +26,10 @@ set(SOURCE_FILES
         sources/Object.cpp
         includes/Object.h
         sources/Engine.cpp
-        includes/Engine.h)
+        includes/Engine.h
+        includes/tiny_gltf.h sources/Joints.cpp includes/Joints.h sources/AnimatedModel.cpp includes/AnimatedModel.h)
 
-add_executable(BomberMan2 ${SOURCE_FILES})
+add_executable(BomberMan ${SOURCE_FILES})
 
 find_package(OpenGL REQUIRED)
 
@@ -45,4 +46,4 @@ set(GLM_INCLUDE_DIRS "/goinfre/$ENV{USER}/.brew/Cellar/glm/0.9.8.4/include")
 include_directories( ${OPENGL_INCLUDE_DIRS} ${SDL2_INCLUDE_DIRS} ${GLEW_INCLUDE_DIR} ${GLM_INCLUDE_DIRS} )
 
 
-target_link_libraries(BomberMan2 ${OPENGL_LIBRARIES} ${SDL2_LIBRARIES} ${GLEW_LIBRARY} )
+target_link_libraries(BomberMan ${OPENGL_LIBRARIES} ${SDL2_LIBRARIES} ${GLEW_LIBRARY} )

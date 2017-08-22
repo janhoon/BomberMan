@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named BomberMan2
+# Target rules for targets named BomberMan
 
 # Build rule for target.
-BomberMan2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 BomberMan2
-.PHONY : BomberMan2
+BomberMan: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BomberMan
+.PHONY : BomberMan
 
 # fast build rule for target.
-BomberMan2/fast:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/build
-.PHONY : BomberMan2/fast
+BomberMan/fast:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/build
+.PHONY : BomberMan/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,8 +147,35 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+sources/AnimatedModel.o: sources/AnimatedModel.cpp.o
+
+.PHONY : sources/AnimatedModel.o
+
+# target to build an object file
+sources/AnimatedModel.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/AnimatedModel.cpp.o
+.PHONY : sources/AnimatedModel.cpp.o
+
+sources/AnimatedModel.i: sources/AnimatedModel.cpp.i
+
+.PHONY : sources/AnimatedModel.i
+
+# target to preprocess a source file
+sources/AnimatedModel.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/AnimatedModel.cpp.i
+.PHONY : sources/AnimatedModel.cpp.i
+
+sources/AnimatedModel.s: sources/AnimatedModel.cpp.s
+
+.PHONY : sources/AnimatedModel.s
+
+# target to generate assembly for a file
+sources/AnimatedModel.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/AnimatedModel.cpp.s
+.PHONY : sources/AnimatedModel.cpp.s
 
 sources/Camera.o: sources/Camera.cpp.o
 
@@ -156,7 +183,7 @@ sources/Camera.o: sources/Camera.cpp.o
 
 # target to build an object file
 sources/Camera.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Camera.cpp.o
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Camera.cpp.o
 .PHONY : sources/Camera.cpp.o
 
 sources/Camera.i: sources/Camera.cpp.i
@@ -165,7 +192,7 @@ sources/Camera.i: sources/Camera.cpp.i
 
 # target to preprocess a source file
 sources/Camera.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Camera.cpp.i
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Camera.cpp.i
 .PHONY : sources/Camera.cpp.i
 
 sources/Camera.s: sources/Camera.cpp.s
@@ -174,7 +201,7 @@ sources/Camera.s: sources/Camera.cpp.s
 
 # target to generate assembly for a file
 sources/Camera.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Camera.cpp.s
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Camera.cpp.s
 .PHONY : sources/Camera.cpp.s
 
 sources/Engine.o: sources/Engine.cpp.o
@@ -183,7 +210,7 @@ sources/Engine.o: sources/Engine.cpp.o
 
 # target to build an object file
 sources/Engine.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Engine.cpp.o
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Engine.cpp.o
 .PHONY : sources/Engine.cpp.o
 
 sources/Engine.i: sources/Engine.cpp.i
@@ -192,7 +219,7 @@ sources/Engine.i: sources/Engine.cpp.i
 
 # target to preprocess a source file
 sources/Engine.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Engine.cpp.i
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Engine.cpp.i
 .PHONY : sources/Engine.cpp.i
 
 sources/Engine.s: sources/Engine.cpp.s
@@ -201,7 +228,7 @@ sources/Engine.s: sources/Engine.cpp.s
 
 # target to generate assembly for a file
 sources/Engine.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Engine.cpp.s
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Engine.cpp.s
 .PHONY : sources/Engine.cpp.s
 
 sources/Graphics.o: sources/Graphics.cpp.o
@@ -210,7 +237,7 @@ sources/Graphics.o: sources/Graphics.cpp.o
 
 # target to build an object file
 sources/Graphics.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Graphics.cpp.o
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Graphics.cpp.o
 .PHONY : sources/Graphics.cpp.o
 
 sources/Graphics.i: sources/Graphics.cpp.i
@@ -219,7 +246,7 @@ sources/Graphics.i: sources/Graphics.cpp.i
 
 # target to preprocess a source file
 sources/Graphics.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Graphics.cpp.i
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Graphics.cpp.i
 .PHONY : sources/Graphics.cpp.i
 
 sources/Graphics.s: sources/Graphics.cpp.s
@@ -228,8 +255,35 @@ sources/Graphics.s: sources/Graphics.cpp.s
 
 # target to generate assembly for a file
 sources/Graphics.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Graphics.cpp.s
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Graphics.cpp.s
 .PHONY : sources/Graphics.cpp.s
+
+sources/Joints.o: sources/Joints.cpp.o
+
+.PHONY : sources/Joints.o
+
+# target to build an object file
+sources/Joints.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Joints.cpp.o
+.PHONY : sources/Joints.cpp.o
+
+sources/Joints.i: sources/Joints.cpp.i
+
+.PHONY : sources/Joints.i
+
+# target to preprocess a source file
+sources/Joints.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Joints.cpp.i
+.PHONY : sources/Joints.cpp.i
+
+sources/Joints.s: sources/Joints.cpp.s
+
+.PHONY : sources/Joints.s
+
+# target to generate assembly for a file
+sources/Joints.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Joints.cpp.s
+.PHONY : sources/Joints.cpp.s
 
 sources/Mesh.o: sources/Mesh.cpp.o
 
@@ -237,7 +291,7 @@ sources/Mesh.o: sources/Mesh.cpp.o
 
 # target to build an object file
 sources/Mesh.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Mesh.cpp.o
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Mesh.cpp.o
 .PHONY : sources/Mesh.cpp.o
 
 sources/Mesh.i: sources/Mesh.cpp.i
@@ -246,7 +300,7 @@ sources/Mesh.i: sources/Mesh.cpp.i
 
 # target to preprocess a source file
 sources/Mesh.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Mesh.cpp.i
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Mesh.cpp.i
 .PHONY : sources/Mesh.cpp.i
 
 sources/Mesh.s: sources/Mesh.cpp.s
@@ -255,7 +309,7 @@ sources/Mesh.s: sources/Mesh.cpp.s
 
 # target to generate assembly for a file
 sources/Mesh.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Mesh.cpp.s
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Mesh.cpp.s
 .PHONY : sources/Mesh.cpp.s
 
 sources/Object.o: sources/Object.cpp.o
@@ -264,7 +318,7 @@ sources/Object.o: sources/Object.cpp.o
 
 # target to build an object file
 sources/Object.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Object.cpp.o
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Object.cpp.o
 .PHONY : sources/Object.cpp.o
 
 sources/Object.i: sources/Object.cpp.i
@@ -273,7 +327,7 @@ sources/Object.i: sources/Object.cpp.i
 
 # target to preprocess a source file
 sources/Object.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Object.cpp.i
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Object.cpp.i
 .PHONY : sources/Object.cpp.i
 
 sources/Object.s: sources/Object.cpp.s
@@ -282,7 +336,7 @@ sources/Object.s: sources/Object.cpp.s
 
 # target to generate assembly for a file
 sources/Object.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Object.cpp.s
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Object.cpp.s
 .PHONY : sources/Object.cpp.s
 
 sources/Shader.o: sources/Shader.cpp.o
@@ -291,7 +345,7 @@ sources/Shader.o: sources/Shader.cpp.o
 
 # target to build an object file
 sources/Shader.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Shader.cpp.o
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Shader.cpp.o
 .PHONY : sources/Shader.cpp.o
 
 sources/Shader.i: sources/Shader.cpp.i
@@ -300,7 +354,7 @@ sources/Shader.i: sources/Shader.cpp.i
 
 # target to preprocess a source file
 sources/Shader.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Shader.cpp.i
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Shader.cpp.i
 .PHONY : sources/Shader.cpp.i
 
 sources/Shader.s: sources/Shader.cpp.s
@@ -309,7 +363,7 @@ sources/Shader.s: sources/Shader.cpp.s
 
 # target to generate assembly for a file
 sources/Shader.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Shader.cpp.s
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Shader.cpp.s
 .PHONY : sources/Shader.cpp.s
 
 sources/Texture.o: sources/Texture.cpp.o
@@ -318,7 +372,7 @@ sources/Texture.o: sources/Texture.cpp.o
 
 # target to build an object file
 sources/Texture.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Texture.cpp.o
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Texture.cpp.o
 .PHONY : sources/Texture.cpp.o
 
 sources/Texture.i: sources/Texture.cpp.i
@@ -327,7 +381,7 @@ sources/Texture.i: sources/Texture.cpp.i
 
 # target to preprocess a source file
 sources/Texture.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Texture.cpp.i
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Texture.cpp.i
 .PHONY : sources/Texture.cpp.i
 
 sources/Texture.s: sources/Texture.cpp.s
@@ -336,7 +390,7 @@ sources/Texture.s: sources/Texture.cpp.s
 
 # target to generate assembly for a file
 sources/Texture.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Texture.cpp.s
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Texture.cpp.s
 .PHONY : sources/Texture.cpp.s
 
 sources/Transform.o: sources/Transform.cpp.o
@@ -345,7 +399,7 @@ sources/Transform.o: sources/Transform.cpp.o
 
 # target to build an object file
 sources/Transform.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Transform.cpp.o
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Transform.cpp.o
 .PHONY : sources/Transform.cpp.o
 
 sources/Transform.i: sources/Transform.cpp.i
@@ -354,7 +408,7 @@ sources/Transform.i: sources/Transform.cpp.i
 
 # target to preprocess a source file
 sources/Transform.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Transform.cpp.i
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Transform.cpp.i
 .PHONY : sources/Transform.cpp.i
 
 sources/Transform.s: sources/Transform.cpp.s
@@ -363,7 +417,7 @@ sources/Transform.s: sources/Transform.cpp.s
 
 # target to generate assembly for a file
 sources/Transform.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/Transform.cpp.s
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Transform.cpp.s
 .PHONY : sources/Transform.cpp.s
 
 sources/obj_loader.o: sources/obj_loader.cpp.o
@@ -372,7 +426,7 @@ sources/obj_loader.o: sources/obj_loader.cpp.o
 
 # target to build an object file
 sources/obj_loader.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/obj_loader.cpp.o
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/obj_loader.cpp.o
 .PHONY : sources/obj_loader.cpp.o
 
 sources/obj_loader.i: sources/obj_loader.cpp.i
@@ -381,7 +435,7 @@ sources/obj_loader.i: sources/obj_loader.cpp.i
 
 # target to preprocess a source file
 sources/obj_loader.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/obj_loader.cpp.i
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/obj_loader.cpp.i
 .PHONY : sources/obj_loader.cpp.i
 
 sources/obj_loader.s: sources/obj_loader.cpp.s
@@ -390,7 +444,7 @@ sources/obj_loader.s: sources/obj_loader.cpp.s
 
 # target to generate assembly for a file
 sources/obj_loader.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/obj_loader.cpp.s
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/obj_loader.cpp.s
 .PHONY : sources/obj_loader.cpp.s
 
 sources/stb_image.o: sources/stb_image.c.o
@@ -399,7 +453,7 @@ sources/stb_image.o: sources/stb_image.c.o
 
 # target to build an object file
 sources/stb_image.c.o:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/stb_image.c.o
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/stb_image.c.o
 .PHONY : sources/stb_image.c.o
 
 sources/stb_image.i: sources/stb_image.c.i
@@ -408,7 +462,7 @@ sources/stb_image.i: sources/stb_image.c.i
 
 # target to preprocess a source file
 sources/stb_image.c.i:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/stb_image.c.i
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/stb_image.c.i
 .PHONY : sources/stb_image.c.i
 
 sources/stb_image.s: sources/stb_image.c.s
@@ -417,7 +471,7 @@ sources/stb_image.s: sources/stb_image.c.s
 
 # target to generate assembly for a file
 sources/stb_image.c.s:
-	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/sources/stb_image.c.s
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/stb_image.c.s
 .PHONY : sources/stb_image.c.s
 
 # Help Target
@@ -428,10 +482,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... BomberMan2"
+	@echo "... BomberMan"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sources/AnimatedModel.o"
+	@echo "... sources/AnimatedModel.i"
+	@echo "... sources/AnimatedModel.s"
 	@echo "... sources/Camera.o"
 	@echo "... sources/Camera.i"
 	@echo "... sources/Camera.s"
@@ -441,6 +498,9 @@ help:
 	@echo "... sources/Graphics.o"
 	@echo "... sources/Graphics.i"
 	@echo "... sources/Graphics.s"
+	@echo "... sources/Joints.o"
+	@echo "... sources/Joints.i"
+	@echo "... sources/Joints.s"
 	@echo "... sources/Mesh.o"
 	@echo "... sources/Mesh.i"
 	@echo "... sources/Mesh.s"

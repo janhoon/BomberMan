@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BomberMan"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BomberMan">
+				<Option output="/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/BomberMan" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include"/>
+					<Add directory="/goinfre/janhoon/.brew/Cellar/glew/2.1.0/include"/>
+					<Add directory="/goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 BomberMan"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BomberMan/fast">
+				<Option output="/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/BomberMan" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include"/>
+					<Add directory="/goinfre/janhoon/.brew/Cellar/glew/2.1.0/include"/>
+					<Add directory="/goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 BomberMan/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/AnimatedModel.h">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Camera.h">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Engine.h">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Graphics.h">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Joints.h">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Mesh.h">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Object.h">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Shader.h">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Texture.h">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Transform.h">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/graphicsMain.h">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/obj_loader.h">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/stb_image.h">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/stdMain.h">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/tiny_gltf.h">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/main.cpp">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/AnimatedModel.cpp">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Camera.cpp">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Engine.cpp">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Graphics.cpp">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Joints.cpp">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Mesh.cpp">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Object.cpp">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Shader.cpp">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Texture.cpp">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Transform.cpp">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/obj_loader.cpp">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/stb_image.c">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
