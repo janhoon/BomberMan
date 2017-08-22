@@ -6,67 +6,67 @@
 
 #IncludeRegexTransform: 
 
-/goinfre/janhoon/Desktop/BomberMan/Map.cpp
+/goinfre/vivan-de/Documents/BomberMan/Map.cpp
 includes/Map.hpp
-/goinfre/janhoon/Desktop/BomberMan/includes/Map.hpp
+/goinfre/vivan-de/Documents/BomberMan/includes/Map.hpp
 iostream
 -
 
-/goinfre/janhoon/Desktop/BomberMan/abstracts/Bot.cpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/Bot.cpp
 
-/goinfre/janhoon/Desktop/BomberMan/abstracts/Object.cpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/Object.cpp
 includes/Object.hpp
-/goinfre/janhoon/Desktop/BomberMan/abstracts/includes/Object.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
 iostream
 -
 
-/goinfre/janhoon/Desktop/BomberMan/abstracts/Object_movable.cpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/Object_movable.cpp
 includes/Object_movable.hpp
-/goinfre/janhoon/Desktop/BomberMan/abstracts/includes/Object_movable.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object_movable.hpp
 cstdlib
 -
 
-/goinfre/janhoon/Desktop/BomberMan/abstracts/includes/Object.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
 string
 -
 
-/goinfre/janhoon/Desktop/BomberMan/abstracts/includes/Object_movable.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object_movable.hpp
 iostream
 -
 vector
 -
 Object.hpp
-/goinfre/janhoon/Desktop/BomberMan/abstracts/includes/Object.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
 
-/goinfre/janhoon/Desktop/BomberMan/factories/Factory.cpp
+/goinfre/vivan-de/Documents/BomberMan/factories/Factory.cpp
 includes/Factory.hpp
-/goinfre/janhoon/Desktop/BomberMan/factories/includes/Factory.hpp
+/goinfre/vivan-de/Documents/BomberMan/factories/includes/Factory.hpp
 ../objects/includes/Bomberman.hpp
-/goinfre/janhoon/Desktop/BomberMan/objects/includes/Bomberman.hpp
+/goinfre/vivan-de/Documents/BomberMan/objects/includes/Bomberman.hpp
 ../objects/includes/Empty.hpp
-/goinfre/janhoon/Desktop/BomberMan/objects/includes/Empty.hpp
+/goinfre/vivan-de/Documents/BomberMan/objects/includes/Empty.hpp
 ../objects/includes/Squid.hpp
-/goinfre/janhoon/Desktop/BomberMan/objects/includes/Squid.hpp
+/goinfre/vivan-de/Documents/BomberMan/objects/includes/Squid.hpp
 iostream
 -
 
-/goinfre/janhoon/Desktop/BomberMan/factories/includes/Factory.hpp
+/goinfre/vivan-de/Documents/BomberMan/factories/includes/Factory.hpp
 Object_factory.hpp
-/goinfre/janhoon/Desktop/BomberMan/factories/includes/Object_factory.hpp
+/goinfre/vivan-de/Documents/BomberMan/factories/includes/Object_factory.hpp
 ../../abstracts/includes/Object.hpp
-/goinfre/janhoon/Desktop/BomberMan/abstracts/includes/Object.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
 
-/goinfre/janhoon/Desktop/BomberMan/factories/includes/Object_factory.hpp
+/goinfre/vivan-de/Documents/BomberMan/factories/includes/Object_factory.hpp
 ../../abstracts/includes/Object.hpp
-/goinfre/janhoon/Desktop/BomberMan/abstracts/includes/Object.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
 ../../observers/includes/Object_subject.hpp
-/goinfre/janhoon/Desktop/BomberMan/observers/includes/Object_subject.hpp
+/goinfre/vivan-de/Documents/BomberMan/observers/includes/Object_subject.hpp
 string
 -
 vector
 -
 
-/goinfre/janhoon/Desktop/BomberMan/includes/Map.hpp
+/goinfre/vivan-de/Documents/BomberMan/includes/Map.hpp
 vector
 -
 string
@@ -78,49 +78,49 @@ sstream
 iostream
 -
 ../factories/includes/Object_factory.hpp
-/goinfre/janhoon/Desktop/BomberMan/factories/includes/Object_factory.hpp
+/goinfre/vivan-de/Documents/BomberMan/factories/includes/Object_factory.hpp
 ../factories/includes/Factory.hpp
-/goinfre/janhoon/Desktop/BomberMan/factories/includes/Factory.hpp
+/goinfre/vivan-de/Documents/BomberMan/factories/includes/Factory.hpp
 ../abstracts/includes/Object.hpp
-/goinfre/janhoon/Desktop/BomberMan/abstracts/includes/Object.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
 ../observers/includes/Object_subject.hpp
-/goinfre/janhoon/Desktop/BomberMan/observers/includes/Object_subject.hpp
+/goinfre/vivan-de/Documents/BomberMan/observers/includes/Object_subject.hpp
 
-/goinfre/janhoon/Desktop/BomberMan/main.cpp
+/goinfre/vivan-de/Documents/BomberMan/main.cpp
 includes/Map.hpp
-/goinfre/janhoon/Desktop/BomberMan/includes/Map.hpp
+/goinfre/vivan-de/Documents/BomberMan/includes/Map.hpp
 
-/goinfre/janhoon/Desktop/BomberMan/objects/Bomberman.cpp
+/goinfre/vivan-de/Documents/BomberMan/objects/Bomberman.cpp
 includes/Bomberman.hpp
-/goinfre/janhoon/Desktop/BomberMan/objects/includes/Bomberman.hpp
+/goinfre/vivan-de/Documents/BomberMan/objects/includes/Bomberman.hpp
 iostream
 -
 
-/goinfre/janhoon/Desktop/BomberMan/objects/Empty.cpp
+/goinfre/vivan-de/Documents/BomberMan/objects/Empty.cpp
 includes/Empty.hpp
-/goinfre/janhoon/Desktop/BomberMan/objects/includes/Empty.hpp
+/goinfre/vivan-de/Documents/BomberMan/objects/includes/Empty.hpp
 
-/goinfre/janhoon/Desktop/BomberMan/objects/Squid.cpp
+/goinfre/vivan-de/Documents/BomberMan/objects/Squid.cpp
 
-/goinfre/janhoon/Desktop/BomberMan/objects/includes/Bomberman.hpp
+/goinfre/vivan-de/Documents/BomberMan/objects/includes/Bomberman.hpp
 ../../abstracts/includes/Object.hpp
-/goinfre/janhoon/Desktop/BomberMan/abstracts/includes/Object.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
 ../../abstracts/includes/Object_movable.hpp
-/goinfre/janhoon/Desktop/BomberMan/abstracts/includes/Object_movable.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object_movable.hpp
 ../../observers/includes/Object_subject.hpp
-/goinfre/janhoon/Desktop/BomberMan/observers/includes/Object_subject.hpp
+/goinfre/vivan-de/Documents/BomberMan/observers/includes/Object_subject.hpp
 
-/goinfre/janhoon/Desktop/BomberMan/objects/includes/Empty.hpp
+/goinfre/vivan-de/Documents/BomberMan/objects/includes/Empty.hpp
 ../../abstracts/includes/Object.hpp
-/goinfre/janhoon/Desktop/BomberMan/abstracts/includes/Object.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
 
-/goinfre/janhoon/Desktop/BomberMan/objects/includes/Squid.hpp
+/goinfre/vivan-de/Documents/BomberMan/objects/includes/Squid.hpp
 
-/goinfre/janhoon/Desktop/BomberMan/observers/Object_subject.cpp
+/goinfre/vivan-de/Documents/BomberMan/observers/Object_subject.cpp
 includes/Object_subject.hpp
-/goinfre/janhoon/Desktop/BomberMan/observers/includes/Object_subject.hpp
+/goinfre/vivan-de/Documents/BomberMan/observers/includes/Object_subject.hpp
 
-/goinfre/janhoon/Desktop/BomberMan/observers/includes/Object_subject.hpp
+/goinfre/vivan-de/Documents/BomberMan/observers/includes/Object_subject.hpp
 ../../abstracts/includes/Object_movable.hpp
-/goinfre/janhoon/Desktop/BomberMan/abstracts/includes/Object_movable.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object_movable.hpp
 

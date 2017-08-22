@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /goinfre/janhoon/Desktop/BomberMan
+CMAKE_SOURCE_DIR = /goinfre/vivan-de/Documents/BomberMan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /goinfre/janhoon/Desktop/BomberMan/cmake-build-debug
+CMAKE_BINARY_DIR = /goinfre/vivan-de/Documents/BomberMan/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/BomberMan2.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/BomberMan2.dir/flags.make
 
 CMakeFiles/BomberMan2.dir/main.cpp.o: CMakeFiles/BomberMan2.dir/flags.make
 CMakeFiles/BomberMan2.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BomberMan2.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/main.cpp.o -c /goinfre/janhoon/Desktop/BomberMan/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BomberMan2.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/main.cpp.o -c /goinfre/vivan-de/Documents/BomberMan/main.cpp
 
 CMakeFiles/BomberMan2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BomberMan2.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /goinfre/janhoon/Desktop/BomberMan/main.cpp > CMakeFiles/BomberMan2.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /goinfre/vivan-de/Documents/BomberMan/main.cpp > CMakeFiles/BomberMan2.dir/main.cpp.i
 
 CMakeFiles/BomberMan2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BomberMan2.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /goinfre/janhoon/Desktop/BomberMan/main.cpp -o CMakeFiles/BomberMan2.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /goinfre/vivan-de/Documents/BomberMan/main.cpp -o CMakeFiles/BomberMan2.dir/main.cpp.s
 
 CMakeFiles/BomberMan2.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/BomberMan2.dir/main.cpp.o.provides.build: CMakeFiles/BomberMan2.dir/m
 
 CMakeFiles/BomberMan2.dir/Map.cpp.o: CMakeFiles/BomberMan2.dir/flags.make
 CMakeFiles/BomberMan2.dir/Map.cpp.o: ../Map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BomberMan2.dir/Map.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/Map.cpp.o -c /goinfre/janhoon/Desktop/BomberMan/Map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BomberMan2.dir/Map.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/Map.cpp.o -c /goinfre/vivan-de/Documents/BomberMan/Map.cpp
 
 CMakeFiles/BomberMan2.dir/Map.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BomberMan2.dir/Map.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /goinfre/janhoon/Desktop/BomberMan/Map.cpp > CMakeFiles/BomberMan2.dir/Map.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /goinfre/vivan-de/Documents/BomberMan/Map.cpp > CMakeFiles/BomberMan2.dir/Map.cpp.i
 
 CMakeFiles/BomberMan2.dir/Map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BomberMan2.dir/Map.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /goinfre/janhoon/Desktop/BomberMan/Map.cpp -o CMakeFiles/BomberMan2.dir/Map.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /goinfre/vivan-de/Documents/BomberMan/Map.cpp -o CMakeFiles/BomberMan2.dir/Map.cpp.s
 
 CMakeFiles/BomberMan2.dir/Map.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/BomberMan2.dir/Map.cpp.o.provides.build: CMakeFiles/BomberMan2.dir/Ma
 
 CMakeFiles/BomberMan2.dir/abstracts/Bot.cpp.o: CMakeFiles/BomberMan2.dir/flags.make
 CMakeFiles/BomberMan2.dir/abstracts/Bot.cpp.o: ../abstracts/Bot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BomberMan2.dir/abstracts/Bot.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/abstracts/Bot.cpp.o -c /goinfre/janhoon/Desktop/BomberMan/abstracts/Bot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BomberMan2.dir/abstracts/Bot.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/abstracts/Bot.cpp.o -c /goinfre/vivan-de/Documents/BomberMan/abstracts/Bot.cpp
 
 CMakeFiles/BomberMan2.dir/abstracts/Bot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BomberMan2.dir/abstracts/Bot.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /goinfre/janhoon/Desktop/BomberMan/abstracts/Bot.cpp > CMakeFiles/BomberMan2.dir/abstracts/Bot.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /goinfre/vivan-de/Documents/BomberMan/abstracts/Bot.cpp > CMakeFiles/BomberMan2.dir/abstracts/Bot.cpp.i
 
 CMakeFiles/BomberMan2.dir/abstracts/Bot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BomberMan2.dir/abstracts/Bot.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /goinfre/janhoon/Desktop/BomberMan/abstracts/Bot.cpp -o CMakeFiles/BomberMan2.dir/abstracts/Bot.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /goinfre/vivan-de/Documents/BomberMan/abstracts/Bot.cpp -o CMakeFiles/BomberMan2.dir/abstracts/Bot.cpp.s
 
 CMakeFiles/BomberMan2.dir/abstracts/Bot.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/BomberMan2.dir/abstracts/Bot.cpp.o.provides.build: CMakeFiles/BomberM
 
 CMakeFiles/BomberMan2.dir/abstracts/Object.cpp.o: CMakeFiles/BomberMan2.dir/flags.make
 CMakeFiles/BomberMan2.dir/abstracts/Object.cpp.o: ../abstracts/Object.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BomberMan2.dir/abstracts/Object.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/abstracts/Object.cpp.o -c /goinfre/janhoon/Desktop/BomberMan/abstracts/Object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BomberMan2.dir/abstracts/Object.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/abstracts/Object.cpp.o -c /goinfre/vivan-de/Documents/BomberMan/abstracts/Object.cpp
 
 CMakeFiles/BomberMan2.dir/abstracts/Object.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BomberMan2.dir/abstracts/Object.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /goinfre/janhoon/Desktop/BomberMan/abstracts/Object.cpp > CMakeFiles/BomberMan2.dir/abstracts/Object.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /goinfre/vivan-de/Documents/BomberMan/abstracts/Object.cpp > CMakeFiles/BomberMan2.dir/abstracts/Object.cpp.i
 
 CMakeFiles/BomberMan2.dir/abstracts/Object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BomberMan2.dir/abstracts/Object.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /goinfre/janhoon/Desktop/BomberMan/abstracts/Object.cpp -o CMakeFiles/BomberMan2.dir/abstracts/Object.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /goinfre/vivan-de/Documents/BomberMan/abstracts/Object.cpp -o CMakeFiles/BomberMan2.dir/abstracts/Object.cpp.s
 
 CMakeFiles/BomberMan2.dir/abstracts/Object.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/BomberMan2.dir/abstracts/Object.cpp.o.provides.build: CMakeFiles/Bomb
 
 CMakeFiles/BomberMan2.dir/abstracts/Object_movable.cpp.o: CMakeFiles/BomberMan2.dir/flags.make
 CMakeFiles/BomberMan2.dir/abstracts/Object_movable.cpp.o: ../abstracts/Object_movable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BomberMan2.dir/abstracts/Object_movable.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/abstracts/Object_movable.cpp.o -c /goinfre/janhoon/Desktop/BomberMan/abstracts/Object_movable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BomberMan2.dir/abstracts/Object_movable.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/abstracts/Object_movable.cpp.o -c /goinfre/vivan-de/Documents/BomberMan/abstracts/Object_movable.cpp
 
 CMakeFiles/BomberMan2.dir/abstracts/Object_movable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BomberMan2.dir/abstracts/Object_movable.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /goinfre/janhoon/Desktop/BomberMan/abstracts/Object_movable.cpp > CMakeFiles/BomberMan2.dir/abstracts/Object_movable.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /goinfre/vivan-de/Documents/BomberMan/abstracts/Object_movable.cpp > CMakeFiles/BomberMan2.dir/abstracts/Object_movable.cpp.i
 
 CMakeFiles/BomberMan2.dir/abstracts/Object_movable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BomberMan2.dir/abstracts/Object_movable.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /goinfre/janhoon/Desktop/BomberMan/abstracts/Object_movable.cpp -o CMakeFiles/BomberMan2.dir/abstracts/Object_movable.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /goinfre/vivan-de/Documents/BomberMan/abstracts/Object_movable.cpp -o CMakeFiles/BomberMan2.dir/abstracts/Object_movable.cpp.s
 
 CMakeFiles/BomberMan2.dir/abstracts/Object_movable.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/BomberMan2.dir/abstracts/Object_movable.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/BomberMan2.dir/factories/Factory.cpp.o: CMakeFiles/BomberMan2.dir/flags.make
 CMakeFiles/BomberMan2.dir/factories/Factory.cpp.o: ../factories/Factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/BomberMan2.dir/factories/Factory.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/factories/Factory.cpp.o -c /goinfre/janhoon/Desktop/BomberMan/factories/Factory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/BomberMan2.dir/factories/Factory.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/factories/Factory.cpp.o -c /goinfre/vivan-de/Documents/BomberMan/factories/Factory.cpp
 
 CMakeFiles/BomberMan2.dir/factories/Factory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BomberMan2.dir/factories/Factory.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /goinfre/janhoon/Desktop/BomberMan/factories/Factory.cpp > CMakeFiles/BomberMan2.dir/factories/Factory.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /goinfre/vivan-de/Documents/BomberMan/factories/Factory.cpp > CMakeFiles/BomberMan2.dir/factories/Factory.cpp.i
 
 CMakeFiles/BomberMan2.dir/factories/Factory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BomberMan2.dir/factories/Factory.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /goinfre/janhoon/Desktop/BomberMan/factories/Factory.cpp -o CMakeFiles/BomberMan2.dir/factories/Factory.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /goinfre/vivan-de/Documents/BomberMan/factories/Factory.cpp -o CMakeFiles/BomberMan2.dir/factories/Factory.cpp.s
 
 CMakeFiles/BomberMan2.dir/factories/Factory.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/BomberMan2.dir/factories/Factory.cpp.o.provides.build: CMakeFiles/Bom
 
 CMakeFiles/BomberMan2.dir/objects/Bomberman.cpp.o: CMakeFiles/BomberMan2.dir/flags.make
 CMakeFiles/BomberMan2.dir/objects/Bomberman.cpp.o: ../objects/Bomberman.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/BomberMan2.dir/objects/Bomberman.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/objects/Bomberman.cpp.o -c /goinfre/janhoon/Desktop/BomberMan/objects/Bomberman.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/BomberMan2.dir/objects/Bomberman.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/objects/Bomberman.cpp.o -c /goinfre/vivan-de/Documents/BomberMan/objects/Bomberman.cpp
 
 CMakeFiles/BomberMan2.dir/objects/Bomberman.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BomberMan2.dir/objects/Bomberman.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /goinfre/janhoon/Desktop/BomberMan/objects/Bomberman.cpp > CMakeFiles/BomberMan2.dir/objects/Bomberman.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /goinfre/vivan-de/Documents/BomberMan/objects/Bomberman.cpp > CMakeFiles/BomberMan2.dir/objects/Bomberman.cpp.i
 
 CMakeFiles/BomberMan2.dir/objects/Bomberman.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BomberMan2.dir/objects/Bomberman.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /goinfre/janhoon/Desktop/BomberMan/objects/Bomberman.cpp -o CMakeFiles/BomberMan2.dir/objects/Bomberman.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /goinfre/vivan-de/Documents/BomberMan/objects/Bomberman.cpp -o CMakeFiles/BomberMan2.dir/objects/Bomberman.cpp.s
 
 CMakeFiles/BomberMan2.dir/objects/Bomberman.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/BomberMan2.dir/objects/Bomberman.cpp.o.provides.build: CMakeFiles/Bom
 
 CMakeFiles/BomberMan2.dir/objects/Empty.cpp.o: CMakeFiles/BomberMan2.dir/flags.make
 CMakeFiles/BomberMan2.dir/objects/Empty.cpp.o: ../objects/Empty.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/BomberMan2.dir/objects/Empty.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/objects/Empty.cpp.o -c /goinfre/janhoon/Desktop/BomberMan/objects/Empty.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/BomberMan2.dir/objects/Empty.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/objects/Empty.cpp.o -c /goinfre/vivan-de/Documents/BomberMan/objects/Empty.cpp
 
 CMakeFiles/BomberMan2.dir/objects/Empty.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BomberMan2.dir/objects/Empty.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /goinfre/janhoon/Desktop/BomberMan/objects/Empty.cpp > CMakeFiles/BomberMan2.dir/objects/Empty.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /goinfre/vivan-de/Documents/BomberMan/objects/Empty.cpp > CMakeFiles/BomberMan2.dir/objects/Empty.cpp.i
 
 CMakeFiles/BomberMan2.dir/objects/Empty.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BomberMan2.dir/objects/Empty.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /goinfre/janhoon/Desktop/BomberMan/objects/Empty.cpp -o CMakeFiles/BomberMan2.dir/objects/Empty.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /goinfre/vivan-de/Documents/BomberMan/objects/Empty.cpp -o CMakeFiles/BomberMan2.dir/objects/Empty.cpp.s
 
 CMakeFiles/BomberMan2.dir/objects/Empty.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/BomberMan2.dir/objects/Empty.cpp.o.provides.build: CMakeFiles/BomberM
 
 CMakeFiles/BomberMan2.dir/objects/Squid.cpp.o: CMakeFiles/BomberMan2.dir/flags.make
 CMakeFiles/BomberMan2.dir/objects/Squid.cpp.o: ../objects/Squid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/BomberMan2.dir/objects/Squid.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/objects/Squid.cpp.o -c /goinfre/janhoon/Desktop/BomberMan/objects/Squid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/BomberMan2.dir/objects/Squid.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/objects/Squid.cpp.o -c /goinfre/vivan-de/Documents/BomberMan/objects/Squid.cpp
 
 CMakeFiles/BomberMan2.dir/objects/Squid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BomberMan2.dir/objects/Squid.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /goinfre/janhoon/Desktop/BomberMan/objects/Squid.cpp > CMakeFiles/BomberMan2.dir/objects/Squid.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /goinfre/vivan-de/Documents/BomberMan/objects/Squid.cpp > CMakeFiles/BomberMan2.dir/objects/Squid.cpp.i
 
 CMakeFiles/BomberMan2.dir/objects/Squid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BomberMan2.dir/objects/Squid.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /goinfre/janhoon/Desktop/BomberMan/objects/Squid.cpp -o CMakeFiles/BomberMan2.dir/objects/Squid.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /goinfre/vivan-de/Documents/BomberMan/objects/Squid.cpp -o CMakeFiles/BomberMan2.dir/objects/Squid.cpp.s
 
 CMakeFiles/BomberMan2.dir/objects/Squid.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/BomberMan2.dir/objects/Squid.cpp.o.provides.build: CMakeFiles/BomberM
 
 CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o: CMakeFiles/BomberMan2.dir/flags.make
 CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o: ../observers/Object_subject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o -c /goinfre/janhoon/Desktop/BomberMan/observers/Object_subject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o -c /goinfre/vivan-de/Documents/BomberMan/observers/Object_subject.cpp
 
 CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /goinfre/janhoon/Desktop/BomberMan/observers/Object_subject.cpp > CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /goinfre/vivan-de/Documents/BomberMan/observers/Object_subject.cpp > CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.i
 
 CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /goinfre/janhoon/Desktop/BomberMan/observers/Object_subject.cpp -o CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /goinfre/vivan-de/Documents/BomberMan/observers/Object_subject.cpp -o CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.s
 
 CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o.requires:
 
@@ -325,7 +325,7 @@ BomberMan2: CMakeFiles/BomberMan2.dir/objects/Squid.cpp.o
 BomberMan2: CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o
 BomberMan2: CMakeFiles/BomberMan2.dir/build.make
 BomberMan2: CMakeFiles/BomberMan2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable BomberMan2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable BomberMan2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BomberMan2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -351,6 +351,6 @@ CMakeFiles/BomberMan2.dir/clean:
 .PHONY : CMakeFiles/BomberMan2.dir/clean
 
 CMakeFiles/BomberMan2.dir/depend:
-	cd /goinfre/janhoon/Desktop/BomberMan/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /goinfre/janhoon/Desktop/BomberMan /goinfre/janhoon/Desktop/BomberMan /goinfre/janhoon/Desktop/BomberMan/cmake-build-debug /goinfre/janhoon/Desktop/BomberMan/cmake-build-debug /goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /goinfre/vivan-de/Documents/BomberMan/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /goinfre/vivan-de/Documents/BomberMan /goinfre/vivan-de/Documents/BomberMan /goinfre/vivan-de/Documents/BomberMan/cmake-build-debug /goinfre/vivan-de/Documents/BomberMan/cmake-build-debug /goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/CMakeFiles/BomberMan2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/BomberMan2.dir/depend
 
