@@ -8,139 +8,141 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug"/>
+				<Option working_dir="/home/victor/Documents/projects/BomberMan/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/victor/Documents/projects/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/victor/Documents/projects/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/victor/Documents/projects/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/victor/Documents/projects/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug"/>
+				<Option working_dir="/home/victor/Documents/projects/BomberMan/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/victor/Documents/projects/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/victor/Documents/projects/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/victor/Documents/projects/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/victor/Documents/projects/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BomberMan2">
-				<Option output="/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/BomberMan2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug"/>
+				<Option output="/home/victor/Documents/projects/BomberMan/cmake-build-debug/BomberMan2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/victor/Documents/projects/BomberMan/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include-fixed"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 BomberMan2"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/victor/Documents/projects/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 BomberMan2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/victor/Documents/projects/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/victor/Documents/projects/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/victor/Documents/projects/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BomberMan2/fast">
-				<Option output="/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/BomberMan2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug"/>
+				<Option output="/home/victor/Documents/projects/BomberMan/cmake-build-debug/BomberMan2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/victor/Documents/projects/BomberMan/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include-fixed"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 BomberMan2/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/goinfre/vivan-de/Documents/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/victor/Documents/projects/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 BomberMan2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/victor/Documents/projects/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/victor/Documents/projects/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/victor/Documents/projects/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/victor/Documents/projects/BomberMan/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/victor/Documents/projects/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/victor/Documents/projects/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/victor/Documents/projects/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/victor/Documents/projects/BomberMan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/goinfre/vivan-de/Documents/BomberMan/Map.cpp">
+		<Unit filename="/home/victor/Documents/projects/BomberMan/Map.cpp">
 			<Option target="BomberMan2"/>
 		</Unit>
-		<Unit filename="/goinfre/vivan-de/Documents/BomberMan/abstracts/Bot.cpp">
+		<Unit filename="/home/victor/Documents/projects/BomberMan/abstracts/Bot.cpp">
 			<Option target="BomberMan2"/>
 		</Unit>
-		<Unit filename="/goinfre/vivan-de/Documents/BomberMan/abstracts/Object.cpp">
+		<Unit filename="/home/victor/Documents/projects/BomberMan/abstracts/Object.cpp">
 			<Option target="BomberMan2"/>
 		</Unit>
-		<Unit filename="/goinfre/vivan-de/Documents/BomberMan/abstracts/Object_movable.cpp">
+		<Unit filename="/home/victor/Documents/projects/BomberMan/abstracts/Object_movable.cpp">
 			<Option target="BomberMan2"/>
 		</Unit>
-		<Unit filename="/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Bot.hpp">
+		<Unit filename="/home/victor/Documents/projects/BomberMan/abstracts/includes/Bot.hpp">
 			<Option target="BomberMan2"/>
 		</Unit>
-		<Unit filename="/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp">
+		<Unit filename="/home/victor/Documents/projects/BomberMan/abstracts/includes/Object.hpp">
 			<Option target="BomberMan2"/>
 		</Unit>
-		<Unit filename="/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object_movable.hpp">
+		<Unit filename="/home/victor/Documents/projects/BomberMan/abstracts/includes/Object_movable.hpp">
 			<Option target="BomberMan2"/>
 		</Unit>
-		<Unit filename="/goinfre/vivan-de/Documents/BomberMan/factories/Factory.cpp">
+		<Unit filename="/home/victor/Documents/projects/BomberMan/factories/Factory.cpp">
 			<Option target="BomberMan2"/>
 		</Unit>
-		<Unit filename="/goinfre/vivan-de/Documents/BomberMan/factories/includes/Factory.hpp">
+		<Unit filename="/home/victor/Documents/projects/BomberMan/factories/includes/Factory.hpp">
 			<Option target="BomberMan2"/>
 		</Unit>
-		<Unit filename="/goinfre/vivan-de/Documents/BomberMan/factories/includes/Object_factory.hpp">
+		<Unit filename="/home/victor/Documents/projects/BomberMan/factories/includes/Object_factory.hpp">
 			<Option target="BomberMan2"/>
 		</Unit>
-		<Unit filename="/goinfre/vivan-de/Documents/BomberMan/includes/Map.hpp">
+		<Unit filename="/home/victor/Documents/projects/BomberMan/includes/Map.hpp">
 			<Option target="BomberMan2"/>
 		</Unit>
-		<Unit filename="/goinfre/vivan-de/Documents/BomberMan/main.cpp">
+		<Unit filename="/home/victor/Documents/projects/BomberMan/main.cpp">
 			<Option target="BomberMan2"/>
 		</Unit>
-		<Unit filename="/goinfre/vivan-de/Documents/BomberMan/objects/Bomberman.cpp">
+		<Unit filename="/home/victor/Documents/projects/BomberMan/objects/Bomberman.cpp">
 			<Option target="BomberMan2"/>
 		</Unit>
-		<Unit filename="/goinfre/vivan-de/Documents/BomberMan/objects/Empty.cpp">
+		<Unit filename="/home/victor/Documents/projects/BomberMan/objects/Empty.cpp">
 			<Option target="BomberMan2"/>
 		</Unit>
-		<Unit filename="/goinfre/vivan-de/Documents/BomberMan/objects/Squid.cpp">
+		<Unit filename="/home/victor/Documents/projects/BomberMan/objects/Squid.cpp">
 			<Option target="BomberMan2"/>
 		</Unit>
-		<Unit filename="/goinfre/vivan-de/Documents/BomberMan/objects/includes/Bomberman.hpp">
+		<Unit filename="/home/victor/Documents/projects/BomberMan/objects/includes/Bomberman.hpp">
 			<Option target="BomberMan2"/>
 		</Unit>
-		<Unit filename="/goinfre/vivan-de/Documents/BomberMan/objects/includes/Empty.hpp">
+		<Unit filename="/home/victor/Documents/projects/BomberMan/objects/includes/Empty.hpp">
 			<Option target="BomberMan2"/>
 		</Unit>
-		<Unit filename="/goinfre/vivan-de/Documents/BomberMan/objects/includes/Squid.hpp">
+		<Unit filename="/home/victor/Documents/projects/BomberMan/objects/includes/Squid.hpp">
 			<Option target="BomberMan2"/>
 		</Unit>
-		<Unit filename="/goinfre/vivan-de/Documents/BomberMan/observers/Object_subject.cpp">
+		<Unit filename="/home/victor/Documents/projects/BomberMan/observers/Object_subject.cpp">
 			<Option target="BomberMan2"/>
 		</Unit>
-		<Unit filename="/goinfre/vivan-de/Documents/BomberMan/observers/includes/Object_subject.hpp">
+		<Unit filename="/home/victor/Documents/projects/BomberMan/observers/includes/Object_subject.hpp">
 			<Option target="BomberMan2"/>
 		</Unit>
-		<Unit filename="/goinfre/vivan-de/Documents/BomberMan/CMakeLists.txt">
+		<Unit filename="/home/victor/Documents/projects/BomberMan/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

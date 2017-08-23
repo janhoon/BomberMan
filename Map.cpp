@@ -33,7 +33,8 @@ void Map::read_map() {
 }
 
 void Map::run() {
-	for (int i = 0; i < 50; i++)
-		//read_map();
+	for (int i = 0; i < 50; i++) {
+		read_map();
 		_sub.notify();
+	}
 }
