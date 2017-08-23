@@ -12,6 +12,7 @@ public:
 	void								move();
 	void								update();
 	void								collision();
+	void								read_map();
 
 protected:
 	int									_dir_x;

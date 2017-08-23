@@ -11,6 +11,8 @@ CMakeFiles/BomberMan2.dir/Map.cpp.o
  /goinfre/vivan-de/Documents/BomberMan/observers/includes/Object_subject.hpp
 CMakeFiles/BomberMan2.dir/abstracts/Bot.cpp.o
  /goinfre/vivan-de/Documents/BomberMan/abstracts/Bot.cpp
+ /goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Bot.hpp
+ /goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
 CMakeFiles/BomberMan2.dir/abstracts/Object.cpp.o
  /goinfre/vivan-de/Documents/BomberMan/abstracts/Object.cpp
  /goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
@@ -19,6 +21,7 @@ CMakeFiles/BomberMan2.dir/abstracts/Object_movable.cpp.o
  /goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
  /goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object_movable.hpp
 CMakeFiles/BomberMan2.dir/factories/Factory.cpp.o
+ /goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Bot.hpp
  /goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
  /goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object_movable.hpp
  /goinfre/vivan-de/Documents/BomberMan/factories/Factory.cpp
@@ -47,7 +50,12 @@ CMakeFiles/BomberMan2.dir/objects/Empty.cpp.o
  /goinfre/vivan-de/Documents/BomberMan/objects/Empty.cpp
  /goinfre/vivan-de/Documents/BomberMan/objects/includes/Empty.hpp
 CMakeFiles/BomberMan2.dir/objects/Squid.cpp.o
+ /goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Bot.hpp
+ /goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
+ /goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object_movable.hpp
  /goinfre/vivan-de/Documents/BomberMan/objects/Squid.cpp
+ /goinfre/vivan-de/Documents/BomberMan/objects/includes/Squid.hpp
+ /goinfre/vivan-de/Documents/BomberMan/observers/includes/Object_subject.hpp
 CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o
  /goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
  /goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object_movable.hpp

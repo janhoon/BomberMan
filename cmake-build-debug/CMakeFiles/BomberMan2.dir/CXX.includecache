@@ -13,6 +13,10 @@ iostream
 -
 
 /goinfre/vivan-de/Documents/BomberMan/abstracts/Bot.cpp
+includes/Bot.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Bot.hpp
+iostream
+-
 
 /goinfre/vivan-de/Documents/BomberMan/abstracts/Object.cpp
 includes/Object.hpp
@@ -23,6 +27,12 @@ iostream
 /goinfre/vivan-de/Documents/BomberMan/abstracts/Object_movable.cpp
 includes/Object_movable.hpp
 /goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object_movable.hpp
+
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Bot.hpp
+Object.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
+vector
+-
 cstdlib
 -
 
@@ -101,6 +111,8 @@ includes/Empty.hpp
 /goinfre/vivan-de/Documents/BomberMan/objects/includes/Empty.hpp
 
 /goinfre/vivan-de/Documents/BomberMan/objects/Squid.cpp
+includes/Squid.hpp
+/goinfre/vivan-de/Documents/BomberMan/objects/includes/Squid.hpp
 
 /goinfre/vivan-de/Documents/BomberMan/objects/includes/Bomberman.hpp
 ../../abstracts/includes/Object.hpp
@@ -115,6 +127,14 @@ includes/Empty.hpp
 /goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
 
 /goinfre/vivan-de/Documents/BomberMan/objects/includes/Squid.hpp
+../../abstracts/includes/Bot.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Bot.hpp
+../../abstracts/includes/Object.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
+../../abstracts/includes/Object_movable.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object_movable.hpp
+../../observers/includes/Object_subject.hpp
+/goinfre/vivan-de/Documents/BomberMan/observers/includes/Object_subject.hpp
 
 /goinfre/vivan-de/Documents/BomberMan/observers/Object_subject.cpp
 includes/Object_subject.hpp

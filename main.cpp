@@ -3,7 +3,7 @@
 int main() {
 	Map map;
 	map.read_and_setup("../maps/map1.map");
-	map.read_map();
 	map.run();
+	std::cout << "Exiting the program" << std::endl;
   return 0;
 }

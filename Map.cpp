@@ -22,12 +22,18 @@ void Map::read_map() {
 	for (size_t y = 0; y < _map.size(); y++) {
 		for (size_t x = 0; x < _map[y].size(); x++) {
 			if (_map[y][x] != nullptr) {
+				std::cout << _map[y][x]->get_id() << "	";
+			} else {
+				std::cout << "w	";
 			}
 		}
+		std::cout << std::endl;
 	}
+	std::cout << std::endl;
 }
 
 void Map::run() {
-	while (42)
+	for (int i = 0; i < 50; i++)
+		//read_map();
 		_sub.notify();
 }

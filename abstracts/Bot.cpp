@@ -1,5 +1,7 @@
 #include "includes/Bot.hpp"
 
+	#include <iostream>
+
 void Bot::reset_moves() {
 	_up = false;
 	_down = false;
@@ -9,16 +11,16 @@ void Bot::reset_moves() {
 
 void Bot::check_moves(std::vector<std::vector<Object *> > *map, int x, int y) {
 	reset_moves();
-	if (valid_move((*map)[x][y - 1]->get_id())) {
+	if ((*map)[y - 1][x] && valid_move((*map)[y - 1][x])) {
 		_up = true;
 	}
-	if (valid_move((*map)[x][y + 1]->get_id())) {
+	if ((*map)[y + 1][x] && valid_move((*map)[y + 1][x])) {
 		_down = true;
 	}
-	if (valid_move((*map)[x - 1][y]->get_id())) {
+	if ((*map)[y][x - 1] && valid_move((*map)[y][x - 1])) {
 		_left = true;
 	}
-	if (valid_move((*map)[x + 1][y]->get_id())) {
+	if ((*map)[y][x + 1] && valid_move((*map)[y][x + 1])) {
 		_right = true;
 	}
 }
@@ -46,9 +48,9 @@ char Bot::translate_move() {
 }
 
 void Bot::check_collision(std::vector<std::vector<Object *> > *map, int x, int y) {
-	if ((_ax_y == -1 && !valid_move((*map)[x][y - 1]->get_id())) || (_ax_y == 1 && !valid_move((*map)[x][y + 1]->get_id())))
+	if ((_ax_y == -1 && (*map)[y - 1][x] && !valid_move((*map)[y - 1][x])) || (_ax_y == 1 && !valid_move((*map)[y + 1][x])))
 		_ax_y *= -1;
-	if ((_ax_x == -1 && valid_move((*map)[x - 1][y]->get_id())) || (_ax_x == 1 && valid_move((*map)[x + 1][y]->get_id()))) { ;
+	if ((_ax_x == -1 && valid_move((*map)[y][x - 1])) || (_ax_x == 1 && valid_move((*map)[y][x + 1]))) { ;
 		_ax_x *= -1;
 	}
 }
@@ -73,8 +75,10 @@ char Bot::make_move(std::vector<std::vector<Object *> > *map, int x, int y) {
 	} else {
 		if (!_ax_x) {
 			_ax_x = 1 - (2 * (rand() % 2));
+			_ax_y = 0;
 		} else {
 			_ax_y = 1 - (2 * (rand() % 2));
+			_ax_x = 0;
 		}
 	}
 	check_collision(map, x, y);
