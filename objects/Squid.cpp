@@ -13,6 +13,9 @@ Squid::Squid(int x, int y, std::vector<std::vector<Object*> > &map, Object_subje
 	_map = &map;
 	_id = "B";
 	sub->attach(this);
+
+	_same_ax_per = 70;
+	_same_dir_per = 70;
 }
 
 bool Squid::valid_move(Object *obj) {

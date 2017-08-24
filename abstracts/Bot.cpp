@@ -2,6 +2,8 @@
 
 	#include <iostream>
 
+Bot::Bot() : _ax_x(0), _ax_y(0) {}
+
 void Bot::reset_moves() {
 	_up = false;
 	_down = false;
@@ -26,11 +28,11 @@ void Bot::check_moves(std::vector<std::vector<Object *> > *map, int x, int y) {
 }
 
 bool Bot::ax_x_possible() {
-	return _left || _right ? true : false;
+	return _left || _right;
 }
 
 bool Bot::ax_y_possible() {
-	return _up || _down ? true : false;
+	return _up || _down;
 }
 
 char Bot::translate_move() {
@@ -38,12 +40,10 @@ char Bot::translate_move() {
 		return 'u';
 	if (_ax_y == 1)
 		return 'd';
-	if (_ax_x == -1) {
+	if (_ax_x == -1)
 		return 'l';
-	}
-	if (_ax_x == 1) {
+	if (_ax_x == 1)
 		return 'r';
-	}
 	return '\0';
 }
 
@@ -62,7 +62,7 @@ char Bot::make_move(std::vector<std::vector<Object *> > *map, int x, int y) {
 			_ax_x = 1 - (2 * (rand() % 2));
 		else if (ax_y_possible())
 			_ax_y = 1 - (2 * (rand() % 2));
-	} else if (rand() % 100 < _same_ax_per) {
+	} else if (rand() % 100 < _same_ax_per || (_ax_x && !ax_y_possible()) || (_ax_y && !ax_x_possible())) {
 		if (_ax_x) {
 			if (rand() % 100 >= _same_dir_per) {
 				_ax_x *= -1;

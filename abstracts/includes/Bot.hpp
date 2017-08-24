@@ -7,6 +7,7 @@
 
 class Bot {
 public:
+	Bot();
 	virtual bool	valid_move(Object *obj) = 0;
 	void 			check_moves(std::vector<std::vector<Object*> >	*map, int x, int y);
     char			make_move(std::vector<std::vector<Object *> > *map, int x, int y);
