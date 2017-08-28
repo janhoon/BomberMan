@@ -7,4 +7,6 @@ void Object_subject::attach(Object_movable *obs) {
 void Object_subject::notify() {
 	for (std::vector<Object_movable*>::iterator it = _list.begin() ; it != _list.end(); ++it)
 		(*it)->update();
+	//update file
+
 }
