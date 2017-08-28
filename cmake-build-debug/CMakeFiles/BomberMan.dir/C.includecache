@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/goinfre/janhoon/Desktop/BomberMan/includes/stb_image.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object loading/stb_image.h
 stdio.h
 -
 
-/goinfre/janhoon/Desktop/BomberMan/sources/stb_image.c
-../includes/stb_image.h
-/goinfre/janhoon/Desktop/BomberMan/includes/stb_image.h
+/goinfre/janhoon/Desktop/BomberMan/sources/object loading/stb_image.c
+../../includes/object loading/stb_image.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object loading/stb_image.h
 math.h
 -
 string.h

@@ -1,7 +1,7 @@
 #include <iostream>
-#include "includes/Graphics.h"
-#include "includes/Object.h"
-#include "includes/Engine.h"
+#include "includes/engine/Graphics.h"
+#include "includes/object manipulation/Object.h"
+#include "includes/engine/Engine.h"
 
 //map is 13rows x 27columns
 

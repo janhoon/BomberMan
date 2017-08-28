@@ -150,329 +150,383 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-sources/AnimatedModel.o: sources/AnimatedModel.cpp.o
+sources/engine/Camera.o: sources/engine/Camera.cpp.o
 
-.PHONY : sources/AnimatedModel.o
-
-# target to build an object file
-sources/AnimatedModel.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/AnimatedModel.cpp.o
-.PHONY : sources/AnimatedModel.cpp.o
-
-sources/AnimatedModel.i: sources/AnimatedModel.cpp.i
-
-.PHONY : sources/AnimatedModel.i
-
-# target to preprocess a source file
-sources/AnimatedModel.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/AnimatedModel.cpp.i
-.PHONY : sources/AnimatedModel.cpp.i
-
-sources/AnimatedModel.s: sources/AnimatedModel.cpp.s
-
-.PHONY : sources/AnimatedModel.s
-
-# target to generate assembly for a file
-sources/AnimatedModel.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/AnimatedModel.cpp.s
-.PHONY : sources/AnimatedModel.cpp.s
-
-sources/Camera.o: sources/Camera.cpp.o
-
-.PHONY : sources/Camera.o
+.PHONY : sources/engine/Camera.o
 
 # target to build an object file
-sources/Camera.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Camera.cpp.o
-.PHONY : sources/Camera.cpp.o
+sources/engine/Camera.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/engine/Camera.cpp.o
+.PHONY : sources/engine/Camera.cpp.o
 
-sources/Camera.i: sources/Camera.cpp.i
+sources/engine/Camera.i: sources/engine/Camera.cpp.i
 
-.PHONY : sources/Camera.i
+.PHONY : sources/engine/Camera.i
 
 # target to preprocess a source file
-sources/Camera.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Camera.cpp.i
-.PHONY : sources/Camera.cpp.i
+sources/engine/Camera.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/engine/Camera.cpp.i
+.PHONY : sources/engine/Camera.cpp.i
 
-sources/Camera.s: sources/Camera.cpp.s
+sources/engine/Camera.s: sources/engine/Camera.cpp.s
 
-.PHONY : sources/Camera.s
+.PHONY : sources/engine/Camera.s
 
 # target to generate assembly for a file
-sources/Camera.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Camera.cpp.s
-.PHONY : sources/Camera.cpp.s
+sources/engine/Camera.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/engine/Camera.cpp.s
+.PHONY : sources/engine/Camera.cpp.s
 
-sources/Engine.o: sources/Engine.cpp.o
+sources/engine/Engine.o: sources/engine/Engine.cpp.o
 
-.PHONY : sources/Engine.o
+.PHONY : sources/engine/Engine.o
 
 # target to build an object file
-sources/Engine.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Engine.cpp.o
-.PHONY : sources/Engine.cpp.o
+sources/engine/Engine.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/engine/Engine.cpp.o
+.PHONY : sources/engine/Engine.cpp.o
 
-sources/Engine.i: sources/Engine.cpp.i
+sources/engine/Engine.i: sources/engine/Engine.cpp.i
 
-.PHONY : sources/Engine.i
+.PHONY : sources/engine/Engine.i
 
 # target to preprocess a source file
-sources/Engine.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Engine.cpp.i
-.PHONY : sources/Engine.cpp.i
+sources/engine/Engine.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/engine/Engine.cpp.i
+.PHONY : sources/engine/Engine.cpp.i
 
-sources/Engine.s: sources/Engine.cpp.s
+sources/engine/Engine.s: sources/engine/Engine.cpp.s
 
-.PHONY : sources/Engine.s
+.PHONY : sources/engine/Engine.s
 
 # target to generate assembly for a file
-sources/Engine.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Engine.cpp.s
-.PHONY : sources/Engine.cpp.s
+sources/engine/Engine.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/engine/Engine.cpp.s
+.PHONY : sources/engine/Engine.cpp.s
 
-sources/Graphics.o: sources/Graphics.cpp.o
+sources/engine/Graphics.o: sources/engine/Graphics.cpp.o
 
-.PHONY : sources/Graphics.o
+.PHONY : sources/engine/Graphics.o
 
 # target to build an object file
-sources/Graphics.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Graphics.cpp.o
-.PHONY : sources/Graphics.cpp.o
+sources/engine/Graphics.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/engine/Graphics.cpp.o
+.PHONY : sources/engine/Graphics.cpp.o
 
-sources/Graphics.i: sources/Graphics.cpp.i
+sources/engine/Graphics.i: sources/engine/Graphics.cpp.i
 
-.PHONY : sources/Graphics.i
+.PHONY : sources/engine/Graphics.i
 
 # target to preprocess a source file
-sources/Graphics.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Graphics.cpp.i
-.PHONY : sources/Graphics.cpp.i
+sources/engine/Graphics.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/engine/Graphics.cpp.i
+.PHONY : sources/engine/Graphics.cpp.i
 
-sources/Graphics.s: sources/Graphics.cpp.s
+sources/engine/Graphics.s: sources/engine/Graphics.cpp.s
 
-.PHONY : sources/Graphics.s
+.PHONY : sources/engine/Graphics.s
 
 # target to generate assembly for a file
-sources/Graphics.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Graphics.cpp.s
-.PHONY : sources/Graphics.cpp.s
+sources/engine/Graphics.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/engine/Graphics.cpp.s
+.PHONY : sources/engine/Graphics.cpp.s
 
-sources/Joints.o: sources/Joints.cpp.o
+sources/object_animation/AnimatedModel.o: sources/object_animation/AnimatedModel.cpp.o
 
-.PHONY : sources/Joints.o
+.PHONY : sources/object_animation/AnimatedModel.o
 
 # target to build an object file
-sources/Joints.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Joints.cpp.o
-.PHONY : sources/Joints.cpp.o
+sources/object_animation/AnimatedModel.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_animation/AnimatedModel.cpp.o
+.PHONY : sources/object_animation/AnimatedModel.cpp.o
 
-sources/Joints.i: sources/Joints.cpp.i
+sources/object_animation/AnimatedModel.i: sources/object_animation/AnimatedModel.cpp.i
 
-.PHONY : sources/Joints.i
+.PHONY : sources/object_animation/AnimatedModel.i
 
 # target to preprocess a source file
-sources/Joints.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Joints.cpp.i
-.PHONY : sources/Joints.cpp.i
+sources/object_animation/AnimatedModel.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_animation/AnimatedModel.cpp.i
+.PHONY : sources/object_animation/AnimatedModel.cpp.i
 
-sources/Joints.s: sources/Joints.cpp.s
+sources/object_animation/AnimatedModel.s: sources/object_animation/AnimatedModel.cpp.s
 
-.PHONY : sources/Joints.s
+.PHONY : sources/object_animation/AnimatedModel.s
 
 # target to generate assembly for a file
-sources/Joints.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Joints.cpp.s
-.PHONY : sources/Joints.cpp.s
+sources/object_animation/AnimatedModel.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_animation/AnimatedModel.cpp.s
+.PHONY : sources/object_animation/AnimatedModel.cpp.s
 
-sources/Mesh.o: sources/Mesh.cpp.o
+sources/object_animation/Animation.o: sources/object_animation/Animation.cpp.o
 
-.PHONY : sources/Mesh.o
+.PHONY : sources/object_animation/Animation.o
 
 # target to build an object file
-sources/Mesh.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Mesh.cpp.o
-.PHONY : sources/Mesh.cpp.o
+sources/object_animation/Animation.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_animation/Animation.cpp.o
+.PHONY : sources/object_animation/Animation.cpp.o
 
-sources/Mesh.i: sources/Mesh.cpp.i
+sources/object_animation/Animation.i: sources/object_animation/Animation.cpp.i
 
-.PHONY : sources/Mesh.i
+.PHONY : sources/object_animation/Animation.i
 
 # target to preprocess a source file
-sources/Mesh.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Mesh.cpp.i
-.PHONY : sources/Mesh.cpp.i
+sources/object_animation/Animation.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_animation/Animation.cpp.i
+.PHONY : sources/object_animation/Animation.cpp.i
 
-sources/Mesh.s: sources/Mesh.cpp.s
+sources/object_animation/Animation.s: sources/object_animation/Animation.cpp.s
 
-.PHONY : sources/Mesh.s
+.PHONY : sources/object_animation/Animation.s
 
 # target to generate assembly for a file
-sources/Mesh.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Mesh.cpp.s
-.PHONY : sources/Mesh.cpp.s
+sources/object_animation/Animation.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_animation/Animation.cpp.s
+.PHONY : sources/object_animation/Animation.cpp.s
 
-sources/Object.o: sources/Object.cpp.o
+sources/object_animation/Animator.o: sources/object_animation/Animator.cpp.o
 
-.PHONY : sources/Object.o
+.PHONY : sources/object_animation/Animator.o
 
 # target to build an object file
-sources/Object.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Object.cpp.o
-.PHONY : sources/Object.cpp.o
+sources/object_animation/Animator.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o
+.PHONY : sources/object_animation/Animator.cpp.o
 
-sources/Object.i: sources/Object.cpp.i
+sources/object_animation/Animator.i: sources/object_animation/Animator.cpp.i
 
-.PHONY : sources/Object.i
+.PHONY : sources/object_animation/Animator.i
 
 # target to preprocess a source file
-sources/Object.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Object.cpp.i
-.PHONY : sources/Object.cpp.i
+sources/object_animation/Animator.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.i
+.PHONY : sources/object_animation/Animator.cpp.i
 
-sources/Object.s: sources/Object.cpp.s
+sources/object_animation/Animator.s: sources/object_animation/Animator.cpp.s
 
-.PHONY : sources/Object.s
+.PHONY : sources/object_animation/Animator.s
 
 # target to generate assembly for a file
-sources/Object.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Object.cpp.s
-.PHONY : sources/Object.cpp.s
+sources/object_animation/Animator.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.s
+.PHONY : sources/object_animation/Animator.cpp.s
 
-sources/Shader.o: sources/Shader.cpp.o
+sources/object_animation/Joint.o: sources/object_animation/Joint.cpp.o
 
-.PHONY : sources/Shader.o
+.PHONY : sources/object_animation/Joint.o
 
 # target to build an object file
-sources/Shader.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Shader.cpp.o
-.PHONY : sources/Shader.cpp.o
+sources/object_animation/Joint.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_animation/Joint.cpp.o
+.PHONY : sources/object_animation/Joint.cpp.o
 
-sources/Shader.i: sources/Shader.cpp.i
+sources/object_animation/Joint.i: sources/object_animation/Joint.cpp.i
 
-.PHONY : sources/Shader.i
+.PHONY : sources/object_animation/Joint.i
 
 # target to preprocess a source file
-sources/Shader.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Shader.cpp.i
-.PHONY : sources/Shader.cpp.i
+sources/object_animation/Joint.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_animation/Joint.cpp.i
+.PHONY : sources/object_animation/Joint.cpp.i
 
-sources/Shader.s: sources/Shader.cpp.s
+sources/object_animation/Joint.s: sources/object_animation/Joint.cpp.s
 
-.PHONY : sources/Shader.s
+.PHONY : sources/object_animation/Joint.s
 
 # target to generate assembly for a file
-sources/Shader.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Shader.cpp.s
-.PHONY : sources/Shader.cpp.s
+sources/object_animation/Joint.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_animation/Joint.cpp.s
+.PHONY : sources/object_animation/Joint.cpp.s
 
-sources/Texture.o: sources/Texture.cpp.o
+sources/object_loading/obj_loader.o: sources/object_loading/obj_loader.cpp.o
 
-.PHONY : sources/Texture.o
+.PHONY : sources/object_loading/obj_loader.o
 
 # target to build an object file
-sources/Texture.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Texture.cpp.o
-.PHONY : sources/Texture.cpp.o
+sources/object_loading/obj_loader.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_loading/obj_loader.cpp.o
+.PHONY : sources/object_loading/obj_loader.cpp.o
 
-sources/Texture.i: sources/Texture.cpp.i
+sources/object_loading/obj_loader.i: sources/object_loading/obj_loader.cpp.i
 
-.PHONY : sources/Texture.i
+.PHONY : sources/object_loading/obj_loader.i
 
 # target to preprocess a source file
-sources/Texture.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Texture.cpp.i
-.PHONY : sources/Texture.cpp.i
+sources/object_loading/obj_loader.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_loading/obj_loader.cpp.i
+.PHONY : sources/object_loading/obj_loader.cpp.i
 
-sources/Texture.s: sources/Texture.cpp.s
+sources/object_loading/obj_loader.s: sources/object_loading/obj_loader.cpp.s
 
-.PHONY : sources/Texture.s
+.PHONY : sources/object_loading/obj_loader.s
 
 # target to generate assembly for a file
-sources/Texture.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Texture.cpp.s
-.PHONY : sources/Texture.cpp.s
+sources/object_loading/obj_loader.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_loading/obj_loader.cpp.s
+.PHONY : sources/object_loading/obj_loader.cpp.s
 
-sources/Transform.o: sources/Transform.cpp.o
+sources/object_loading/stb_image.o: sources/object_loading/stb_image.c.o
 
-.PHONY : sources/Transform.o
+.PHONY : sources/object_loading/stb_image.o
 
 # target to build an object file
-sources/Transform.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Transform.cpp.o
-.PHONY : sources/Transform.cpp.o
+sources/object_loading/stb_image.c.o:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_loading/stb_image.c.o
+.PHONY : sources/object_loading/stb_image.c.o
 
-sources/Transform.i: sources/Transform.cpp.i
+sources/object_loading/stb_image.i: sources/object_loading/stb_image.c.i
 
-.PHONY : sources/Transform.i
+.PHONY : sources/object_loading/stb_image.i
 
 # target to preprocess a source file
-sources/Transform.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Transform.cpp.i
-.PHONY : sources/Transform.cpp.i
+sources/object_loading/stb_image.c.i:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_loading/stb_image.c.i
+.PHONY : sources/object_loading/stb_image.c.i
 
-sources/Transform.s: sources/Transform.cpp.s
+sources/object_loading/stb_image.s: sources/object_loading/stb_image.c.s
 
-.PHONY : sources/Transform.s
+.PHONY : sources/object_loading/stb_image.s
 
 # target to generate assembly for a file
-sources/Transform.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/Transform.cpp.s
-.PHONY : sources/Transform.cpp.s
+sources/object_loading/stb_image.c.s:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_loading/stb_image.c.s
+.PHONY : sources/object_loading/stb_image.c.s
 
-sources/obj_loader.o: sources/obj_loader.cpp.o
+sources/object_manipulation/Mesh.o: sources/object_manipulation/Mesh.cpp.o
 
-.PHONY : sources/obj_loader.o
+.PHONY : sources/object_manipulation/Mesh.o
 
 # target to build an object file
-sources/obj_loader.cpp.o:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/obj_loader.cpp.o
-.PHONY : sources/obj_loader.cpp.o
+sources/object_manipulation/Mesh.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_manipulation/Mesh.cpp.o
+.PHONY : sources/object_manipulation/Mesh.cpp.o
 
-sources/obj_loader.i: sources/obj_loader.cpp.i
+sources/object_manipulation/Mesh.i: sources/object_manipulation/Mesh.cpp.i
 
-.PHONY : sources/obj_loader.i
+.PHONY : sources/object_manipulation/Mesh.i
 
 # target to preprocess a source file
-sources/obj_loader.cpp.i:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/obj_loader.cpp.i
-.PHONY : sources/obj_loader.cpp.i
+sources/object_manipulation/Mesh.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_manipulation/Mesh.cpp.i
+.PHONY : sources/object_manipulation/Mesh.cpp.i
 
-sources/obj_loader.s: sources/obj_loader.cpp.s
+sources/object_manipulation/Mesh.s: sources/object_manipulation/Mesh.cpp.s
 
-.PHONY : sources/obj_loader.s
+.PHONY : sources/object_manipulation/Mesh.s
 
 # target to generate assembly for a file
-sources/obj_loader.cpp.s:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/obj_loader.cpp.s
-.PHONY : sources/obj_loader.cpp.s
+sources/object_manipulation/Mesh.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_manipulation/Mesh.cpp.s
+.PHONY : sources/object_manipulation/Mesh.cpp.s
 
-sources/stb_image.o: sources/stb_image.c.o
+sources/object_manipulation/Object.o: sources/object_manipulation/Object.cpp.o
 
-.PHONY : sources/stb_image.o
+.PHONY : sources/object_manipulation/Object.o
 
 # target to build an object file
-sources/stb_image.c.o:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/stb_image.c.o
-.PHONY : sources/stb_image.c.o
+sources/object_manipulation/Object.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_manipulation/Object.cpp.o
+.PHONY : sources/object_manipulation/Object.cpp.o
 
-sources/stb_image.i: sources/stb_image.c.i
+sources/object_manipulation/Object.i: sources/object_manipulation/Object.cpp.i
 
-.PHONY : sources/stb_image.i
+.PHONY : sources/object_manipulation/Object.i
 
 # target to preprocess a source file
-sources/stb_image.c.i:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/stb_image.c.i
-.PHONY : sources/stb_image.c.i
+sources/object_manipulation/Object.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_manipulation/Object.cpp.i
+.PHONY : sources/object_manipulation/Object.cpp.i
 
-sources/stb_image.s: sources/stb_image.c.s
+sources/object_manipulation/Object.s: sources/object_manipulation/Object.cpp.s
 
-.PHONY : sources/stb_image.s
+.PHONY : sources/object_manipulation/Object.s
 
 # target to generate assembly for a file
-sources/stb_image.c.s:
-	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/stb_image.c.s
-.PHONY : sources/stb_image.c.s
+sources/object_manipulation/Object.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_manipulation/Object.cpp.s
+.PHONY : sources/object_manipulation/Object.cpp.s
+
+sources/object_manipulation/Shader.o: sources/object_manipulation/Shader.cpp.o
+
+.PHONY : sources/object_manipulation/Shader.o
+
+# target to build an object file
+sources/object_manipulation/Shader.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_manipulation/Shader.cpp.o
+.PHONY : sources/object_manipulation/Shader.cpp.o
+
+sources/object_manipulation/Shader.i: sources/object_manipulation/Shader.cpp.i
+
+.PHONY : sources/object_manipulation/Shader.i
+
+# target to preprocess a source file
+sources/object_manipulation/Shader.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_manipulation/Shader.cpp.i
+.PHONY : sources/object_manipulation/Shader.cpp.i
+
+sources/object_manipulation/Shader.s: sources/object_manipulation/Shader.cpp.s
+
+.PHONY : sources/object_manipulation/Shader.s
+
+# target to generate assembly for a file
+sources/object_manipulation/Shader.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_manipulation/Shader.cpp.s
+.PHONY : sources/object_manipulation/Shader.cpp.s
+
+sources/object_manipulation/Texture.o: sources/object_manipulation/Texture.cpp.o
+
+.PHONY : sources/object_manipulation/Texture.o
+
+# target to build an object file
+sources/object_manipulation/Texture.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_manipulation/Texture.cpp.o
+.PHONY : sources/object_manipulation/Texture.cpp.o
+
+sources/object_manipulation/Texture.i: sources/object_manipulation/Texture.cpp.i
+
+.PHONY : sources/object_manipulation/Texture.i
+
+# target to preprocess a source file
+sources/object_manipulation/Texture.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_manipulation/Texture.cpp.i
+.PHONY : sources/object_manipulation/Texture.cpp.i
+
+sources/object_manipulation/Texture.s: sources/object_manipulation/Texture.cpp.s
+
+.PHONY : sources/object_manipulation/Texture.s
+
+# target to generate assembly for a file
+sources/object_manipulation/Texture.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_manipulation/Texture.cpp.s
+.PHONY : sources/object_manipulation/Texture.cpp.s
+
+sources/object_manipulation/Transform.o: sources/object_manipulation/Transform.cpp.o
+
+.PHONY : sources/object_manipulation/Transform.o
+
+# target to build an object file
+sources/object_manipulation/Transform.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_manipulation/Transform.cpp.o
+.PHONY : sources/object_manipulation/Transform.cpp.o
+
+sources/object_manipulation/Transform.i: sources/object_manipulation/Transform.cpp.i
+
+.PHONY : sources/object_manipulation/Transform.i
+
+# target to preprocess a source file
+sources/object_manipulation/Transform.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_manipulation/Transform.cpp.i
+.PHONY : sources/object_manipulation/Transform.cpp.i
+
+sources/object_manipulation/Transform.s: sources/object_manipulation/Transform.cpp.s
+
+.PHONY : sources/object_manipulation/Transform.s
+
+# target to generate assembly for a file
+sources/object_manipulation/Transform.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_manipulation/Transform.cpp.s
+.PHONY : sources/object_manipulation/Transform.cpp.s
 
 # Help Target
 help:
@@ -486,42 +540,48 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... sources/AnimatedModel.o"
-	@echo "... sources/AnimatedModel.i"
-	@echo "... sources/AnimatedModel.s"
-	@echo "... sources/Camera.o"
-	@echo "... sources/Camera.i"
-	@echo "... sources/Camera.s"
-	@echo "... sources/Engine.o"
-	@echo "... sources/Engine.i"
-	@echo "... sources/Engine.s"
-	@echo "... sources/Graphics.o"
-	@echo "... sources/Graphics.i"
-	@echo "... sources/Graphics.s"
-	@echo "... sources/Joints.o"
-	@echo "... sources/Joints.i"
-	@echo "... sources/Joints.s"
-	@echo "... sources/Mesh.o"
-	@echo "... sources/Mesh.i"
-	@echo "... sources/Mesh.s"
-	@echo "... sources/Object.o"
-	@echo "... sources/Object.i"
-	@echo "... sources/Object.s"
-	@echo "... sources/Shader.o"
-	@echo "... sources/Shader.i"
-	@echo "... sources/Shader.s"
-	@echo "... sources/Texture.o"
-	@echo "... sources/Texture.i"
-	@echo "... sources/Texture.s"
-	@echo "... sources/Transform.o"
-	@echo "... sources/Transform.i"
-	@echo "... sources/Transform.s"
-	@echo "... sources/obj_loader.o"
-	@echo "... sources/obj_loader.i"
-	@echo "... sources/obj_loader.s"
-	@echo "... sources/stb_image.o"
-	@echo "... sources/stb_image.i"
-	@echo "... sources/stb_image.s"
+	@echo "... sources/engine/Camera.o"
+	@echo "... sources/engine/Camera.i"
+	@echo "... sources/engine/Camera.s"
+	@echo "... sources/engine/Engine.o"
+	@echo "... sources/engine/Engine.i"
+	@echo "... sources/engine/Engine.s"
+	@echo "... sources/engine/Graphics.o"
+	@echo "... sources/engine/Graphics.i"
+	@echo "... sources/engine/Graphics.s"
+	@echo "... sources/object_animation/AnimatedModel.o"
+	@echo "... sources/object_animation/AnimatedModel.i"
+	@echo "... sources/object_animation/AnimatedModel.s"
+	@echo "... sources/object_animation/Animation.o"
+	@echo "... sources/object_animation/Animation.i"
+	@echo "... sources/object_animation/Animation.s"
+	@echo "... sources/object_animation/Animator.o"
+	@echo "... sources/object_animation/Animator.i"
+	@echo "... sources/object_animation/Animator.s"
+	@echo "... sources/object_animation/Joint.o"
+	@echo "... sources/object_animation/Joint.i"
+	@echo "... sources/object_animation/Joint.s"
+	@echo "... sources/object_loading/obj_loader.o"
+	@echo "... sources/object_loading/obj_loader.i"
+	@echo "... sources/object_loading/obj_loader.s"
+	@echo "... sources/object_loading/stb_image.o"
+	@echo "... sources/object_loading/stb_image.i"
+	@echo "... sources/object_loading/stb_image.s"
+	@echo "... sources/object_manipulation/Mesh.o"
+	@echo "... sources/object_manipulation/Mesh.i"
+	@echo "... sources/object_manipulation/Mesh.s"
+	@echo "... sources/object_manipulation/Object.o"
+	@echo "... sources/object_manipulation/Object.i"
+	@echo "... sources/object_manipulation/Object.s"
+	@echo "... sources/object_manipulation/Shader.o"
+	@echo "... sources/object_manipulation/Shader.i"
+	@echo "... sources/object_manipulation/Shader.s"
+	@echo "... sources/object_manipulation/Texture.o"
+	@echo "... sources/object_manipulation/Texture.i"
+	@echo "... sources/object_manipulation/Texture.s"
+	@echo "... sources/object_manipulation/Transform.o"
+	@echo "... sources/object_manipulation/Transform.i"
+	@echo "... sources/object_manipulation/Transform.s"
 .PHONY : help
 
 

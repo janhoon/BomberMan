@@ -1320,25 +1320,17 @@ close_code.h
 
 /goinfre/janhoon/.brew/Cellar/sdl2/2.0.5/include/SDL2/close_code.h
 
-/goinfre/janhoon/Desktop/BomberMan/includes/AnimatedModel.h
-Mesh.h
-/goinfre/janhoon/Desktop/BomberMan/includes/Mesh.h
-Texture.h
-/goinfre/janhoon/Desktop/BomberMan/includes/Texture.h
-Joints.h
-/goinfre/janhoon/Desktop/BomberMan/includes/Joints.h
-
-/goinfre/janhoon/Desktop/BomberMan/includes/Camera.h
+/goinfre/janhoon/Desktop/BomberMan/includes/engine/Camera.h
 glm/glm.hpp
 -
 glm/gtx/transform.hpp
 -
 
-/goinfre/janhoon/Desktop/BomberMan/includes/Engine.h
-Object.h
-/goinfre/janhoon/Desktop/BomberMan/includes/Object.h
+/goinfre/janhoon/Desktop/BomberMan/includes/engine/Engine.h
+../object manipulation/Object.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object manipulation/Object.h
 
-/goinfre/janhoon/Desktop/BomberMan/includes/Graphics.h
+/goinfre/janhoon/Desktop/BomberMan/includes/engine/Graphics.h
 iostream
 -
 SDL2/SDL.h
@@ -1346,59 +1338,7 @@ SDL2/SDL.h
 GL/glew.h
 -
 
-/goinfre/janhoon/Desktop/BomberMan/includes/Joints.h
-list
--
-stdMain.h
-/goinfre/janhoon/Desktop/BomberMan/includes/stdMain.h
-graphicsMain.h
-/goinfre/janhoon/Desktop/BomberMan/includes/graphicsMain.h
-
-/goinfre/janhoon/Desktop/BomberMan/includes/Mesh.h
-graphicsMain.h
-/goinfre/janhoon/Desktop/BomberMan/includes/graphicsMain.h
-stdMain.h
-/goinfre/janhoon/Desktop/BomberMan/includes/stdMain.h
-obj_loader.h
-/goinfre/janhoon/Desktop/BomberMan/includes/obj_loader.h
-
-/goinfre/janhoon/Desktop/BomberMan/includes/Object.h
-Shader.h
-/goinfre/janhoon/Desktop/BomberMan/includes/Shader.h
-Mesh.h
-/goinfre/janhoon/Desktop/BomberMan/includes/Mesh.h
-Texture.h
-/goinfre/janhoon/Desktop/BomberMan/includes/Texture.h
-Transform.h
-/goinfre/janhoon/Desktop/BomberMan/includes/Transform.h
-Camera.h
-/goinfre/janhoon/Desktop/BomberMan/includes/Camera.h
-
-/goinfre/janhoon/Desktop/BomberMan/includes/Shader.h
-stdMain.h
-/goinfre/janhoon/Desktop/BomberMan/includes/stdMain.h
-graphicsMain.h
-/goinfre/janhoon/Desktop/BomberMan/includes/graphicsMain.h
-Transform.h
-/goinfre/janhoon/Desktop/BomberMan/includes/Transform.h
-Camera.h
-/goinfre/janhoon/Desktop/BomberMan/includes/Camera.h
-
-/goinfre/janhoon/Desktop/BomberMan/includes/Texture.h
-stdMain.h
-/goinfre/janhoon/Desktop/BomberMan/includes/stdMain.h
-graphicsMain.h
-/goinfre/janhoon/Desktop/BomberMan/includes/graphicsMain.h
-stb_image.h
-/goinfre/janhoon/Desktop/BomberMan/includes/stb_image.h
-
-/goinfre/janhoon/Desktop/BomberMan/includes/Transform.h
-glm/glm.hpp
--
-glm/gtx/transform.hpp
--
-
-/goinfre/janhoon/Desktop/BomberMan/includes/graphicsMain.h
+/goinfre/janhoon/Desktop/BomberMan/includes/general/graphicsMain.h
 GL/glew.h
 -
 glm/glm.hpp
@@ -1406,19 +1346,7 @@ glm/glm.hpp
 glm/gtx/transform.hpp
 -
 
-/goinfre/janhoon/Desktop/BomberMan/includes/obj_loader.h
-glm/glm.hpp
--
-vector
--
-string
--
-
-/goinfre/janhoon/Desktop/BomberMan/includes/stb_image.h
-stdio.h
--
-
-/goinfre/janhoon/Desktop/BomberMan/includes/stdMain.h
+/goinfre/janhoon/Desktop/BomberMan/includes/general/stdMain.h
 vector
 -
 iostream
@@ -1427,60 +1355,118 @@ fstream
 -
 cassert
 -
+list
+-
+
+/goinfre/janhoon/Desktop/BomberMan/includes/object animation/AnimatedModel.h
+../object manipulation/Mesh.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object manipulation/Mesh.h
+../object manipulation/Texture.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object manipulation/Texture.h
+Joint.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object animation/Joint.h
+
+/goinfre/janhoon/Desktop/BomberMan/includes/object animation/Animation.h
+
+/goinfre/janhoon/Desktop/BomberMan/includes/object animation/Joint.h
+../general/stdMain.h
+/goinfre/janhoon/Desktop/BomberMan/includes/general/stdMain.h
+../general/graphicsMain.h
+/goinfre/janhoon/Desktop/BomberMan/includes/general/graphicsMain.h
+
+/goinfre/janhoon/Desktop/BomberMan/includes/object loading/obj_loader.h
+glm/glm.hpp
+-
+vector
+-
+string
+-
+
+/goinfre/janhoon/Desktop/BomberMan/includes/object loading/stb_image.h
+stdio.h
+-
+
+/goinfre/janhoon/Desktop/BomberMan/includes/object manipulation/Mesh.h
+../general/graphicsMain.h
+/goinfre/janhoon/Desktop/BomberMan/includes/general/graphicsMain.h
+../general/stdMain.h
+/goinfre/janhoon/Desktop/BomberMan/includes/general/stdMain.h
+../object loading/obj_loader.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object loading/obj_loader.h
+
+/goinfre/janhoon/Desktop/BomberMan/includes/object manipulation/Object.h
+Shader.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object manipulation/Shader.h
+Mesh.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object manipulation/Mesh.h
+Texture.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object manipulation/Texture.h
+Transform.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object manipulation/Transform.h
+../engine/Camera.h
+/goinfre/janhoon/Desktop/BomberMan/includes/engine/Camera.h
+
+/goinfre/janhoon/Desktop/BomberMan/includes/object manipulation/Shader.h
+../general/stdMain.h
+/goinfre/janhoon/Desktop/BomberMan/includes/general/stdMain.h
+../general/graphicsMain.h
+/goinfre/janhoon/Desktop/BomberMan/includes/general/graphicsMain.h
+Transform.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object manipulation/Transform.h
+../engine/Camera.h
+/goinfre/janhoon/Desktop/BomberMan/includes/engine/Camera.h
+
+/goinfre/janhoon/Desktop/BomberMan/includes/object manipulation/Texture.h
+../general/stdMain.h
+/goinfre/janhoon/Desktop/BomberMan/includes/general/stdMain.h
+../general/graphicsMain.h
+/goinfre/janhoon/Desktop/BomberMan/includes/general/graphicsMain.h
+../object loading/stb_image.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object loading/stb_image.h
+
+/goinfre/janhoon/Desktop/BomberMan/includes/object manipulation/Transform.h
+glm/glm.hpp
+-
+glm/gtx/transform.hpp
+-
 
 /goinfre/janhoon/Desktop/BomberMan/main.cpp
 iostream
 -
-includes/Graphics.h
-/goinfre/janhoon/Desktop/BomberMan/includes/Graphics.h
-includes/Object.h
-/goinfre/janhoon/Desktop/BomberMan/includes/Object.h
-includes/Engine.h
-/goinfre/janhoon/Desktop/BomberMan/includes/Engine.h
+includes/engine/Graphics.h
+/goinfre/janhoon/Desktop/BomberMan/includes/engine/Graphics.h
+includes/object manipulation/Object.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object manipulation/Object.h
+includes/engine/Engine.h
+/goinfre/janhoon/Desktop/BomberMan/includes/engine/Engine.h
 
-/goinfre/janhoon/Desktop/BomberMan/sources/AnimatedModel.cpp
-../includes/AnimatedModel.h
-/goinfre/janhoon/Desktop/BomberMan/includes/AnimatedModel.h
+/goinfre/janhoon/Desktop/BomberMan/sources/engine/Camera.cpp
+../../includes/engine/Camera.h
+/goinfre/janhoon/Desktop/BomberMan/includes/engine/Camera.h
 
-/goinfre/janhoon/Desktop/BomberMan/sources/Camera.cpp
-../includes/Camera.h
-/goinfre/janhoon/Desktop/BomberMan/includes/Camera.h
+/goinfre/janhoon/Desktop/BomberMan/sources/engine/Engine.cpp
+../../includes/engine/Engine.h
+/goinfre/janhoon/Desktop/BomberMan/includes/engine/Engine.h
 
-/goinfre/janhoon/Desktop/BomberMan/sources/Engine.cpp
-../includes/Engine.h
-/goinfre/janhoon/Desktop/BomberMan/includes/Engine.h
+/goinfre/janhoon/Desktop/BomberMan/sources/engine/Graphics.cpp
+../../includes/engine/Graphics.h
+/goinfre/janhoon/Desktop/BomberMan/includes/engine/Graphics.h
 
-/goinfre/janhoon/Desktop/BomberMan/sources/Graphics.cpp
-../includes/Graphics.h
-/goinfre/janhoon/Desktop/BomberMan/includes/Graphics.h
+/goinfre/janhoon/Desktop/BomberMan/sources/object animation/AnimatedModel.cpp
+../../includes/object animation/AnimatedModel.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object animation/AnimatedModel.h
 
-/goinfre/janhoon/Desktop/BomberMan/sources/Joints.cpp
-../includes/Joints.h
-/goinfre/janhoon/Desktop/BomberMan/includes/Joints.h
+/goinfre/janhoon/Desktop/BomberMan/sources/object animation/Animation.cpp
+../../includes/object animation/Animation.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object animation/Animation.h
 
-/goinfre/janhoon/Desktop/BomberMan/sources/Mesh.cpp
-../includes/Mesh.h
-/goinfre/janhoon/Desktop/BomberMan/includes/Mesh.h
+/goinfre/janhoon/Desktop/BomberMan/sources/object animation/Joint.cpp
+../../includes/object animation/Joint.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object animation/Joint.h
 
-/goinfre/janhoon/Desktop/BomberMan/sources/Object.cpp
-../includes/Object.h
-/goinfre/janhoon/Desktop/BomberMan/includes/Object.h
-
-/goinfre/janhoon/Desktop/BomberMan/sources/Shader.cpp
-../includes/Shader.h
-/goinfre/janhoon/Desktop/BomberMan/includes/Shader.h
-
-/goinfre/janhoon/Desktop/BomberMan/sources/Texture.cpp
-../includes/Texture.h
-/goinfre/janhoon/Desktop/BomberMan/includes/Texture.h
-
-/goinfre/janhoon/Desktop/BomberMan/sources/Transform.cpp
-../includes/Transform.h
-/goinfre/janhoon/Desktop/BomberMan/includes/Transform.h
-
-/goinfre/janhoon/Desktop/BomberMan/sources/obj_loader.cpp
-../includes/obj_loader.h
-/goinfre/janhoon/Desktop/BomberMan/includes/obj_loader.h
+/goinfre/janhoon/Desktop/BomberMan/sources/object loading/obj_loader.cpp
+../../includes/object loading/obj_loader.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object loading/obj_loader.h
 fstream
 -
 iostream
@@ -1489,4 +1475,24 @@ algorithm
 -
 map
 -
+
+/goinfre/janhoon/Desktop/BomberMan/sources/object manipulation/Mesh.cpp
+../../includes/object manipulation/Mesh.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object manipulation/Mesh.h
+
+/goinfre/janhoon/Desktop/BomberMan/sources/object manipulation/Object.cpp
+../../includes/object manipulation/Object.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object manipulation/Object.h
+
+/goinfre/janhoon/Desktop/BomberMan/sources/object manipulation/Shader.cpp
+../../includes/object manipulation/Shader.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object manipulation/Shader.h
+
+/goinfre/janhoon/Desktop/BomberMan/sources/object manipulation/Texture.cpp
+../../includes/object manipulation/Texture.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object manipulation/Texture.h
+
+/goinfre/janhoon/Desktop/BomberMan/sources/object manipulation/Transform.cpp
+../../includes/object manipulation/Transform.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object manipulation/Transform.h
 

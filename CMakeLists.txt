@@ -5,29 +5,29 @@ set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES
         main.cpp
-        sources/Graphics.cpp
-        includes/Graphics.h
-        sources/Shader.cpp
-        includes/Shader.h
-        sources/Mesh.cpp
-        includes/Mesh.h
-        sources/Texture.cpp
-        includes/Texture.h
-        sources/stb_image.c
-        includes/stb_image.h
-        sources/Transform.cpp
-        includes/Transform.h
-        sources/Camera.cpp
-        includes/Camera.h
-        sources/obj_loader.cpp
-        includes/obj_loader.h
-        includes/graphicsMain.h
-        includes/stdMain.h
-        sources/Object.cpp
-        includes/Object.h
-        sources/Engine.cpp
-        includes/Engine.h
-        includes/tiny_gltf.h sources/Joints.cpp includes/Joints.h sources/AnimatedModel.cpp includes/AnimatedModel.h)
+        sources/engine/Graphics.cpp
+        includes/engine/Graphics.h
+        "sources/object manipulation/Shader.cpp"
+        "includes/object manipulation/Shader.h"
+        "sources/object manipulation/Mesh.cpp"
+        "includes/object manipulation/Mesh.h"
+        "sources/object manipulation/Texture.cpp"
+        "includes/object manipulation/Texture.h"
+        "sources/object loading/stb_image.c"
+        "includes/object loading/stb_image.h"
+        "sources/object manipulation/Transform.cpp"
+        "includes/object manipulation/Transform.h"
+        sources/engine/Camera.cpp
+        includes/engine/Camera.h
+        "sources/object loading/obj_loader.cpp"
+        "includes/object loading/obj_loader.h"
+        includes/general/graphicsMain.h
+        includes/general/stdMain.h
+        "sources/object manipulation/Object.cpp"
+        "includes/object manipulation/Object.h"
+        sources/engine/Engine.cpp
+        includes/engine/Engine.h
+        "includes/object loading/tiny_gltf.h" "sources/object animation/Joint.cpp" "includes/object animation/Joint.h" "sources/object animation/AnimatedModel.cpp" "includes/object animation/AnimatedModel.h" "sources/object animation/Animation.cpp" "includes/object animation/Animation.h" "sources/object animation/Animator.cpp" "includes/object animation/Animator.h")
 
 add_executable(BomberMan ${SOURCE_FILES})
 

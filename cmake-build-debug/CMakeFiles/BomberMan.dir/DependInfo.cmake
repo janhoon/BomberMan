@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/goinfre/janhoon/Desktop/BomberMan/sources/stb_image.c" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/stb_image.c.o"
+  "/goinfre/janhoon/Desktop/BomberMan/sources/object loading/stb_image.c" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/object_loading/stb_image.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
@@ -17,17 +17,19 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/goinfre/janhoon/Desktop/BomberMan/main.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/main.cpp.o"
-  "/goinfre/janhoon/Desktop/BomberMan/sources/AnimatedModel.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/AnimatedModel.cpp.o"
-  "/goinfre/janhoon/Desktop/BomberMan/sources/Camera.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/Camera.cpp.o"
-  "/goinfre/janhoon/Desktop/BomberMan/sources/Engine.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/Engine.cpp.o"
-  "/goinfre/janhoon/Desktop/BomberMan/sources/Graphics.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/Graphics.cpp.o"
-  "/goinfre/janhoon/Desktop/BomberMan/sources/Joints.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/Joints.cpp.o"
-  "/goinfre/janhoon/Desktop/BomberMan/sources/Mesh.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/Mesh.cpp.o"
-  "/goinfre/janhoon/Desktop/BomberMan/sources/Object.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/Object.cpp.o"
-  "/goinfre/janhoon/Desktop/BomberMan/sources/Shader.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/Shader.cpp.o"
-  "/goinfre/janhoon/Desktop/BomberMan/sources/Texture.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/Texture.cpp.o"
-  "/goinfre/janhoon/Desktop/BomberMan/sources/Transform.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/Transform.cpp.o"
-  "/goinfre/janhoon/Desktop/BomberMan/sources/obj_loader.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/obj_loader.cpp.o"
+  "/goinfre/janhoon/Desktop/BomberMan/sources/engine/Camera.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/engine/Camera.cpp.o"
+  "/goinfre/janhoon/Desktop/BomberMan/sources/engine/Engine.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/engine/Engine.cpp.o"
+  "/goinfre/janhoon/Desktop/BomberMan/sources/engine/Graphics.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/engine/Graphics.cpp.o"
+  "/goinfre/janhoon/Desktop/BomberMan/sources/object animation/AnimatedModel.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/object_animation/AnimatedModel.cpp.o"
+  "/goinfre/janhoon/Desktop/BomberMan/sources/object animation/Animation.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/object_animation/Animation.cpp.o"
+  "/goinfre/janhoon/Desktop/BomberMan/sources/object animation/Animator.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o"
+  "/goinfre/janhoon/Desktop/BomberMan/sources/object animation/Joint.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/object_animation/Joint.cpp.o"
+  "/goinfre/janhoon/Desktop/BomberMan/sources/object loading/obj_loader.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/object_loading/obj_loader.cpp.o"
+  "/goinfre/janhoon/Desktop/BomberMan/sources/object manipulation/Mesh.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/object_manipulation/Mesh.cpp.o"
+  "/goinfre/janhoon/Desktop/BomberMan/sources/object manipulation/Object.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/object_manipulation/Object.cpp.o"
+  "/goinfre/janhoon/Desktop/BomberMan/sources/object manipulation/Shader.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/object_manipulation/Shader.cpp.o"
+  "/goinfre/janhoon/Desktop/BomberMan/sources/object manipulation/Texture.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/object_manipulation/Texture.cpp.o"
+  "/goinfre/janhoon/Desktop/BomberMan/sources/object manipulation/Transform.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/object_manipulation/Transform.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

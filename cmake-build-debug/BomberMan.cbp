@@ -86,88 +86,100 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/AnimatedModel.h">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/engine/Camera.h">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Camera.h">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/engine/Engine.h">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Engine.h">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/engine/Graphics.h">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Graphics.h">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/general/graphicsMain.h">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Joints.h">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/general/stdMain.h">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Mesh.h">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/object animation/AnimatedModel.h">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Object.h">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/object animation/Animation.h">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Shader.h">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/object animation/Animator.h">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Texture.h">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/object animation/Joint.h">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/Transform.h">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/object loading/obj_loader.h">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/graphicsMain.h">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/object loading/stb_image.h">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/obj_loader.h">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/object loading/tiny_gltf.h">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/stb_image.h">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/object manipulation/Mesh.h">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/stdMain.h">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/object manipulation/Object.h">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/tiny_gltf.h">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/object manipulation/Shader.h">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/object manipulation/Texture.h">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/object manipulation/Transform.h">
 			<Option target="BomberMan"/>
 		</Unit>
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/main.cpp">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/AnimatedModel.cpp">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/engine/Camera.cpp">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Camera.cpp">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/engine/Engine.cpp">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Engine.cpp">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/engine/Graphics.cpp">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Graphics.cpp">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/object animation/AnimatedModel.cpp">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Joints.cpp">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/object animation/Animation.cpp">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Mesh.cpp">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/object animation/Animator.cpp">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Object.cpp">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/object animation/Joint.cpp">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Shader.cpp">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/object loading/obj_loader.cpp">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Texture.cpp">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/object loading/stb_image.c">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/Transform.cpp">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/object manipulation/Mesh.cpp">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/obj_loader.cpp">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/object manipulation/Object.cpp">
 			<Option target="BomberMan"/>
 		</Unit>
-		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/stb_image.c">
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/object manipulation/Shader.cpp">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/object manipulation/Texture.cpp">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/object manipulation/Transform.cpp">
 			<Option target="BomberMan"/>
 		</Unit>
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/CMakeLists.txt">
