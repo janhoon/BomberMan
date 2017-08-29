@@ -10,5 +10,6 @@
 #include <fstream>
 #include <cassert>
 #include <list>
+#include <map>
 
 #endif //BOMBERMAN2_STDMAIN_H

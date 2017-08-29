@@ -15,6 +15,9 @@ public:
     void addChild(Joint child);
 
     glm::mat4 getAnimatedTransform();
+    void setAnimatedTransform(glm::mat4 transform);
+
+    std::list<Joint> getChildren();
 
     void calcInverseBindTransform(glm::mat4 parentBindTransform);
 private:

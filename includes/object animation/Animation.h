@@ -10,7 +10,8 @@ class Animation {
 public:
 
 private:
-
+    float _lenght;
+    std::vector<KeyFrame> _keyFrames;
 };
 
 

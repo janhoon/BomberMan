@@ -522,6 +522,8 @@ CMakeFiles/BomberMan.dir/sources/object_animation/AnimatedModel.cpp.o: /goinfre/
 CMakeFiles/BomberMan.dir/sources/object_animation/AnimatedModel.cpp.o: ../includes/general/graphicsMain.h
 CMakeFiles/BomberMan.dir/sources/object_animation/AnimatedModel.cpp.o: ../includes/general/stdMain.h
 CMakeFiles/BomberMan.dir/sources/object_animation/AnimatedModel.cpp.o: ../includes/object\ animation/AnimatedModel.h
+CMakeFiles/BomberMan.dir/sources/object_animation/AnimatedModel.cpp.o: ../includes/object\ animation/Animation.h
+CMakeFiles/BomberMan.dir/sources/object_animation/AnimatedModel.cpp.o: ../includes/object\ animation/Animator.h
 CMakeFiles/BomberMan.dir/sources/object_animation/AnimatedModel.cpp.o: ../includes/object\ animation/Joint.h
 CMakeFiles/BomberMan.dir/sources/object_animation/AnimatedModel.cpp.o: ../includes/object\ loading/obj_loader.h
 CMakeFiles/BomberMan.dir/sources/object_animation/AnimatedModel.cpp.o: ../includes/object\ loading/stb_image.h
@@ -531,6 +533,117 @@ CMakeFiles/BomberMan.dir/sources/object_animation/AnimatedModel.cpp.o: ../source
 
 CMakeFiles/BomberMan.dir/sources/object_animation/Animation.cpp.o: ../includes/object\ animation/Animation.h
 CMakeFiles/BomberMan.dir/sources/object_animation/Animation.cpp.o: ../sources/object\ animation/Animation.cpp
+
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glew/2.1.0/include/GL/glew.h
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/common.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/_fixes.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/_swizzle.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/_swizzle_func.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/_vectorize.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_common.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_common.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_common_simd.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_exponential.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_exponential.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_exponential_simd.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_geometric.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_geometric.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_geometric_simd.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_integer.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_integer.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_integer_simd.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_matrix.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_matrix.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_matrix_simd.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_packing.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_packing.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_packing_simd.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_trigonometric.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_trigonometric.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_trigonometric_simd.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_vector_relational.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_vector_relational.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/func_vector_relational_simd.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/precision.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/setup.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_float.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_half.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_half.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_int.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat2x2.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat2x2.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat2x3.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat2x3.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat2x4.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat2x4.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat3x2.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat3x2.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat3x3.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat3x3.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat3x4.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat3x4.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x2.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x2.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x3.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x3.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x4.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x4.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_mat4x4_simd.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec1.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec1.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec2.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec2.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec3.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec3.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec4.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec4.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/detail/type_vec4_simd.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/exponential.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/fwd.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/geometric.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/glm.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtc/constants.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtc/constants.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtc/matrix_transform.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtc/matrix_transform.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtx/transform.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/gtx/transform.inl
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/integer.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat2x2.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat2x3.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat2x4.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat3x2.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat3x3.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat3x4.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat4x2.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat4x3.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/mat4x4.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/matrix.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/packing.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/simd/common.h
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/simd/exponential.h
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/simd/geometric.h
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/simd/integer.h
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/simd/matrix.h
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/simd/platform.h
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/trigonometric.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/vec2.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/vec3.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/vec4.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/vector_relational.hpp
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: ../includes/general/graphicsMain.h
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: ../includes/general/stdMain.h
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: ../includes/object\ animation/AnimatedModel.h
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: ../includes/object\ animation/Animation.h
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: ../includes/object\ animation/Animator.h
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: ../includes/object\ animation/Joint.h
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: ../includes/object\ loading/obj_loader.h
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: ../includes/object\ loading/stb_image.h
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: ../includes/object\ manipulation/Mesh.h
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: ../includes/object\ manipulation/Texture.h
+CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o: ../sources/object\ animation/Animator.cpp
 
 CMakeFiles/BomberMan.dir/sources/object_animation/Joint.cpp.o: /goinfre/janhoon/.brew/Cellar/glew/2.1.0/include/GL/glew.h
 CMakeFiles/BomberMan.dir/sources/object_animation/Joint.cpp.o: /goinfre/janhoon/.brew/Cellar/glm/0.9.8.4/include/glm/common.hpp

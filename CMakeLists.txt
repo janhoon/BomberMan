@@ -27,7 +27,7 @@ set(SOURCE_FILES
         "includes/object manipulation/Object.h"
         sources/engine/Engine.cpp
         includes/engine/Engine.h
-        "includes/object loading/tiny_gltf.h" "sources/object animation/Joint.cpp" "includes/object animation/Joint.h" "sources/object animation/AnimatedModel.cpp" "includes/object animation/AnimatedModel.h" "sources/object animation/Animation.cpp" "includes/object animation/Animation.h" "sources/object animation/Animator.cpp" "includes/object animation/Animator.h")
+        "includes/object loading/tiny_gltf.h" "sources/object animation/Joint.cpp" "includes/object animation/Joint.h" "sources/object animation/AnimatedModel.cpp" "includes/object animation/AnimatedModel.h" "sources/object animation/Animation.cpp" "includes/object animation/Animation.h" "sources/object animation/Animator.cpp" "includes/object animation/Animator.h" "sources/object animation/KeyFrame.cpp" "includes/object animation/KeyFrame.h" "sources/object animation/JointTransform.cpp" "includes/object animation/JointTransform.h")
 
 add_executable(BomberMan ${SOURCE_FILES})
 

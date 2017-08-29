@@ -14,6 +14,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/BomberMan.dir/sources/object_animation/AnimatedModel.cpp.o"
   "CMakeFiles/BomberMan.dir/sources/object_animation/Animation.cpp.o"
   "CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o"
+  "CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.o"
+  "CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.o"
   "BomberMan.pdb"
   "BomberMan"
 )

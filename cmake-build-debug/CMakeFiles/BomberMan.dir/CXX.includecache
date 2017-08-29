@@ -1365,7 +1365,15 @@ list
 /goinfre/janhoon/Desktop/BomberMan/includes/object manipulation/Texture.h
 Joint.h
 /goinfre/janhoon/Desktop/BomberMan/includes/object animation/Joint.h
+Animator.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object animation/Animator.h
 
+/goinfre/janhoon/Desktop/BomberMan/includes/object animation/Animation.h
+
+/goinfre/janhoon/Desktop/BomberMan/includes/object animation/Animator.h
+AnimatedModel.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object animation/AnimatedModel.h
+Animation.h
 /goinfre/janhoon/Desktop/BomberMan/includes/object animation/Animation.h
 
 /goinfre/janhoon/Desktop/BomberMan/includes/object animation/Joint.h
@@ -1459,6 +1467,10 @@ includes/engine/Engine.h
 /goinfre/janhoon/Desktop/BomberMan/sources/object animation/Animation.cpp
 ../../includes/object animation/Animation.h
 /goinfre/janhoon/Desktop/BomberMan/includes/object animation/Animation.h
+
+/goinfre/janhoon/Desktop/BomberMan/sources/object animation/Animator.cpp
+../../includes/object animation/Animator.h
+/goinfre/janhoon/Desktop/BomberMan/includes/object animation/Animator.h
 
 /goinfre/janhoon/Desktop/BomberMan/sources/object animation/Joint.cpp
 ../../includes/object animation/Joint.h

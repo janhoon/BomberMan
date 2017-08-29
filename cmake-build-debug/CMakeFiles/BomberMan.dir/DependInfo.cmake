@@ -24,6 +24,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/goinfre/janhoon/Desktop/BomberMan/sources/object animation/Animation.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/object_animation/Animation.cpp.o"
   "/goinfre/janhoon/Desktop/BomberMan/sources/object animation/Animator.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o"
   "/goinfre/janhoon/Desktop/BomberMan/sources/object animation/Joint.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/object_animation/Joint.cpp.o"
+  "/goinfre/janhoon/Desktop/BomberMan/sources/object animation/JointTransform.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.o"
+  "/goinfre/janhoon/Desktop/BomberMan/sources/object animation/KeyFrame.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.o"
   "/goinfre/janhoon/Desktop/BomberMan/sources/object loading/obj_loader.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/object_loading/obj_loader.cpp.o"
   "/goinfre/janhoon/Desktop/BomberMan/sources/object manipulation/Mesh.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/object_manipulation/Mesh.cpp.o"
   "/goinfre/janhoon/Desktop/BomberMan/sources/object manipulation/Object.cpp" "/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles/BomberMan.dir/sources/object_manipulation/Object.cpp.o"

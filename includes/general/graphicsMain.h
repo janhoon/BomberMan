@@ -8,5 +8,6 @@
 #include <GL/glew.h>
 #include <glm/glm.hpp>
 #include <glm/gtx/transform.hpp>
+#include <glm/exponential.hpp>
 
 #endif //BOMBERMAN2_GRAPHICSMAIN_H

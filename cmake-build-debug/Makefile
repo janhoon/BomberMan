@@ -339,6 +339,60 @@ sources/object_animation/Joint.cpp.s:
 	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_animation/Joint.cpp.s
 .PHONY : sources/object_animation/Joint.cpp.s
 
+sources/object_animation/JointTransform.o: sources/object_animation/JointTransform.cpp.o
+
+.PHONY : sources/object_animation/JointTransform.o
+
+# target to build an object file
+sources/object_animation/JointTransform.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.o
+.PHONY : sources/object_animation/JointTransform.cpp.o
+
+sources/object_animation/JointTransform.i: sources/object_animation/JointTransform.cpp.i
+
+.PHONY : sources/object_animation/JointTransform.i
+
+# target to preprocess a source file
+sources/object_animation/JointTransform.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.i
+.PHONY : sources/object_animation/JointTransform.cpp.i
+
+sources/object_animation/JointTransform.s: sources/object_animation/JointTransform.cpp.s
+
+.PHONY : sources/object_animation/JointTransform.s
+
+# target to generate assembly for a file
+sources/object_animation/JointTransform.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.s
+.PHONY : sources/object_animation/JointTransform.cpp.s
+
+sources/object_animation/KeyFrame.o: sources/object_animation/KeyFrame.cpp.o
+
+.PHONY : sources/object_animation/KeyFrame.o
+
+# target to build an object file
+sources/object_animation/KeyFrame.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.o
+.PHONY : sources/object_animation/KeyFrame.cpp.o
+
+sources/object_animation/KeyFrame.i: sources/object_animation/KeyFrame.cpp.i
+
+.PHONY : sources/object_animation/KeyFrame.i
+
+# target to preprocess a source file
+sources/object_animation/KeyFrame.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.i
+.PHONY : sources/object_animation/KeyFrame.cpp.i
+
+sources/object_animation/KeyFrame.s: sources/object_animation/KeyFrame.cpp.s
+
+.PHONY : sources/object_animation/KeyFrame.s
+
+# target to generate assembly for a file
+sources/object_animation/KeyFrame.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.s
+.PHONY : sources/object_animation/KeyFrame.cpp.s
+
 sources/object_loading/obj_loader.o: sources/object_loading/obj_loader.cpp.o
 
 .PHONY : sources/object_loading/obj_loader.o
@@ -561,6 +615,12 @@ help:
 	@echo "... sources/object_animation/Joint.o"
 	@echo "... sources/object_animation/Joint.i"
 	@echo "... sources/object_animation/Joint.s"
+	@echo "... sources/object_animation/JointTransform.o"
+	@echo "... sources/object_animation/JointTransform.i"
+	@echo "... sources/object_animation/JointTransform.s"
+	@echo "... sources/object_animation/KeyFrame.o"
+	@echo "... sources/object_animation/KeyFrame.i"
+	@echo "... sources/object_animation/KeyFrame.s"
 	@echo "... sources/object_loading/obj_loader.o"
 	@echo "... sources/object_loading/obj_loader.i"
 	@echo "... sources/object_loading/obj_loader.s"

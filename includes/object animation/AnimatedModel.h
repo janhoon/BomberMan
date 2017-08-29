@@ -23,9 +23,9 @@ public:
 
     void update();
 
-    std::list<glm::mat4> getJointTransforms();
+    std::vector<glm::mat4> getJointTransforms();
 
-    void addJointsToArray(Joint headJoint, std::list<glm::mat4> jointMatrices);
+    void addJointsToArray(Joint headJoint, std::vector<glm::mat4> jointMatrices);
 
 private:
     Mesh _mesh;

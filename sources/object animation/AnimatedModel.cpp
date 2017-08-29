@@ -26,11 +26,15 @@ void AnimatedModel::update() {
     _animator.update();
 }
 
-std::list<glm::mat4> AnimatedModel::getJointTransforms() {
-
+std::vector<glm::mat4> AnimatedModel::getJointTransforms() {
+    std::vector<glm::mat4> jointMatrices;
+    addJointsToArray(_rootJoint, jointMatrices);
 }
 
-void AnimatedModel::addJointsToArray(Joint headJoint, glm::mat4[_jointCount] jointMatrices) {
-    ;
+void AnimatedModel::addJointsToArray(Joint headJoint, std::vector<glm::mat4> jointMatrices) {
+    *std::find(jointMatrices.begin(), jointMatrices.end(), headJoint) = headJoint.getAnimatedTransform();
+    for (Joint child : headJoint.getChildren()) {
+        addJointsToArray(child, jointMatrices);
+    }
 }
 

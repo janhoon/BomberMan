@@ -113,6 +113,12 @@
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/object animation/Joint.h">
 			<Option target="BomberMan"/>
 		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/object animation/JointTransform.h">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/object animation/KeyFrame.h">
+			<Option target="BomberMan"/>
+		</Unit>
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/includes/object loading/obj_loader.h">
 			<Option target="BomberMan"/>
 		</Unit>
@@ -159,6 +165,12 @@
 			<Option target="BomberMan"/>
 		</Unit>
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/object animation/Joint.cpp">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/object animation/JointTransform.cpp">
+			<Option target="BomberMan"/>
+		</Unit>
+		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/object animation/KeyFrame.cpp">
 			<Option target="BomberMan"/>
 		</Unit>
 		<Unit filename="/goinfre/janhoon/Desktop/BomberMan/sources/object loading/obj_loader.cpp">

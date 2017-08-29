@@ -26,3 +26,10 @@ void Joint::calcInverseBindTransform(glm::mat4 parentBindTransform) {
     }
 }
 
+std::list<Joint> Joint::getChildren() {
+    return _children;
+}
+
+void Joint::setAnimatedTransform(glm::mat4 transform) {
+    _animatedTransform = transform;
+}

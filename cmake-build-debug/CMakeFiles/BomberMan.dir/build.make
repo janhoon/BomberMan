@@ -417,6 +417,54 @@ CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o.provides: CMake
 CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o.provides.build: CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o
 
 
+CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.o: CMakeFiles/BomberMan.dir/flags.make
+CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.o: ../sources/object\ animation/KeyFrame.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.o -c "/goinfre/janhoon/Desktop/BomberMan/sources/object animation/KeyFrame.cpp"
+
+CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/goinfre/janhoon/Desktop/BomberMan/sources/object animation/KeyFrame.cpp" > CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.i
+
+CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/goinfre/janhoon/Desktop/BomberMan/sources/object animation/KeyFrame.cpp" -o CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.s
+
+CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.o.requires:
+
+.PHONY : CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.o.requires
+
+CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.o.provides: CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.o.requires
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.o.provides.build
+.PHONY : CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.o.provides
+
+CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.o.provides.build: CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.o
+
+
+CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.o: CMakeFiles/BomberMan.dir/flags.make
+CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.o: ../sources/object\ animation/JointTransform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.o -c "/goinfre/janhoon/Desktop/BomberMan/sources/object animation/JointTransform.cpp"
+
+CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/goinfre/janhoon/Desktop/BomberMan/sources/object animation/JointTransform.cpp" > CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.i
+
+CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/goinfre/janhoon/Desktop/BomberMan/sources/object animation/JointTransform.cpp" -o CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.s
+
+CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.o.requires:
+
+.PHONY : CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.o.requires
+
+CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.o.provides: CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.o.requires
+	$(MAKE) -f CMakeFiles/BomberMan.dir/build.make CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.o.provides.build
+.PHONY : CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.o.provides
+
+CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.o.provides.build: CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.o
+
+
 # Object files for target BomberMan
 BomberMan_OBJECTS = \
 "CMakeFiles/BomberMan.dir/main.cpp.o" \
@@ -433,7 +481,9 @@ BomberMan_OBJECTS = \
 "CMakeFiles/BomberMan.dir/sources/object_animation/Joint.cpp.o" \
 "CMakeFiles/BomberMan.dir/sources/object_animation/AnimatedModel.cpp.o" \
 "CMakeFiles/BomberMan.dir/sources/object_animation/Animation.cpp.o" \
-"CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o"
+"CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o" \
+"CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.o" \
+"CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.o"
 
 # External object files for target BomberMan
 BomberMan_EXTERNAL_OBJECTS =
@@ -453,9 +503,11 @@ BomberMan: CMakeFiles/BomberMan.dir/sources/object_animation/Joint.cpp.o
 BomberMan: CMakeFiles/BomberMan.dir/sources/object_animation/AnimatedModel.cpp.o
 BomberMan: CMakeFiles/BomberMan.dir/sources/object_animation/Animation.cpp.o
 BomberMan: CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o
+BomberMan: CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.o
+BomberMan: CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.o
 BomberMan: CMakeFiles/BomberMan.dir/build.make
 BomberMan: CMakeFiles/BomberMan.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable BomberMan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/goinfre/janhoon/Desktop/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable BomberMan"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BomberMan.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -478,6 +530,8 @@ CMakeFiles/BomberMan.dir/requires: CMakeFiles/BomberMan.dir/sources/object_anima
 CMakeFiles/BomberMan.dir/requires: CMakeFiles/BomberMan.dir/sources/object_animation/AnimatedModel.cpp.o.requires
 CMakeFiles/BomberMan.dir/requires: CMakeFiles/BomberMan.dir/sources/object_animation/Animation.cpp.o.requires
 CMakeFiles/BomberMan.dir/requires: CMakeFiles/BomberMan.dir/sources/object_animation/Animator.cpp.o.requires
+CMakeFiles/BomberMan.dir/requires: CMakeFiles/BomberMan.dir/sources/object_animation/KeyFrame.cpp.o.requires
+CMakeFiles/BomberMan.dir/requires: CMakeFiles/BomberMan.dir/sources/object_animation/JointTransform.cpp.o.requires
 
 .PHONY : CMakeFiles/BomberMan.dir/requires
 
