@@ -2,7 +2,7 @@
 
 	#include <iostream>
 
-Bot::Bot() : _ax_x(0), _ax_y(0) {}
+Bot::Bot() : _ax_x(0), _ax_y(0), _choice(0) {}
 
 void Bot::reset_moves() {
 	_up = false;
@@ -56,6 +56,8 @@ void Bot::check_collision(std::vector<std::vector<Object *> > *map, int x, int y
 }
 
 char Bot::make_move(std::vector<std::vector<Object *> > *map, int x, int y) {
+	if (_choice--)
+		return translate_move();
 	check_moves(map, x, y);
 	if (!_ax_x && !_ax_y) {
 		if (ax_x_possible())
@@ -82,5 +84,6 @@ char Bot::make_move(std::vector<std::vector<Object *> > *map, int x, int y) {
 		}
 	}
 	check_collision(map, x, y);
+	_choice = 9;
 	return translate_move();
 }

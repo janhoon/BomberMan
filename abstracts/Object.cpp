@@ -2,12 +2,10 @@
 
 	#include <iostream>
 
-Object::Object() {
-
+Object::Object() : _pos_x(0), _pos_y(0){
 }
 
 Object::~Object() {
-
 }
 
 Object& Object::operator=(Object const &src) {
@@ -19,6 +17,14 @@ Object& Object::operator=(Object const &src) {
 
 std::string Object::get_id() {
 	return _id;
+}
+
+int Object::get_pos_x() {
+	return _pos_x;
+}
+
+int Object::get_pos_y() {
+	return _pos_y;
 }
 
 int	Object::get_x() {

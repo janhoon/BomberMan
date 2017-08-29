@@ -12,11 +12,14 @@ public:
 	void								move();
 	void								update();
 	void								collision();
-	void								read_map();
+	void								swap();
+	bool 								shift();
 
 protected:
 	int									_dir_x;
 	int									_dir_y;
+	int 								*_pos_xp;
+	int 								*_pos_yp;
 	int									*_xp;
 	int 								*_yp;
 	std::vector<std::vector<Object*> >	*_map;

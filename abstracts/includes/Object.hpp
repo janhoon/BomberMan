@@ -10,11 +10,15 @@ public:
 	virtual	~Object(void);
 
 	std::string	get_id();
+	int 		get_pos_x();
+	int 		get_pos_y();
 	int			get_x();
 	int			get_y();
 
 protected:
 	std::string	_id;
+	int 		_pos_x;
+	int 		_pos_y;
 	int 		_x;
 	int			_y;
 

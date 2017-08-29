@@ -26,6 +26,7 @@ protected:
 	bool	_right;
 	int 	_same_ax_per;
 	int		_same_dir_per;
+	int 	_choice;
 
 };
 

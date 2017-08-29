@@ -1,3 +1,4 @@
+#include <queue>
 #include "includes/Object_movable.hpp"
 
 void Object_movable::direction() {
@@ -49,19 +50,36 @@ void Object_movable::collision() {
 //	exit(EXIT_SUCCESS);
 }
 
-void	Object_movable::move() {
+void Object_movable::swap() {
 	Object *temp;
 
-	if ((*_map)[*_yp + _dir_y][*_xp + _dir_x] == nullptr) {
+	temp = (*_map)[*_yp][*_xp];
+	(*_map)[*_yp][*_xp] = (*_map)[*_yp + _dir_y][*_xp + _dir_x];
+	(*_map)[*_yp + _dir_y][*_xp + _dir_x] = temp;
+	*_pos_xp = *_pos_xp * (-1 * (_dir_x != 0)) + _dir_x;
+	*_pos_yp = *_pos_yp * (-1 * (_dir_y != 0)) + _dir_y;
+	*_xp = *_xp + _dir_x;
+	*_yp = *_yp +_dir_y;
+}
+
+bool Object_movable::shift() {
+	*_pos_xp += _dir_x;
+	*_pos_yp += _dir_y;
+
+	if (*_pos_xp > -6 && *_pos_xp < 6 && *_pos_yp > -6 && *_pos_yp < 6)
+		return true;
+	return false;
+}
+
+void	Object_movable::move() {
+	if (shift()) {
+	}
+	else if ((*_map)[*_yp + _dir_y][*_xp + _dir_x] == nullptr) {
 		_stay();
 	} else if ((*_map)[*_yp + _dir_y][*_xp + _dir_x]->get_id().compare("0")) {
 		collision();
 	} else {
-		temp = (*_map)[*_yp][*_xp];
-		(*_map)[*_yp][*_xp] = (*_map)[*_yp + _dir_y][*_xp + _dir_x];
-		(*_map)[*_yp + _dir_y][*_xp + _dir_x] = temp;
-		*_xp = *_xp + _dir_x;
-		*_yp = *_yp +_dir_y;
+		swap();
 	}
 }
 
