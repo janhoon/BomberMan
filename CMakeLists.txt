@@ -20,6 +20,8 @@ set(SOURCE_FILES
         objects/includes/Bomberman.hpp
         objects/Empty.cpp
         objects/includes/Empty.hpp
+        objects/Soft_wall.cpp
+        objects/includes/Soft_wall.hpp
         objects/Squid.cpp
         objects/includes/Squid.hpp
         observers/Object_subject.cpp

@@ -10,7 +10,9 @@
 
 class Map {
 public:
-	void                     				read_and_setup(std::string filename);
+	Map(std::string filename);
+	~Map();
+	void                     				read_and_setup();
 	void									read_map();
 	void									run();
 	void 									write_to_file();
@@ -18,5 +20,5 @@ public:
 private:
 	std::vector<std::vector<Object*> >	_map;
 	Object_subject						_sub;
-	std::fstream						_file;
+	std::string						_filename;
 };
