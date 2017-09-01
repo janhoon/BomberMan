@@ -120,6 +120,9 @@
 		<Unit filename="/home/vern/Documents/wtc/BomberMan/main.cpp">
 			<Option target="BomberMan2"/>
 		</Unit>
+		<Unit filename="/home/vern/Documents/wtc/BomberMan/objects/Bomb.cpp">
+			<Option target="BomberMan2"/>
+		</Unit>
 		<Unit filename="/home/vern/Documents/wtc/BomberMan/objects/Bomberman.cpp">
 			<Option target="BomberMan2"/>
 		</Unit>
@@ -130,6 +133,9 @@
 			<Option target="BomberMan2"/>
 		</Unit>
 		<Unit filename="/home/vern/Documents/wtc/BomberMan/objects/Squid.cpp">
+			<Option target="BomberMan2"/>
+		</Unit>
+		<Unit filename="/home/vern/Documents/wtc/BomberMan/objects/includes/Bomb.hpp">
 			<Option target="BomberMan2"/>
 		</Unit>
 		<Unit filename="/home/vern/Documents/wtc/BomberMan/objects/includes/Bomberman.hpp">
@@ -147,7 +153,16 @@
 		<Unit filename="/home/vern/Documents/wtc/BomberMan/observers/Object_subject.cpp">
 			<Option target="BomberMan2"/>
 		</Unit>
+		<Unit filename="/home/vern/Documents/wtc/BomberMan/observers/Subject.cpp">
+			<Option target="BomberMan2"/>
+		</Unit>
 		<Unit filename="/home/vern/Documents/wtc/BomberMan/observers/includes/Object_subject.hpp">
+			<Option target="BomberMan2"/>
+		</Unit>
+		<Unit filename="/home/vern/Documents/wtc/BomberMan/observers/includes/Observer.hpp">
+			<Option target="BomberMan2"/>
+		</Unit>
+		<Unit filename="/home/vern/Documents/wtc/BomberMan/observers/includes/Subject.hpp">
 			<Option target="BomberMan2"/>
 		</Unit>
 		<Unit filename="/home/vern/Documents/wtc/BomberMan/CMakeLists.txt">

@@ -27,11 +27,14 @@ CMakeFiles/BomberMan2.dir/factories/Factory.cpp.o
  /home/vern/Documents/wtc/BomberMan/factories/Factory.cpp
  /home/vern/Documents/wtc/BomberMan/factories/includes/Factory.hpp
  /home/vern/Documents/wtc/BomberMan/factories/includes/Object_factory.hpp
+ /home/vern/Documents/wtc/BomberMan/objects/includes/Bomb.hpp
  /home/vern/Documents/wtc/BomberMan/objects/includes/Bomberman.hpp
  /home/vern/Documents/wtc/BomberMan/objects/includes/Empty.hpp
  /home/vern/Documents/wtc/BomberMan/objects/includes/Soft_wall.hpp
  /home/vern/Documents/wtc/BomberMan/objects/includes/Squid.hpp
  /home/vern/Documents/wtc/BomberMan/observers/includes/Object_subject.hpp
+ /home/vern/Documents/wtc/BomberMan/observers/includes/Observer.hpp
+ /home/vern/Documents/wtc/BomberMan/observers/includes/Subject.hpp
 CMakeFiles/BomberMan2.dir/main.cpp.o
  /home/vern/Documents/wtc/BomberMan/abstracts/includes/Object.hpp
  /home/vern/Documents/wtc/BomberMan/abstracts/includes/Object_movable.hpp
@@ -40,12 +43,21 @@ CMakeFiles/BomberMan2.dir/main.cpp.o
  /home/vern/Documents/wtc/BomberMan/includes/Map.hpp
  /home/vern/Documents/wtc/BomberMan/main.cpp
  /home/vern/Documents/wtc/BomberMan/observers/includes/Object_subject.hpp
+CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.o
+ /home/vern/Documents/wtc/BomberMan/abstracts/includes/Object.hpp
+ /home/vern/Documents/wtc/BomberMan/objects/Bomb.cpp
+ /home/vern/Documents/wtc/BomberMan/objects/includes/Bomb.hpp
+ /home/vern/Documents/wtc/BomberMan/observers/includes/Observer.hpp
+ /home/vern/Documents/wtc/BomberMan/observers/includes/Subject.hpp
 CMakeFiles/BomberMan2.dir/objects/Bomberman.cpp.o
  /home/vern/Documents/wtc/BomberMan/abstracts/includes/Object.hpp
  /home/vern/Documents/wtc/BomberMan/abstracts/includes/Object_movable.hpp
  /home/vern/Documents/wtc/BomberMan/objects/Bomberman.cpp
+ /home/vern/Documents/wtc/BomberMan/objects/includes/Bomb.hpp
  /home/vern/Documents/wtc/BomberMan/objects/includes/Bomberman.hpp
  /home/vern/Documents/wtc/BomberMan/observers/includes/Object_subject.hpp
+ /home/vern/Documents/wtc/BomberMan/observers/includes/Observer.hpp
+ /home/vern/Documents/wtc/BomberMan/observers/includes/Subject.hpp
 CMakeFiles/BomberMan2.dir/objects/Empty.cpp.o
  /home/vern/Documents/wtc/BomberMan/abstracts/includes/Object.hpp
  /home/vern/Documents/wtc/BomberMan/objects/Empty.cpp
@@ -66,3 +78,7 @@ CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o
  /home/vern/Documents/wtc/BomberMan/abstracts/includes/Object_movable.hpp
  /home/vern/Documents/wtc/BomberMan/observers/Object_subject.cpp
  /home/vern/Documents/wtc/BomberMan/observers/includes/Object_subject.hpp
+CMakeFiles/BomberMan2.dir/observers/Subject.cpp.o
+ /home/vern/Documents/wtc/BomberMan/observers/Subject.cpp
+ /home/vern/Documents/wtc/BomberMan/observers/includes/Observer.hpp
+ /home/vern/Documents/wtc/BomberMan/observers/includes/Subject.hpp

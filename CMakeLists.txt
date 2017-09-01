@@ -24,8 +24,13 @@ set(SOURCE_FILES
         objects/includes/Soft_wall.hpp
         objects/Squid.cpp
         objects/includes/Squid.hpp
+        objects/Bomb.cpp
+        objects/includes/Bomb.hpp
         observers/Object_subject.cpp
         observers/includes/Object_subject.hpp
+        observers/Subject.cpp
+        observers/includes/Subject.hpp
+        observers/includes/Observer.hpp
         )
 add_executable(BomberMan2 ${SOURCE_FILES})
 

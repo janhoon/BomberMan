@@ -2,7 +2,7 @@
 #include "includes/Object_movable.hpp"
 
 void Object_movable::direction() {
-	switch (get_direction()) {
+	switch (get_input()) {
 		case 'u':
 			_up();
 			break;
@@ -65,10 +65,7 @@ void Object_movable::swap() {
 bool Object_movable::shift() {
 	*_pos_xp += _dir_x;
 	*_pos_yp += _dir_y;
-
-	if (*_pos_xp > -6 && *_pos_xp < 6 && *_pos_yp > -6 && *_pos_yp < 6)
-		return true;
-	return false;
+	return *_pos_xp > -6 && *_pos_xp < 6 && *_pos_yp > -6 && *_pos_yp < 6;
 }
 
 void	Object_movable::move() {

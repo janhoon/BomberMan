@@ -26,7 +26,7 @@ bool Squid::valid_move(Object *obj) {
 	return !obj->get_id().compare("0");
 }
 
-char Squid::get_direction() {
+char Squid::get_input() {
 	//Make a choice and then return it
 	return make_move(_map, _x, _y);
 }

@@ -10,11 +10,13 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/vern/Documents/wtc/BomberMan/abstracts/Object_movable.cpp" "/home/vern/Documents/wtc/BomberMan/cmake-build-debug/CMakeFiles/BomberMan2.dir/abstracts/Object_movable.cpp.o"
   "/home/vern/Documents/wtc/BomberMan/factories/Factory.cpp" "/home/vern/Documents/wtc/BomberMan/cmake-build-debug/CMakeFiles/BomberMan2.dir/factories/Factory.cpp.o"
   "/home/vern/Documents/wtc/BomberMan/main.cpp" "/home/vern/Documents/wtc/BomberMan/cmake-build-debug/CMakeFiles/BomberMan2.dir/main.cpp.o"
+  "/home/vern/Documents/wtc/BomberMan/objects/Bomb.cpp" "/home/vern/Documents/wtc/BomberMan/cmake-build-debug/CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.o"
   "/home/vern/Documents/wtc/BomberMan/objects/Bomberman.cpp" "/home/vern/Documents/wtc/BomberMan/cmake-build-debug/CMakeFiles/BomberMan2.dir/objects/Bomberman.cpp.o"
   "/home/vern/Documents/wtc/BomberMan/objects/Empty.cpp" "/home/vern/Documents/wtc/BomberMan/cmake-build-debug/CMakeFiles/BomberMan2.dir/objects/Empty.cpp.o"
   "/home/vern/Documents/wtc/BomberMan/objects/Soft_wall.cpp" "/home/vern/Documents/wtc/BomberMan/cmake-build-debug/CMakeFiles/BomberMan2.dir/objects/Soft_wall.cpp.o"
   "/home/vern/Documents/wtc/BomberMan/objects/Squid.cpp" "/home/vern/Documents/wtc/BomberMan/cmake-build-debug/CMakeFiles/BomberMan2.dir/objects/Squid.cpp.o"
   "/home/vern/Documents/wtc/BomberMan/observers/Object_subject.cpp" "/home/vern/Documents/wtc/BomberMan/cmake-build-debug/CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o"
+  "/home/vern/Documents/wtc/BomberMan/observers/Subject.cpp" "/home/vern/Documents/wtc/BomberMan/cmake-build-debug/CMakeFiles/BomberMan2.dir/observers/Subject.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

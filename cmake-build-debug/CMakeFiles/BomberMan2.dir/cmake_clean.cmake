@@ -9,7 +9,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/BomberMan2.dir/objects/Empty.cpp.o"
   "CMakeFiles/BomberMan2.dir/objects/Soft_wall.cpp.o"
   "CMakeFiles/BomberMan2.dir/objects/Squid.cpp.o"
+  "CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.o"
   "CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o"
+  "CMakeFiles/BomberMan2.dir/observers/Subject.cpp.o"
   "BomberMan2.pdb"
   "BomberMan2"
 )

@@ -297,9 +297,33 @@ CMakeFiles/BomberMan2.dir/objects/Squid.cpp.o.provides: CMakeFiles/BomberMan2.di
 CMakeFiles/BomberMan2.dir/objects/Squid.cpp.o.provides.build: CMakeFiles/BomberMan2.dir/objects/Squid.cpp.o
 
 
+CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.o: CMakeFiles/BomberMan2.dir/flags.make
+CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.o: ../objects/Bomb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vern/Documents/wtc/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.o -c /home/vern/Documents/wtc/BomberMan/objects/Bomb.cpp
+
+CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vern/Documents/wtc/BomberMan/objects/Bomb.cpp > CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.i
+
+CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vern/Documents/wtc/BomberMan/objects/Bomb.cpp -o CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.s
+
+CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.o.requires:
+
+.PHONY : CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.o.requires
+
+CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.o.provides: CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.o.requires
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.o.provides.build
+.PHONY : CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.o.provides
+
+CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.o.provides.build: CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.o
+
+
 CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o: CMakeFiles/BomberMan2.dir/flags.make
 CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o: ../observers/Object_subject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vern/Documents/wtc/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vern/Documents/wtc/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o -c /home/vern/Documents/wtc/BomberMan/observers/Object_subject.cpp
 
 CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.i: cmake_force
@@ -321,6 +345,30 @@ CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o.provides: CMakeFiles/Bo
 CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o.provides.build: CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o
 
 
+CMakeFiles/BomberMan2.dir/observers/Subject.cpp.o: CMakeFiles/BomberMan2.dir/flags.make
+CMakeFiles/BomberMan2.dir/observers/Subject.cpp.o: ../observers/Subject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vern/Documents/wtc/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/BomberMan2.dir/observers/Subject.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BomberMan2.dir/observers/Subject.cpp.o -c /home/vern/Documents/wtc/BomberMan/observers/Subject.cpp
+
+CMakeFiles/BomberMan2.dir/observers/Subject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BomberMan2.dir/observers/Subject.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vern/Documents/wtc/BomberMan/observers/Subject.cpp > CMakeFiles/BomberMan2.dir/observers/Subject.cpp.i
+
+CMakeFiles/BomberMan2.dir/observers/Subject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BomberMan2.dir/observers/Subject.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vern/Documents/wtc/BomberMan/observers/Subject.cpp -o CMakeFiles/BomberMan2.dir/observers/Subject.cpp.s
+
+CMakeFiles/BomberMan2.dir/observers/Subject.cpp.o.requires:
+
+.PHONY : CMakeFiles/BomberMan2.dir/observers/Subject.cpp.o.requires
+
+CMakeFiles/BomberMan2.dir/observers/Subject.cpp.o.provides: CMakeFiles/BomberMan2.dir/observers/Subject.cpp.o.requires
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/observers/Subject.cpp.o.provides.build
+.PHONY : CMakeFiles/BomberMan2.dir/observers/Subject.cpp.o.provides
+
+CMakeFiles/BomberMan2.dir/observers/Subject.cpp.o.provides.build: CMakeFiles/BomberMan2.dir/observers/Subject.cpp.o
+
+
 # Object files for target BomberMan2
 BomberMan2_OBJECTS = \
 "CMakeFiles/BomberMan2.dir/main.cpp.o" \
@@ -333,7 +381,9 @@ BomberMan2_OBJECTS = \
 "CMakeFiles/BomberMan2.dir/objects/Empty.cpp.o" \
 "CMakeFiles/BomberMan2.dir/objects/Soft_wall.cpp.o" \
 "CMakeFiles/BomberMan2.dir/objects/Squid.cpp.o" \
-"CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o"
+"CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.o" \
+"CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o" \
+"CMakeFiles/BomberMan2.dir/observers/Subject.cpp.o"
 
 # External object files for target BomberMan2
 BomberMan2_EXTERNAL_OBJECTS =
@@ -348,10 +398,12 @@ BomberMan2: CMakeFiles/BomberMan2.dir/objects/Bomberman.cpp.o
 BomberMan2: CMakeFiles/BomberMan2.dir/objects/Empty.cpp.o
 BomberMan2: CMakeFiles/BomberMan2.dir/objects/Soft_wall.cpp.o
 BomberMan2: CMakeFiles/BomberMan2.dir/objects/Squid.cpp.o
+BomberMan2: CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.o
 BomberMan2: CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o
+BomberMan2: CMakeFiles/BomberMan2.dir/observers/Subject.cpp.o
 BomberMan2: CMakeFiles/BomberMan2.dir/build.make
 BomberMan2: CMakeFiles/BomberMan2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vern/Documents/wtc/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable BomberMan2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vern/Documents/wtc/BomberMan/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable BomberMan2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BomberMan2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -369,7 +421,9 @@ CMakeFiles/BomberMan2.dir/requires: CMakeFiles/BomberMan2.dir/objects/Bomberman.
 CMakeFiles/BomberMan2.dir/requires: CMakeFiles/BomberMan2.dir/objects/Empty.cpp.o.requires
 CMakeFiles/BomberMan2.dir/requires: CMakeFiles/BomberMan2.dir/objects/Soft_wall.cpp.o.requires
 CMakeFiles/BomberMan2.dir/requires: CMakeFiles/BomberMan2.dir/objects/Squid.cpp.o.requires
+CMakeFiles/BomberMan2.dir/requires: CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.o.requires
 CMakeFiles/BomberMan2.dir/requires: CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o.requires
+CMakeFiles/BomberMan2.dir/requires: CMakeFiles/BomberMan2.dir/observers/Subject.cpp.o.requires
 
 .PHONY : CMakeFiles/BomberMan2.dir/requires
 

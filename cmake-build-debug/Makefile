@@ -285,6 +285,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+objects/Bomb.o: objects/Bomb.cpp.o
+
+.PHONY : objects/Bomb.o
+
+# target to build an object file
+objects/Bomb.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.o
+.PHONY : objects/Bomb.cpp.o
+
+objects/Bomb.i: objects/Bomb.cpp.i
+
+.PHONY : objects/Bomb.i
+
+# target to preprocess a source file
+objects/Bomb.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.i
+.PHONY : objects/Bomb.cpp.i
+
+objects/Bomb.s: objects/Bomb.cpp.s
+
+.PHONY : objects/Bomb.s
+
+# target to generate assembly for a file
+objects/Bomb.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/objects/Bomb.cpp.s
+.PHONY : objects/Bomb.cpp.s
+
 objects/Bomberman.o: objects/Bomberman.cpp.o
 
 .PHONY : objects/Bomberman.o
@@ -420,6 +447,33 @@ observers/Object_subject.cpp.s:
 	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.s
 .PHONY : observers/Object_subject.cpp.s
 
+observers/Subject.o: observers/Subject.cpp.o
+
+.PHONY : observers/Subject.o
+
+# target to build an object file
+observers/Subject.cpp.o:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/observers/Subject.cpp.o
+.PHONY : observers/Subject.cpp.o
+
+observers/Subject.i: observers/Subject.cpp.i
+
+.PHONY : observers/Subject.i
+
+# target to preprocess a source file
+observers/Subject.cpp.i:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/observers/Subject.cpp.i
+.PHONY : observers/Subject.cpp.i
+
+observers/Subject.s: observers/Subject.cpp.s
+
+.PHONY : observers/Subject.s
+
+# target to generate assembly for a file
+observers/Subject.cpp.s:
+	$(MAKE) -f CMakeFiles/BomberMan2.dir/build.make CMakeFiles/BomberMan2.dir/observers/Subject.cpp.s
+.PHONY : observers/Subject.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -447,6 +501,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... objects/Bomb.o"
+	@echo "... objects/Bomb.i"
+	@echo "... objects/Bomb.s"
 	@echo "... objects/Bomberman.o"
 	@echo "... objects/Bomberman.i"
 	@echo "... objects/Bomberman.s"
@@ -462,6 +519,9 @@ help:
 	@echo "... observers/Object_subject.o"
 	@echo "... observers/Object_subject.i"
 	@echo "... observers/Object_subject.s"
+	@echo "... observers/Subject.o"
+	@echo "... observers/Subject.i"
+	@echo "... observers/Subject.s"
 .PHONY : help
 
 

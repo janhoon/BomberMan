@@ -7,7 +7,7 @@
 
 class Object_movable {
 public:
-	virtual char						get_direction() = 0;
+	virtual char						get_input() = 0;
 	void								direction();
 	void								move();
 	void								update();
