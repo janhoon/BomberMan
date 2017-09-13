@@ -6,7 +6,7 @@
 
         #include <iostream>
 
-Object	*Factory::create_object(std::string key, int x, int y, std::vector<std::vector<Object*> > &map, Object_subject *sub) {
+Object	*Factory::create_object(std::string key, int x, int y, std::vector<std::vector<std::vector<Object*> > > &map, Object_subject *sub) {
 	switch (key[0]) {
 		case '0':
 			return new Empty(x, y);

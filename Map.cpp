@@ -14,12 +14,16 @@ void Map::read_and_setup() {
 	std::fstream				file = std::fstream(_filename, std::fstream::in);
 
     for (int y = 0; std::getline(file, line); y++) {
-        std::istringstream  	stream(line);
-		std::vector<Object*>	row;
+        std::istringstream  				stream(line);
+		std::vector<std::vector<Object*> >	row;
+
         for (int x = 0; std::getline(stream, temp, '\t'); x++) {
-            Object_factory  *factory = new Factory;
-            Object          *obj = factory->create_object(temp, x, y, _map, &_sub);
-			row.push_back(obj);
+            Object_factory  					*factory = new Factory;
+            Object          					*obj = factory->create_object(temp, x, y, _map, &_sub);
+			std::vector<Object*>				level;
+
+			level.push_back(obj);
+			row.push_back(level);
         }
 		_map.push_back(row);
     }
@@ -29,8 +33,8 @@ void Map::read_and_setup() {
 void Map::read_map() {
 	for (size_t y = 0; y < _map.size(); y++) {
 		for (size_t x = 0; x < _map[y].size(); x++) {
-			if (_map[y][x] != nullptr) {
-				std::cout << _map[y][x]->get_id() << "	";
+			if (_map[y][x][0] != nullptr) {
+				std::cout << _map[y][x][0]->get_id() << "	";
 			} else {
 				std::cout << "w	";
 			}
@@ -46,9 +50,9 @@ void Map::write_to_file() {
 
 	for (size_t y = 0; y < _map.size(); y++) {
 		for (size_t x = 0; x < _map[y].size(); x++) {
-			if (_map[y][x] != nullptr) {
+			if (_map[y][x][0] != nullptr) {
 				file.seekp(index);
-				file.write(_map[y][x]->get_id().c_str(), 1);
+				file.write(_map[y][x][0]->get_id().c_str(), 1);
 			}
 			index += 2;
 		}

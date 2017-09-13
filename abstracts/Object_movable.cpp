@@ -53,9 +53,9 @@ void Object_movable::collision() {
 void Object_movable::swap() {
 	Object *temp;
 
-	temp = (*_map)[*_yp][*_xp];
+	temp = (*_map)[*_yp][*_xp][0];
 	(*_map)[*_yp][*_xp] = (*_map)[*_yp + _dir_y][*_xp + _dir_x];
-	(*_map)[*_yp + _dir_y][*_xp + _dir_x] = temp;
+	(*_map)[*_yp + _dir_y][*_xp + _dir_x][0] = temp;
 	*_pos_xp = *_pos_xp * (-1 * (_dir_x != 0)) + _dir_x;
 	*_pos_yp = *_pos_yp * (-1 * (_dir_y != 0)) + _dir_y;
 	*_xp = *_xp + _dir_x;
@@ -71,9 +71,9 @@ bool Object_movable::shift() {
 void	Object_movable::move() {
 	if (shift()) {
 	}
-	else if ((*_map)[*_yp + _dir_y][*_xp + _dir_x] == nullptr) {
+	else if ((*_map)[*_yp + _dir_y][*_xp + _dir_x][0] == nullptr) {
 		_stay();
-	} else if ((*_map)[*_yp + _dir_y][*_xp + _dir_x]->get_id().compare("0")) {
+	} else if ((*_map)[*_yp + _dir_y][*_xp + _dir_x][0]->get_id().compare("0")) {
 		collision();
 	} else {
 		swap();

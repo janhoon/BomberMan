@@ -10,7 +10,7 @@ class Squid : public Object, public Object_movable, public Bot {
 public:
 	Squid();
 	virtual ~Squid();
-	Squid(int x, int y, std::vector<std::vector<Object*> > &map, Object_subject *sub);
+	Squid(int x, int y, std::vector<std::vector<std::vector<Object*> > > &map, Object_subject *sub);
 	char		get_input();
 	bool 		valid_move(Object *obj);
 

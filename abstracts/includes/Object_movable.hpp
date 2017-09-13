@@ -22,7 +22,7 @@ protected:
 	int 								*_pos_yp;
 	int									*_xp;
 	int 								*_yp;
-	std::vector<std::vector<Object*> >	*_map;
+	std::vector<std::vector<std::vector<Object*> > >	*_map;
 
 private:
 	void								_up();
