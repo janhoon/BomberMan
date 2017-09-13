@@ -10,12 +10,13 @@
 
 class Bomberman : public Object , public  Object_movable {
 public:
-	Bomberman(int x, int y, std::vector<std::vector<std::vector<Object*> > > &map, Object_subject *sub);
+	Bomberman(int x, int y, std::vector<std::vector<std::deque<Object*> > > &map, Object_subject *sub);
 	char				get_input();
 	virtual				~Bomberman();
 
 private:
 	Subject				_sub;
+	Object_subject		*_parent_sub;
 	std::vector<Bomb*>	_bombs;
 
 };

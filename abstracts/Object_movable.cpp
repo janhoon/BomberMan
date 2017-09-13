@@ -54,8 +54,13 @@ void Object_movable::swap() {
 	Object *temp;
 
 	temp = (*_map)[*_yp][*_xp][0];
-	(*_map)[*_yp][*_xp] = (*_map)[*_yp + _dir_y][*_xp + _dir_x];
-	(*_map)[*_yp + _dir_y][*_xp + _dir_x][0] = temp;
+	(*_map)[*_yp][*_xp].pop_front();
+	if (!(*_map)[*_yp + _dir_y][*_xp + _dir_x][0]->get_id().compare("0"))
+		(*_map)[*_yp][*_xp].push_back((*_map)[*_yp + _dir_y][*_xp + _dir_x][0]);
+	else
+		(*_map)[*_yp][*_xp].push_front((*_map)[*_yp + _dir_y][*_xp + _dir_x][0]);
+	(*_map)[*_yp + _dir_y][*_xp + _dir_x].pop_front();
+	(*_map)[*_yp + _dir_y][*_xp + _dir_x].push_front(temp);
 	*_pos_xp = *_pos_xp * (-1 * (_dir_x != 0)) + _dir_x;
 	*_pos_yp = *_pos_yp * (-1 * (_dir_y != 0)) + _dir_y;
 	*_xp = *_xp + _dir_x;

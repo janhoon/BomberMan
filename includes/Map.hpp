@@ -18,7 +18,7 @@ public:
 	void 									write_to_file();
 
 private:
-	std::vector<std::vector<std::vector<Object*> > >	_map;
+	std::vector<std::vector<std::deque<Object*> > >		_map;
 	Object_subject										_sub;
 	std::string											_filename;
 };

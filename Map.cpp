@@ -15,12 +15,12 @@ void Map::read_and_setup() {
 
     for (int y = 0; std::getline(file, line); y++) {
         std::istringstream  				stream(line);
-		std::vector<std::vector<Object*> >	row;
+		std::vector<std::deque<Object*> >	row;
 
         for (int x = 0; std::getline(stream, temp, '\t'); x++) {
             Object_factory  					*factory = new Factory;
             Object          					*obj = factory->create_object(temp, x, y, _map, &_sub);
-			std::vector<Object*>				level;
+			std::deque<Object*>				level;
 
 			level.push_back(obj);
 			row.push_back(level);

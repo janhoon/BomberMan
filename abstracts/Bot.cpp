@@ -11,7 +11,7 @@ void Bot::reset_moves() {
 	_right = false;
 }
 
-void Bot::check_moves(std::vector<std::vector<std::vector<Object*> > > *map, int x, int y) {
+void Bot::check_moves(std::vector<std::vector<std::deque<Object*> > > *map, int x, int y) {
 	reset_moves();
 	if ((*map)[y - 1][x][0] && valid_move((*map)[y - 1][x][0])) {
 		_up = true;
@@ -47,7 +47,7 @@ char Bot::translate_move() {
 	return '\0';
 }
 
-void Bot::check_collision(std::vector<std::vector<std::vector<Object *> > > *map, int x, int y) {
+void Bot::check_collision(std::vector<std::vector<std::deque<Object *> > > *map, int x, int y) {
 	if ((_ax_y == -1 && (*map)[y - 1][x][0] && !valid_move((*map)[y - 1][x][0])) || (_ax_y == 1 && !valid_move((*map)[y + 1][x][0])))
 		_ax_y *= -1;
 	if ((_ax_x == -1 && valid_move((*map)[y][x - 1][0])) || (_ax_x == 1 && valid_move((*map)[y][x + 1][0]))) { ;
@@ -55,7 +55,7 @@ void Bot::check_collision(std::vector<std::vector<std::vector<Object *> > > *map
 	}
 }
 
-char Bot::make_move(std::vector<std::vector<std::vector<Object *> > > *map, int x, int y) {
+char Bot::make_move(std::vector<std::vector<std::deque<Object *> > > *map, int x, int y) {
 	if (_choice--)
 		return translate_move();
 	check_moves(map, x, y);

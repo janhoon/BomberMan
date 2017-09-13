@@ -37,6 +37,8 @@ vector
 -
 cstdlib
 -
+deque
+-
 
 /home/vern/Documents/wtc/BomberMan/abstracts/includes/Object.hpp
 string
@@ -46,6 +48,8 @@ string
 iostream
 -
 vector
+-
+deque
 -
 Object.hpp
 /home/vern/Documents/wtc/BomberMan/abstracts/includes/Object.hpp

@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <vector>
+#include <deque>
 #include "Object.hpp"
 
 class Object_movable {
@@ -22,7 +23,7 @@ protected:
 	int 								*_pos_yp;
 	int									*_xp;
 	int 								*_yp;
-	std::vector<std::vector<std::vector<Object*> > >	*_map;
+	std::vector<std::vector<std::deque<Object*> > >	*_map;
 
 private:
 	void								_up();
