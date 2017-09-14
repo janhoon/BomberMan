@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,33 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/home/vern/Documents/wtc/BomberMan/Map.cpp
+/goinfre/vivan-de/Documents/BomberMan/Map.cpp
 includes/Map.hpp
-/home/vern/Documents/wtc/BomberMan/includes/Map.hpp
+/goinfre/vivan-de/Documents/BomberMan/includes/Map.hpp
 iostream
 -
 
-/home/vern/Documents/wtc/BomberMan/abstracts/Bot.cpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/Bot.cpp
 includes/Bot.hpp
-/home/vern/Documents/wtc/BomberMan/abstracts/includes/Bot.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Bot.hpp
 iostream
 -
 
-/home/vern/Documents/wtc/BomberMan/abstracts/Object.cpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/Object.cpp
 includes/Object.hpp
-/home/vern/Documents/wtc/BomberMan/abstracts/includes/Object.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
 iostream
 -
 
-/home/vern/Documents/wtc/BomberMan/abstracts/Object_movable.cpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/Object_movable.cpp
 queue
 -
 includes/Object_movable.hpp
-/home/vern/Documents/wtc/BomberMan/abstracts/includes/Object_movable.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object_movable.hpp
 
-/home/vern/Documents/wtc/BomberMan/abstracts/includes/Bot.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Bot.hpp
 Object.hpp
-/home/vern/Documents/wtc/BomberMan/abstracts/includes/Object.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
 vector
 -
 cstdlib
@@ -40,11 +40,11 @@ cstdlib
 deque
 -
 
-/home/vern/Documents/wtc/BomberMan/abstracts/includes/Object.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
 string
 -
 
-/home/vern/Documents/wtc/BomberMan/abstracts/includes/Object_movable.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object_movable.hpp
 iostream
 -
 vector
@@ -52,39 +52,39 @@ vector
 deque
 -
 Object.hpp
-/home/vern/Documents/wtc/BomberMan/abstracts/includes/Object.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
 
-/home/vern/Documents/wtc/BomberMan/factories/Factory.cpp
+/goinfre/vivan-de/Documents/BomberMan/factories/Factory.cpp
 includes/Factory.hpp
-/home/vern/Documents/wtc/BomberMan/factories/includes/Factory.hpp
+/goinfre/vivan-de/Documents/BomberMan/factories/includes/Factory.hpp
 ../objects/includes/Bomberman.hpp
-/home/vern/Documents/wtc/BomberMan/objects/includes/Bomberman.hpp
+/goinfre/vivan-de/Documents/BomberMan/objects/includes/Bomberman.hpp
 ../objects/includes/Empty.hpp
-/home/vern/Documents/wtc/BomberMan/objects/includes/Empty.hpp
+/goinfre/vivan-de/Documents/BomberMan/objects/includes/Empty.hpp
 ../objects/includes/Squid.hpp
-/home/vern/Documents/wtc/BomberMan/objects/includes/Squid.hpp
+/goinfre/vivan-de/Documents/BomberMan/objects/includes/Squid.hpp
 ../objects/includes/Soft_wall.hpp
-/home/vern/Documents/wtc/BomberMan/objects/includes/Soft_wall.hpp
+/goinfre/vivan-de/Documents/BomberMan/objects/includes/Soft_wall.hpp
 iostream
 -
 
-/home/vern/Documents/wtc/BomberMan/factories/includes/Factory.hpp
+/goinfre/vivan-de/Documents/BomberMan/factories/includes/Factory.hpp
 Object_factory.hpp
-/home/vern/Documents/wtc/BomberMan/factories/includes/Object_factory.hpp
+/goinfre/vivan-de/Documents/BomberMan/factories/includes/Object_factory.hpp
 ../../abstracts/includes/Object.hpp
-/home/vern/Documents/wtc/BomberMan/abstracts/includes/Object.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
 
-/home/vern/Documents/wtc/BomberMan/factories/includes/Object_factory.hpp
+/goinfre/vivan-de/Documents/BomberMan/factories/includes/Object_factory.hpp
 ../../abstracts/includes/Object.hpp
-/home/vern/Documents/wtc/BomberMan/abstracts/includes/Object.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
 ../../observers/includes/Object_subject.hpp
-/home/vern/Documents/wtc/BomberMan/observers/includes/Object_subject.hpp
+/goinfre/vivan-de/Documents/BomberMan/observers/includes/Object_subject.hpp
 string
 -
 vector
 -
 
-/home/vern/Documents/wtc/BomberMan/includes/Map.hpp
+/goinfre/vivan-de/Documents/BomberMan/includes/Map.hpp
 vector
 -
 string
@@ -96,99 +96,99 @@ sstream
 iostream
 -
 ../factories/includes/Object_factory.hpp
-/home/vern/Documents/wtc/BomberMan/factories/includes/Object_factory.hpp
+/goinfre/vivan-de/Documents/BomberMan/factories/includes/Object_factory.hpp
 ../factories/includes/Factory.hpp
-/home/vern/Documents/wtc/BomberMan/factories/includes/Factory.hpp
+/goinfre/vivan-de/Documents/BomberMan/factories/includes/Factory.hpp
 ../abstracts/includes/Object.hpp
-/home/vern/Documents/wtc/BomberMan/abstracts/includes/Object.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
 ../observers/includes/Object_subject.hpp
-/home/vern/Documents/wtc/BomberMan/observers/includes/Object_subject.hpp
+/goinfre/vivan-de/Documents/BomberMan/observers/includes/Object_subject.hpp
 
-/home/vern/Documents/wtc/BomberMan/main.cpp
+/goinfre/vivan-de/Documents/BomberMan/main.cpp
 includes/Map.hpp
-/home/vern/Documents/wtc/BomberMan/includes/Map.hpp
+/goinfre/vivan-de/Documents/BomberMan/includes/Map.hpp
 
-/home/vern/Documents/wtc/BomberMan/objects/Bomb.cpp
+/goinfre/vivan-de/Documents/BomberMan/objects/Bomb.cpp
 includes/Bomb.hpp
-/home/vern/Documents/wtc/BomberMan/objects/includes/Bomb.hpp
+/goinfre/vivan-de/Documents/BomberMan/objects/includes/Bomb.hpp
 
-/home/vern/Documents/wtc/BomberMan/objects/Bomberman.cpp
+/goinfre/vivan-de/Documents/BomberMan/objects/Bomberman.cpp
 includes/Bomberman.hpp
-/home/vern/Documents/wtc/BomberMan/objects/includes/Bomberman.hpp
+/goinfre/vivan-de/Documents/BomberMan/objects/includes/Bomberman.hpp
 iostream
 -
 
-/home/vern/Documents/wtc/BomberMan/objects/Empty.cpp
+/goinfre/vivan-de/Documents/BomberMan/objects/Empty.cpp
 includes/Empty.hpp
-/home/vern/Documents/wtc/BomberMan/objects/includes/Empty.hpp
+/goinfre/vivan-de/Documents/BomberMan/objects/includes/Empty.hpp
 
-/home/vern/Documents/wtc/BomberMan/objects/Soft_wall.cpp
+/goinfre/vivan-de/Documents/BomberMan/objects/Soft_wall.cpp
 includes/Soft_wall.hpp
-/home/vern/Documents/wtc/BomberMan/objects/includes/Soft_wall.hpp
+/goinfre/vivan-de/Documents/BomberMan/objects/includes/Soft_wall.hpp
 
-/home/vern/Documents/wtc/BomberMan/objects/Squid.cpp
+/goinfre/vivan-de/Documents/BomberMan/objects/Squid.cpp
 includes/Squid.hpp
-/home/vern/Documents/wtc/BomberMan/objects/includes/Squid.hpp
+/goinfre/vivan-de/Documents/BomberMan/objects/includes/Squid.hpp
 
-/home/vern/Documents/wtc/BomberMan/objects/includes/Bomb.hpp
+/goinfre/vivan-de/Documents/BomberMan/objects/includes/Bomb.hpp
 ../../abstracts/includes/Object.hpp
-/home/vern/Documents/wtc/BomberMan/abstracts/includes/Object.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
 ../../observers/includes/Observer.hpp
-/home/vern/Documents/wtc/BomberMan/observers/includes/Observer.hpp
+/goinfre/vivan-de/Documents/BomberMan/observers/includes/Observer.hpp
 ../../observers/includes/Subject.hpp
-/home/vern/Documents/wtc/BomberMan/observers/includes/Subject.hpp
+/goinfre/vivan-de/Documents/BomberMan/observers/includes/Subject.hpp
 iostream
 -
 
-/home/vern/Documents/wtc/BomberMan/objects/includes/Bomberman.hpp
+/goinfre/vivan-de/Documents/BomberMan/objects/includes/Bomberman.hpp
 ../../abstracts/includes/Object.hpp
-/home/vern/Documents/wtc/BomberMan/abstracts/includes/Object.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
 ../../abstracts/includes/Object_movable.hpp
-/home/vern/Documents/wtc/BomberMan/abstracts/includes/Object_movable.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object_movable.hpp
 ../../observers/includes/Object_subject.hpp
-/home/vern/Documents/wtc/BomberMan/observers/includes/Object_subject.hpp
+/goinfre/vivan-de/Documents/BomberMan/observers/includes/Object_subject.hpp
 ../../observers/includes/Subject.hpp
-/home/vern/Documents/wtc/BomberMan/observers/includes/Subject.hpp
+/goinfre/vivan-de/Documents/BomberMan/observers/includes/Subject.hpp
 ../../objects/includes/Bomb.hpp
-/home/vern/Documents/wtc/BomberMan/objects/includes/Bomb.hpp
+/goinfre/vivan-de/Documents/BomberMan/objects/includes/Bomb.hpp
 vector
 -
 
-/home/vern/Documents/wtc/BomberMan/objects/includes/Empty.hpp
+/goinfre/vivan-de/Documents/BomberMan/objects/includes/Empty.hpp
 ../../abstracts/includes/Object.hpp
-/home/vern/Documents/wtc/BomberMan/abstracts/includes/Object.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
 
-/home/vern/Documents/wtc/BomberMan/objects/includes/Soft_wall.hpp
+/goinfre/vivan-de/Documents/BomberMan/objects/includes/Soft_wall.hpp
 ../../abstracts/includes/Object.hpp
-/home/vern/Documents/wtc/BomberMan/abstracts/includes/Object.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
 
-/home/vern/Documents/wtc/BomberMan/objects/includes/Squid.hpp
+/goinfre/vivan-de/Documents/BomberMan/objects/includes/Squid.hpp
 ../../abstracts/includes/Bot.hpp
-/home/vern/Documents/wtc/BomberMan/abstracts/includes/Bot.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Bot.hpp
 ../../abstracts/includes/Object.hpp
-/home/vern/Documents/wtc/BomberMan/abstracts/includes/Object.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
 ../../abstracts/includes/Object_movable.hpp
-/home/vern/Documents/wtc/BomberMan/abstracts/includes/Object_movable.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object_movable.hpp
 ../../observers/includes/Object_subject.hpp
-/home/vern/Documents/wtc/BomberMan/observers/includes/Object_subject.hpp
+/goinfre/vivan-de/Documents/BomberMan/observers/includes/Object_subject.hpp
 
-/home/vern/Documents/wtc/BomberMan/observers/Object_subject.cpp
+/goinfre/vivan-de/Documents/BomberMan/observers/Object_subject.cpp
 includes/Object_subject.hpp
-/home/vern/Documents/wtc/BomberMan/observers/includes/Object_subject.hpp
+/goinfre/vivan-de/Documents/BomberMan/observers/includes/Object_subject.hpp
 
-/home/vern/Documents/wtc/BomberMan/observers/Subject.cpp
+/goinfre/vivan-de/Documents/BomberMan/observers/Subject.cpp
 includes/Subject.hpp
-/home/vern/Documents/wtc/BomberMan/observers/includes/Subject.hpp
+/goinfre/vivan-de/Documents/BomberMan/observers/includes/Subject.hpp
 
-/home/vern/Documents/wtc/BomberMan/observers/includes/Object_subject.hpp
+/goinfre/vivan-de/Documents/BomberMan/observers/includes/Object_subject.hpp
 ../../abstracts/includes/Object_movable.hpp
-/home/vern/Documents/wtc/BomberMan/abstracts/includes/Object_movable.hpp
+/goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object_movable.hpp
 
-/home/vern/Documents/wtc/BomberMan/observers/includes/Observer.hpp
+/goinfre/vivan-de/Documents/BomberMan/observers/includes/Observer.hpp
 
-/home/vern/Documents/wtc/BomberMan/observers/includes/Subject.hpp
+/goinfre/vivan-de/Documents/BomberMan/observers/includes/Subject.hpp
 vector
 -
 Observer.hpp
-/home/vern/Documents/wtc/BomberMan/observers/includes/Observer.hpp
+/goinfre/vivan-de/Documents/BomberMan/observers/includes/Observer.hpp
 
