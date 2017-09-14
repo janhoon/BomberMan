@@ -12,21 +12,26 @@ Bomb::Bomb(int x, int y, int r) {
 Bomb::~Bomb() {
 }
 
-void Bomb::update() {
+bool Bomb::update() {
 	//Check when to detonate
 	//Make use of actual time and have a standard time for the bomb to blow up.
 	std::cout << "I am being updated." << std::endl;
-	if (--_time)
-		detonate();
+	if (!--_time)
+		return detonate();
+	return false;
 }
 
-void Bomb::add(Subject *sub) {
-	sub->Attach(this);
+void Bomb::add(Subject *sub,  std::vector<std::vector<std::deque<Object*> > >	*map) {
+	_sub = sub;
+	_map = map;
+	_sub->attach(this);
 }
 
-void Bomb::detonate() {
+bool Bomb::detonate() {
 	//Detonate will make the bomb destroy it self and replace it self with fire.
 	//Bomb would need to check what the fire touches, since the fire will be to late.
 	std::cout << "Setting fire" << std::endl;
+	_sub->remove(this);
+	return true;
 	//talk to subject telling it to remove it from everything
 }

@@ -21,10 +21,13 @@ Bomberman::~Bomberman() {
 
 char Bomberman::get_input() {
 	Bomb	*bomb;
-	_sub.Notify();
+	if (_sub.notify()) {
+		(*_map)[_bombs[0]->_y][_bombs[0]->_x].pop_front();//remove bomb from map
+		_bombs.pop_front();
+	}
 	if (_bombs.size() < 1 && _x == 1 && _y == 1) {
 		bomb = new Bomb(_x, _y, 1);
-		bomb->add(&_sub);
+		bomb->add(&_sub, _map);
 		_bombs.push_back(bomb);
 		(*_map)[*_yp][*_xp].push_back(dynamic_cast<Object*>(_bombs[_bombs.size() - 1]));
 	}

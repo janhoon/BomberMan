@@ -1,15 +1,17 @@
 #ifndef BOMBERMAN_SUBJECT_HPP
 #define BOMBERMAN_SUBJECT_HPP
 
-#include <vector>
+#include <list>
 #include "Observer.hpp"
+#include "../../objects/includes/Bomb.hpp"
 
 class Subject {
 public:
-	void	Attach(Observer *obs);
-	void	Notify();
+	void			attach(Observer *obs);
+	void			remove(Observer *obs);
+	bool			notify();
 private:
-	std::vector<Observer*>	_list;
+	std::list<Observer*>	_list;
 };
 
 #endif //BOMBERMAN_SUBJECT_HPP

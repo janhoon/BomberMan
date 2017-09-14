@@ -3,7 +3,7 @@
 
 class Observer {
 public:
-	virtual void update() = 0;
+	virtual bool update() = 0;
 };
 
 #endif //BOMBERMAN_OBSERVER_HPP

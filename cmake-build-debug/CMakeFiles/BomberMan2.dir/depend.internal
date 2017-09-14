@@ -79,6 +79,8 @@ CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o
  /goinfre/vivan-de/Documents/BomberMan/observers/Object_subject.cpp
  /goinfre/vivan-de/Documents/BomberMan/observers/includes/Object_subject.hpp
 CMakeFiles/BomberMan2.dir/observers/Subject.cpp.o
+ /goinfre/vivan-de/Documents/BomberMan/abstracts/includes/Object.hpp
+ /goinfre/vivan-de/Documents/BomberMan/objects/includes/Bomb.hpp
  /goinfre/vivan-de/Documents/BomberMan/observers/Subject.cpp
  /goinfre/vivan-de/Documents/BomberMan/observers/includes/Observer.hpp
  /goinfre/vivan-de/Documents/BomberMan/observers/includes/Subject.hpp

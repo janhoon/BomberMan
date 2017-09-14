@@ -78,6 +78,8 @@ CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o: ../abstracts/includes/
 CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o: ../observers/Object_subject.cpp
 CMakeFiles/BomberMan2.dir/observers/Object_subject.cpp.o: ../observers/includes/Object_subject.hpp
 
+CMakeFiles/BomberMan2.dir/observers/Subject.cpp.o: ../abstracts/includes/Object.hpp
+CMakeFiles/BomberMan2.dir/observers/Subject.cpp.o: ../objects/includes/Bomb.hpp
 CMakeFiles/BomberMan2.dir/observers/Subject.cpp.o: ../observers/Subject.cpp
 CMakeFiles/BomberMan2.dir/observers/Subject.cpp.o: ../observers/includes/Observer.hpp
 CMakeFiles/BomberMan2.dir/observers/Subject.cpp.o: ../observers/includes/Subject.hpp

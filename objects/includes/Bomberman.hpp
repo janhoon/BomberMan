@@ -6,9 +6,10 @@
 #include "../../observers/includes/Object_subject.hpp"
 #include "../../observers/includes/Subject.hpp"
 #include "../../objects/includes/Bomb.hpp"
-#include <vector>
+//#include <deque>
+//#include <vector>
 
-class Bomberman : public Object , public  Object_movable {
+class Bomberman : public Object, public  Object_movable {
 public:
 	Bomberman(int x, int y, std::vector<std::vector<std::deque<Object*> > > &map, Object_subject *sub);
 	char				get_input();
@@ -17,7 +18,7 @@ public:
 private:
 	Subject				_sub;
 	Object_subject		*_parent_sub;
-	std::vector<Bomb*>	_bombs;
+	std::deque<Bomb*>	_bombs;
 
 };
 

@@ -139,6 +139,10 @@ includes/Squid.hpp
 /goinfre/vivan-de/Documents/BomberMan/observers/includes/Subject.hpp
 iostream
 -
+deque
+-
+vector
+-
 
 /goinfre/vivan-de/Documents/BomberMan/objects/includes/Bomberman.hpp
 ../../abstracts/includes/Object.hpp
@@ -151,8 +155,6 @@ iostream
 /goinfre/vivan-de/Documents/BomberMan/observers/includes/Subject.hpp
 ../../objects/includes/Bomb.hpp
 /goinfre/vivan-de/Documents/BomberMan/objects/includes/Bomb.hpp
-vector
--
 
 /goinfre/vivan-de/Documents/BomberMan/objects/includes/Empty.hpp
 ../../abstracts/includes/Object.hpp
@@ -187,8 +189,10 @@ includes/Subject.hpp
 /goinfre/vivan-de/Documents/BomberMan/observers/includes/Observer.hpp
 
 /goinfre/vivan-de/Documents/BomberMan/observers/includes/Subject.hpp
-vector
+list
 -
 Observer.hpp
 /goinfre/vivan-de/Documents/BomberMan/observers/includes/Observer.hpp
+../../objects/includes/Bomb.hpp
+/goinfre/vivan-de/Documents/BomberMan/objects/includes/Bomb.hpp
 
