@@ -31,7 +31,6 @@ bool Bomb::detonate() {
 	//Detonate will make the bomb destroy it self and replace it self with fire.
 	//Bomb would need to check what the fire touches, since the fire will be to late.
 	std::cout << "Setting fire" << std::endl;
-	_sub->remove(this);
 	return true;
 	//talk to subject telling it to remove it from everything
 }

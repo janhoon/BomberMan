@@ -21,6 +21,7 @@ Bomberman::~Bomberman() {
 
 char Bomberman::get_input() {
 	Bomb	*bomb;
+
 	if (_sub.notify()) {
 		(*_map)[_bombs[0]->_y][_bombs[0]->_x].pop_front();//remove bomb from map
 		_bombs.pop_front();

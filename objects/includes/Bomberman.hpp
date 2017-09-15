@@ -6,8 +6,6 @@
 #include "../../observers/includes/Object_subject.hpp"
 #include "../../observers/includes/Subject.hpp"
 #include "../../objects/includes/Bomb.hpp"
-//#include <deque>
-//#include <vector>
 
 class Bomberman : public Object, public  Object_movable {
 public:
