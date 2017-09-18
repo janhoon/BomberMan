@@ -2,6 +2,7 @@
 #define BOMBERMAN_OBJECT_HPP
 
 #include <string>
+#include <locale>
 
 class Object {
 public:

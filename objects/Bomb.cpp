@@ -31,7 +31,7 @@ void Bomb::add(Subject *sub,  std::vector<std::vector<std::deque<Object*> > >	*m
 bool Bomb::fire_hitbox(int x, int y) {
 	if (!(*_map)[y][x][0])
 		return false;
-	(*_map)[y][x][0]->hit(_id);
+	(*_map)[y][x][0]->hit("F");
 	return (*_map)[y][x][0]->get_id().compare("S") != 0;
 }
 

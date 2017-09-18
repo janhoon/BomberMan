@@ -1,7 +1,5 @@
 #include "includes/Object.hpp"
 
-	#include <iostream>
-
 Object::Object() : _pos_x(0), _pos_y(0) {
 }
 
@@ -16,10 +14,8 @@ Object& Object::operator=(Object const &src) {
 }
 
 void Object::hit(std::string object) {
-	std::locale loc;
-
 	if (deadly(object))
-		std::tolower(_id[0], loc);
+		_id[0] += 32;
 }
 
 std::string Object::get_id() {

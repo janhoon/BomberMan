@@ -7,5 +7,7 @@ Soft_wall::Soft_wall(int x, int y) {
 }
 
 bool Soft_wall::deadly(std::string object) {
+	if (!object.compare("F"))
+		return true;
 	return false;
 }
