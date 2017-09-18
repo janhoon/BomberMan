@@ -2,7 +2,7 @@
 
 	#include <iostream>
 
-Object::Object() : _pos_x(0), _pos_y(0){
+Object::Object() : _pos_x(0), _pos_y(0) {
 }
 
 Object::~Object() {
@@ -13,6 +13,13 @@ Object& Object::operator=(Object const &src) {
 	this->_x = src._x;
 	this->_y = src._y;
 	return *this;
+}
+
+void Object::hit(std::string object) {
+	std::locale loc;
+
+	if (deadly(object))
+		std::tolower(_id[0], loc);
 }
 
 std::string Object::get_id() {

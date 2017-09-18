@@ -34,3 +34,7 @@ char Bomberman::get_input() {
 	}
 	return 'd';
 }
+
+bool Bomberman::deadly(std::string object) {
+	return false;
+}

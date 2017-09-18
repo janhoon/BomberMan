@@ -30,3 +30,7 @@ char Squid::get_input() {
 	//Make a choice and then return it
 	return make_move(_map, _x, _y);
 }
+
+bool Squid::deadly(std::string object) {
+	return false;
+}

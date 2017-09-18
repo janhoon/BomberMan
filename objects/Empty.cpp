@@ -5,3 +5,7 @@ Empty::Empty(int x, int y) {
 	_y = y;
 	_id = "0";
 }
+
+bool Empty::deadly(std::string object) {
+	return false;
+}

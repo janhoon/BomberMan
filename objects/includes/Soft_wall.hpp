@@ -6,7 +6,7 @@
 class Soft_wall : public Object {
 public:
 	Soft_wall(int x, int y);
-private:
+	bool 		deadly(std::string object);
 };
 
 #endif //BOMBERMAN_SOFT_WALL_HPP

@@ -26,6 +26,8 @@ set(SOURCE_FILES
         objects/includes/Squid.hpp
         objects/Bomb.cpp
         objects/includes/Bomb.hpp
+        objects/Fire.cpp
+        objects/includes/Fire.hpp
         observers/Object_subject.cpp
         observers/includes/Object_subject.hpp
         observers/Subject.cpp

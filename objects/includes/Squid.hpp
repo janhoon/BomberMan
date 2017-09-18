@@ -13,6 +13,7 @@ public:
 	Squid(int x, int y, std::vector<std::vector<std::deque<Object*> > > &map, Object_subject *sub);
 	char		get_input();
 	bool 		valid_move(Object *obj);
+	bool 		deadly(std::string object);
 
 private:
 };

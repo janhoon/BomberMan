@@ -9,11 +9,13 @@ public:
 	Object &	operator=(Object const &src);
 	virtual	~Object(void);
 
-	std::string	get_id();
-	int 		get_pos_x();
-	int 		get_pos_y();
-	int			get_x();
-	int			get_y();
+	virtual bool	deadly(std::string object) = 0;
+	void			hit(std::string object);
+	std::string		get_id();
+	int 			get_pos_x();
+	int 			get_pos_y();
+	int				get_x();
+	int				get_y();
 	int 		_x;
 	int			_y;
 

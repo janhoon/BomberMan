@@ -12,6 +12,7 @@ public:
 	Bomberman(int x, int y, std::vector<std::vector<std::deque<Object*> > > &map, Object_subject *sub);
 	char				get_input();
 	virtual				~Bomberman();
+	bool 		deadly(std::string object);
 
 private:
 	Subject				_sub;

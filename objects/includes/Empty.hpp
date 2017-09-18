@@ -6,6 +6,7 @@
 class Empty : public Object {
 public:
 	Empty(int x, int y);
+	bool 		deadly(std::string object);
 };
 
 #endif //BOMBERMAN_EMPTY_HPP
