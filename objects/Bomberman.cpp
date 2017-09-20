@@ -14,6 +14,7 @@ Bomberman::Bomberman(int x, int y, std::vector<std::vector<std::deque<Object*> >
 	_id = "A";
 	_parent_sub = sub;
 	_parent_sub->attach(this);
+	set_cool_down(0.001);
 }
 
 Bomberman::~Bomberman() {
@@ -26,6 +27,8 @@ char Bomberman::get_input() {
 		(*_map)[_bombs[0]->_y][_bombs[0]->_x].pop_front();//remove bomb from map
 		_bombs.pop_front();
 	}
+	if (cool_down())
+		return '0';
 	if (_bombs.size() < 1 && _x == 1 && _y == 1) {
 		bomb = new Bomb(_x, _y, 1);
 		bomb->add(&_sub, _map);

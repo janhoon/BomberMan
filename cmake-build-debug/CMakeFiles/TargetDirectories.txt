@@ -1,3 +1,0 @@
-/home/vern/Documents/wtc/BomberMan/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/vern/Documents/wtc/BomberMan/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/vern/Documents/wtc/BomberMan/cmake-build-debug/CMakeFiles/BomberMan2.dir

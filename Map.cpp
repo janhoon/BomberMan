@@ -20,7 +20,7 @@ void Map::read_and_setup() {
         for (int x = 0; std::getline(stream, temp, '\t'); x++) {
             Object_factory  					*factory = new Factory;
             Object          					*obj = factory->create_object(temp, x, y, _map, &_sub);
-			std::deque<Object*>				level;
+			std::deque<Object*>					level;
 
 			level.push_back(obj);
 			row.push_back(level);
