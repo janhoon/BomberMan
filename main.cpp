@@ -1,8 +1,10 @@
 #include "includes/Map.hpp"
+#include "includes/Menu.hpp"
 
 int main() {
 	srand (time(NULL));
-	Map map("../maps/map1.map");
+	Menu	m;
+	Map map(m.start_menu());
 	map.read_and_setup();
 	map.read_map();
 	map.run();

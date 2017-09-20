@@ -1,12 +1,14 @@
 cmake_minimum_required(VERSION 3.5)
 project(BomberMan)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 
 set(SOURCE_FILES
         main.cpp
         Map.cpp
         includes/Map.hpp
+        Menu.cpp
+        includes/Menu.hpp
         abstracts/Bot.cpp
         abstracts/includes/Bot.hpp
         abstracts/Object.cpp
@@ -33,7 +35,7 @@ set(SOURCE_FILES
         observers/Subject.cpp
         observers/includes/Subject.hpp
         observers/includes/Observer.hpp
-        abstracts/Time.cpp abstracts/includes/Time.hpp)
+        abstracts/Time.cpp abstracts/includes/Time.hpp Menu.cpp includes/Menu.hpp)
 add_executable(BomberMan2 ${SOURCE_FILES})
 
 set(CMAKE_CXX_FLAGS, "${CMAKE_CXX_FLAGS} -Wall -Werror -Wextra")
